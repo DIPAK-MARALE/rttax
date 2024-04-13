@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book.svg#Circular Std") format("svg");
+}
+@font-face {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/CircularStd-Medium.eot");
+  src: url("../fonts/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Medium.woff") format("woff"), url("../fonts/CircularStd-Medium.svg#Circular Std") format("svg");
+}
+@font-face {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/CircularStd-Bold.eot");
+  src: url("../fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.svg#Circular Std") format("svg");
+}
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  color: #28084B;
+}
+@media (max-width: custom767) {
+  h1 {
+    font-size: 27px;
+  }
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #28084B;
+}
+@media (max-width: custom767) {
+  h2 {
+    font-size: 23px;
+  }
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #28084B;
+}
+@media (max-width: custom1023) {
+  h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: custom767) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  color: #28084B;
+}
+@media (max-width: custom1023) {
+  h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: custom767) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #28084B;
+}
+@media (max-width: custom992) {
+  h5 {
+    font-size: 18px;
+    margin: 0 0 0;
+  }
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #28084B;
+}
+@media (max-width: custom1023) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.card-title {
+  color: #28084B;
+}
+
+.card-title {
+  color: #8A8E9C;
+}
+
+.card-body {
+  color: #8A8E9C;
+}/*# sourceMappingURL=typography.css.map */

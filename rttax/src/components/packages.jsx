@@ -1,5 +1,6 @@
 import React from "react";
 
+import "../assets/css/common.scss";
 const Packages = () => (
   <>
     {/* Mirrored from kanakku.dreamstechnologies.com/html/template/packages.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:57:22 GMT */}
@@ -80,9 +81,9 @@ const Packages = () => (
         </a>
         <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
           <div className="logo-white">
-            <a href="index.html">
+            <a href="/admin-dashboard">
               <img
-                src="assets/img/logo-full-white.png"
+                src="assets/img/logo.png"
                 className="img-fluid logo-blue"
                 alt="Logo"
               />
@@ -1900,7 +1901,7 @@ const Packages = () => (
       </div>
       <div className="page-wrapper">
         <div className="content container-fluid pb-0">
-          <div className="subscription-plane-head">
+          {/* <div className="subscription-plane-head">
             <ul>
               <li>
                 <a href="packages.html" className="active">
@@ -1911,7 +1912,7 @@ const Packages = () => (
                 <a href="subscription.html">Subscribers List</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="page-header">
             <div className="content-page-header">
               <h5>Plans List</h5>

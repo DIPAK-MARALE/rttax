@@ -1,0 +1,427 @@
+/*** default values ***/
+/***** custom values *****/
+/***** Grid Values *****/
+/** Extends **/
+.css-equal-content, .css-equal-heights {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.css-equal-content {
+  color: red;
+  float: left;
+}
+
+.align-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.bg-subscribe {
+  background-color: #FFECEC;
+  color: #ED3A3A;
+  padding: 4px 10px;
+}
+
+.bg-payment {
+  background-color: #E9F2FF;
+  color: #2465BC;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.btn-primary .fa-plus {
+  margin-right: 5px;
+}
+
+.import-company .btn-import {
+  color: #7539FF;
+  border: 1px solid #7539FF;
+}
+.import-company .btn-import:hover {
+  background-color: #7539FF;
+  color: #fff;
+}
+
+.companies-table .table tbody td h2.table-avatar a {
+  color: #1F0066;
+}
+
+.companies-table .table tbody td h2 span {
+  color: #808080;
+}
+
+.card-table .companies-table .table td {
+  color: #1F0066;
+}
+
+.companies-table .dropdown-item .far.fa-trash-alt {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.page-content .list-btn .btn-filters:hover {
+  background-color: #EADDFF;
+}
+
+.companies-table .table .dropdown-menu {
+  width: 176px;
+}
+
+.companies-table .table p {
+  color: #808080;
+}
+
+.avatar-img.rounded-circle .company {
+  height: 40px;
+  width: 40px;
+}
+
+.companies-table .table tbody td h2.table-avatar .companies {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.p-20 .modal-header {
+  padding: 20px;
+  justify-content: space-between;
+}
+.p-20 .modal-body, .p-20 .modal-footer {
+  padding: 0 20px 20px 20px;
+}
+
+#add_package .modal-body h6 {
+  color: #808080;
+  margin-bottom: 10px;
+}
+#add_package .modal-body ul {
+  margin: 0;
+  border: none;
+  background: #F7F8F9;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  #add_package .modal-body ul li {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+#add_package .modal-body ul li:first-child {
+  padding-left: 0;
+}
+#add_package .modal-body ul li:last-child {
+  padding-right: 0;
+}
+#add_package .modal-body ul li h6 {
+  padding: 13px 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+#add_package .modal-body ul li h6.active, #add_package .modal-body ul li h6:hover {
+  background: #7539FF;
+  color: #fff;
+}
+#add_package .modal-body .tab-content .form-check {
+  padding-left: 0;
+}
+#add_package .modal-body .tab-content .form-check label {
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding: 10px 10px 10px 30px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#add_package .modal-body .tab-content .form-check label input {
+  min-width: 18px;
+  height: 18px;
+  position: relative;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-right: 12px;
+}
+#add_package .modal-body .tab-content .form-check label input:after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background: #7539FF;
+  display: none;
+}
+#add_package .modal-body .tab-content .form-check label input:focus {
+  box-shadow: none;
+}
+#add_package .modal-body .tab-content .form-check label input:checked {
+  background: transparent;
+  border-color: #7539FF;
+}
+#add_package .modal-body .tab-content .form-check label input:checked:after {
+  display: block;
+}
+#add_package .modal-body .tab-content .form-check label .text-dark {
+  font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget .timepicker td a {
+  padding: 0;
+}
+.bootstrap-datetimepicker-widget .timepicker td a span {
+  padding: 0;
+}
+.bootstrap-datetimepicker-widget .timepicker td a span:hover {
+  background: #28084B;
+}
+.bootstrap-datetimepicker-widget .datepicker th, .bootstrap-datetimepicker-widget .datepicker td {
+  text-align: center;
+  padding: 5px 6px;
+  font-size: 12px;
+}
+.bootstrap-datetimepicker-widget .datepicker td.active {
+  background: #7539FF;
+}
+.bootstrap-datetimepicker-widget .datepicker td.active:hover {
+  background: #28084B;
+}
+
+span.bg-purple {
+  background: rgb(89, 42, 198);
+}
+
+.company-avatar.company-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(224, 224, 224);
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.super-admin-list-head {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-bottom: 24px;
+}
+.super-admin-list-head .grid-info-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.super-admin-list-head .grid-info-item h4 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.super-admin-list-head .grid-info-item span {
+  color: #0F0033;
+  font-weight: bold;
+}
+.super-admin-list-head .grid-info-item .grid-head-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 10px;
+  background: #FFEFDD;
+  color: #EC8000;
+  flex-shrink: 0;
+}
+.super-admin-list-head .grid-info-item.total-items h4 {
+  color: #EC8000;
+}
+.super-admin-list-head .grid-info-item.active-items h4 {
+  color: rgb(30, 142, 223);
+}
+.super-admin-list-head .grid-info-item.active-items .grid-head-icon {
+  background: #DDF3FF;
+  color: rgb(30, 142, 223);
+}
+.super-admin-list-head .grid-info-item.inactive-items h4 {
+  color: #ED3A3A;
+}
+.super-admin-list-head .grid-info-item.inactive-items .grid-head-icon {
+  background: #FFECEC;
+  color: #ED3A3A;
+}
+.super-admin-list-head .grid-info-item.location-info h4 {
+  color: #1D8147;
+}
+.super-admin-list-head .grid-info-item.location-info .grid-head-icon {
+  background: #E1FFED;
+  color: #1D8147;
+}
+
+.custom-modal.custom-lg-modal .modal-dialog {
+  max-width: 800px;
+}
+
+.profile-img.company-profile-img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.input-block .modal-password-field .toggle-password {
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+.toggle-password-two {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #757575;
+}
+
+.url-text-box {
+  position: relative;
+}
+.url-text-box input {
+  padding-right: 115px !important;
+}
+.url-text-box .url-text {
+  background: #7539FF;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: normal;
+  position: absolute;
+  right: 5px;
+  top: 7px;
+}
+
+.company-detail-head {
+  justify-content: space-between;
+  background: #F7F8F9;
+  padding: 15px;
+  border-radius: 10px;
+}
+.company-detail-head .company-profile-img {
+  background: #fff;
+}
+.company-detail-head .upload-profile {
+  margin-right: 0;
+}
+.company-detail-head .upload-profile .add-profile h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plane-basic-info h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.plane-basic-info .basic-info-detail {
+  margin-bottom: 24px;
+}
+.plane-basic-info .basic-info-detail h6 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.plane-basic-info.plane-detail {
+  border-top: 1px solid #E0E0E0;
+  padding-top: 24px;
+}
+
+.details-edit-link {
+  align-items: center;
+}
+.details-edit-link .modal-edit-link {
+  color: #808080;
+}
+
+.delete-modal-icon span {
+  width: 64px;
+  height: 64px;
+  background: #1D8147;
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+}
+
+.list-btn .filter-list li a.active {
+  background: #EADDFF;
+}
+
+td span.plane-type {
+  color: rgb(72, 72, 72);
+}
+
+.badge.bg-orange-light {
+  background: #FFEFDD;
+  color: #EC8000;
+}
+
+table th.no-sort::before {
+  display: none !important;
+}
+table th.no-sort::after {
+  display: none !important;
+}
+
+.modal-header .bg-info-light {
+  background: #DDF3FF;
+  color: #2DA7FF;
+  font-weight: normal;
+}
+
+.company-detail-head span.badge {
+  font-weight: normal;
+  line-height: normal;
+}
+
+#checkBoxes1, #checkBoxes {
+  position: relative;
+  height: 100%;
+}
+
+.search-dropdown-item {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  transition: 0.5s all;
+  border: 1px solid #E0E0E0;
+  background: #fff;
+  padding: 24px;
+  padding-bottom: 0;
+  z-index: 9;
+  border-radius: 10px;
+  top: 0;
+  display: none;
+}
+.search-dropdown-item.show {
+  opacity: 1;
+  transition: 0.5s all;
+  display: block;
+  top: 40px;
+  display: block;
+}/*# sourceMappingURL=companies.css.map */

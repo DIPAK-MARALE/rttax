@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../assets/css/common.scss";
+
 const Subscription = () => (
   <>
     {/* Mirrored from kanakku.dreamstechnologies.com/html/template/subscription.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:57:22 GMT */}
@@ -79,9 +81,9 @@ const Subscription = () => (
         </a>
         <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
           <div className="logo-white">
-            <a href="index.html">
+            <a href="/admin-dashboard">
               <img
-                src="assets/img/logo-full-white.png"
+                src="assets/img/logo.png"
                 className="img-fluid logo-blue"
                 alt="Logo"
               />
@@ -1899,7 +1901,7 @@ const Subscription = () => (
       </div>
       <div className="page-wrapper">
         <div className="content container-fluid">
-          <div className="subscription-plane-head">
+          {/* <div className="subscription-plane-head">
             <ul>
               <li>
                 <a href="packages.html">Subscription Plans</a>
@@ -1910,7 +1912,7 @@ const Subscription = () => (
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="page-header">
             <div className="content-page-header">
               <h5>Subscriber List</h5>

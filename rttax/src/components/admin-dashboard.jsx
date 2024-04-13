@@ -7,7 +7,8 @@ import "./css/dataTables.bootstrap5.min.css";
 import "./css/feather.css";
 import "./css/owl.carousel.min.css";
 import "./css/style.css";
-import "./admin-dashboard.css";
+//import "./admin-dashboard.css";
+import "../assets/css/super-admin-dashboard.scss";
 
 const AdminDashboard = () => {
   return (
@@ -102,9 +103,9 @@ const AdminDashboard = () => {
           </a>
           <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
             <div className="logo-white">
-              <a href="index.html">
+              <a href="/admin-dashboard">
                 <img
-                  src="assets/img/logo-full-white.png"
+                  src="assets/img/logo.png"
                   className="img-fluid logo-blue"
                   alt="Logo"
                 />
@@ -1948,10 +1949,10 @@ const AdminDashboard = () => {
                     </h4>
                     <p>14 New Companies Subscribed Today</p>
                     <div className="dash-btns">
-                      <a href="companies.html" className="btn view-company-btn">
+                      <a href="/companies" className="btn view-company-btn">
                         View Companies
                       </a>
-                      <a href="packages.html" className="btn view-package-btn">
+                      <a href="/packages" className="btn view-package-btn">
                         All Packages
                       </a>
                     </div>
@@ -2055,7 +2056,7 @@ const AdminDashboard = () => {
                         </div>
                         <div className="col-auto">
                           <a
-                            href="companies.html"
+                            href="/companies"
                             className="btn-right btn btn-sm btn-outline-primary"
                           >
                             View All
@@ -2747,7 +2748,7 @@ const AdminDashboard = () => {
                         </div>
                         <div className="col-auto">
                           <a
-                            href="packages.html"
+                            href="/packages"
                             className="btn-right btn btn-sm btn-outline-primary"
                           >
                             View All

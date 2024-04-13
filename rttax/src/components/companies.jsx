@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/companies.scss";
 
 const Companies = () => {
   return (
@@ -95,9 +96,9 @@ const Companies = () => {
           </a>
           <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
             <div className="logo-white">
-              <a href="index.html">
+              <a href="/admin-dashboard">
                 <img
-                  src="assets/img/logo-full-white.png"
+                  src="assets/img/logo.png"
                   className="img-fluid logo-blue"
                   alt="Logo"
                 />
