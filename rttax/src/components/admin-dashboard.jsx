@@ -95,18 +95,20 @@ const AdminDashboard = () => {
             href="index.html"
             className="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo"
           >
-            <img
+            {/* <img
               src="assets/img/logo.png"
               className="img-fluid logo2"
+              style={{ width: "116px", height: "30px" }}
               alt="Logo"
-            />
+            /> */}
           </a>
           <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
             <div className="logo-white">
               <a href="/admin-dashboard">
                 <img
-                  src="assets/img/logo.png"
-                  className="img-fluid logo-blue"
+                  src="assets/img/taxrx_logo1.png"
+                  className="img-fluid logo2"
+                  style={{ width: "200px", height: "90px" }}
                   alt="Logo"
                 />
               </a>
