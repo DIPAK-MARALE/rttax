@@ -1,3 +1,7 @@
+/* eslint-disable no-lone-blocks */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // admin-dashboard.jsx
 import React from "react";
 // Import the CSS files
@@ -137,7 +141,7 @@ const AdminDashboard = () => {
               </a>
             </div>
           </div>
-          <a href="javascript:void(0);" id="toggle_btn">
+          <a href="#" id="toggle_btn">
             <span className="toggle-bars">
               <span className="bar-icons" />
               <span className="bar-icons" />
@@ -172,26 +176,26 @@ const AdminDashboard = () => {
                 <span>English</span>
               </a>
               <div className="dropdown-menu dropdown-menu-end">
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/us.png" alt="flag" />
                   <span>English</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/fr.png" alt="flag" />
                   <span>French</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/es.png" alt="flag" />
                   <span>Spanish</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/de.png" alt="flag" />
                   <span>German</span>
                 </a>
               </div>
             </li>
             <li className="nav-item  has-arrow dropdown-heads ">
-              <a href="javascript:void(0);" className="toggle-switch">
+              <a href="#" className="toggle-switch">
                 <i className="fe fe-moon" />
               </a>
             </li>
@@ -210,10 +214,7 @@ const AdminDashboard = () => {
                   <div className="notification-title">
                     Notifications <a href="notifications.html">View all</a>
                   </div>
-                  <a
-                    href="javascript:void(0)"
-                    className="clear-noti d-flex align-items-center"
-                  >
+                  <a href="#" className="clear-noti d-flex align-items-center">
                     Mark all as read <i className="fe fe-check-circle" />
                   </a>
                 </div>
@@ -348,13 +349,13 @@ const AdminDashboard = () => {
               </div>
             </li>
             <li className="nav-item  has-arrow dropdown-heads ">
-              <a href="javascript:void(0);" className="win-maximize">
+              <a href="#" className="win-maximize">
                 <i className="fe fe-maximize" />
               </a>
             </li>
             <li className="nav-item dropdown">
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="user-link  nav-link"
                 data-bs-toggle="dropdown"
               >
@@ -1128,7 +1129,7 @@ const AdminDashboard = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">
+                    <a href="#">
                       <i className="fe fe-lock" /> <span>Change Log</span>{" "}
                       <span className="badge badge-primary ms-auto">
                         v2.0.4
@@ -1136,39 +1137,39 @@ const AdminDashboard = () => {
                     </a>
                   </li>
                   <li className="submenu">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                       <i className="fa fa-list" /> <span>Multi Level</span>{" "}
                       <span className="menu-arrow" />
                     </a>
                     <ul style={{ display: "none" }}>
                       <li className="submenu">
-                        <a href="javascript:void(0);">
+                        <a href="#">
                           {" "}
                           <span>Level 1</span> <span className="menu-arrow" />
                         </a>
                         <ul style={{ display: "none" }} className="level2">
                           <li>
-                            <a href="javascript:void(0);">
+                            <a href="#">
                               <span>Level 2</span>
                             </a>
                           </li>
                           <li className="submenu">
-                            <a href="javascript:void(0);">
+                            <a href="#">
                               {" "}
                               <span> Level 2</span>{" "}
                               <span className="menu-arrow" />
                             </a>
                             <ul style={{ display: "none" }} className="level3">
                               <li>
-                                <a href="javascript:void(0);">Level 3</a>
+                                <a href="#">Level 3</a>
                               </li>
                               <li>
-                                <a href="javascript:void(0);">Level 3</a>
+                                <a href="#">Level 3</a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="javascript:void(0);">
+                            <a href="#">
                               {" "}
                               <span>Level 2</span>
                             </a>
@@ -1176,7 +1177,7 @@ const AdminDashboard = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="javascript:void(0);">
+                        <a href="#">
                           {" "}
                           <span>Level 1</span>
                         </a>
@@ -1877,45 +1878,45 @@ const AdminDashboard = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fe fe-lock" /> <span>Change Log</span>{" "}
                     <span className="badge badge-primary ms-auto">v2.0.4</span>
                   </a>
                 </li>
                 <li className="submenu">
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fa fa-list" /> <span>Multi Level</span>{" "}
                     <span className="menu-arrow" />
                   </a>
                   <ul style={{ display: "none" }}>
                     <li className="submenu">
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span> <span className="menu-arrow" />
                       </a>
                       <ul style={{ display: "none" }} className="level2">
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             <span>Level 2</span>
                           </a>
                         </li>
                         <li className="submenu">
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span> Level 2</span>{" "}
                             <span className="menu-arrow" />
                           </a>
                           <ul style={{ display: "none" }} className="level3">
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span>Level 2</span>
                           </a>
@@ -1923,7 +1924,7 @@ const AdminDashboard = () => {
                       </ul>
                     </li>
                     <li>
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span>
                       </a>
@@ -2256,26 +2257,17 @@ const AdminDashboard = () => {
                               aria-labelledby="dropdownMenuButton"
                             >
                               <li>
-                                <a
-                                  href="javascript:void(0);"
-                                  className="dropdown-item"
-                                >
+                                <a href="#" className="dropdown-item">
                                   2023
                                 </a>
                               </li>
                               <li>
-                                <a
-                                  href="javascript:void(0);"
-                                  className="dropdown-item"
-                                >
+                                <a href="#" className="dropdown-item">
                                   2022
                                 </a>
                               </li>
                               <li>
-                                <a
-                                  href="javascript:void(0);"
-                                  className="dropdown-item"
-                                >
+                                <a href="#" className="dropdown-item">
                                   2021
                                 </a>
                               </li>
@@ -2309,26 +2301,17 @@ const AdminDashboard = () => {
                             aria-labelledby="dropdownMenuButton2"
                           >
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 Today
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Week
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Year
                               </a>
                             </li>
@@ -2375,26 +2358,17 @@ const AdminDashboard = () => {
                             aria-labelledby="dropdownMenuButton3"
                           >
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Month
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Week
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Year
                               </a>
                             </li>
@@ -2438,26 +2412,17 @@ const AdminDashboard = () => {
                             aria-labelledby="dropdownMenuButton4"
                           >
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Month
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 Today
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 This Year
                               </a>
                             </li>
@@ -2932,26 +2897,17 @@ const AdminDashboard = () => {
                             aria-labelledby="dropdownMenuButton5"
                           >
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 2023
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 2022
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="javascript:void(0);"
-                                className="dropdown-item"
-                              >
+                              <a href="#" className="dropdown-item">
                                 2021
                               </a>
                             </li>
@@ -3728,3 +3684,42 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+
+{
+  /*
+  
+  ScrollBar 
+
+<div
+    className="slimScrollBar"
+    style={{
+      background: "rgb(204, 204, 204)",
+      width: 7,
+      position: "absolute",
+      top: 0,
+      opacity: 1,
+      display: "none",
+      borderRadius: 7,
+      zIndex: 99,
+      right: 1,
+      height: 30
+    }}
+              />
+              <div
+    className="slimScrollRail"
+    style={{
+      width: 7,
+      height: "100%",
+      position: "absolute",
+      top: 0,
+      display: "none",
+      borderRadius: 7,
+      background: "rgb(51, 51, 51)",
+      opacity: "0.2",
+      zIndex: 90,
+      right: 1
+    }}
+  /> 
+
+*/
+}

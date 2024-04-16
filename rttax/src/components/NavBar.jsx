@@ -19,6 +19,37 @@ function Navbar() {
               Register
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/add-customer" className="nav-link">
+              Add Customer
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/user-dashboard" className="nav-link">
+              User Dashboard
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/invoices" className="nav-link">
+              Invoices
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/add-invoice" className="nav-link">
+              Add Invoice
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/expenses" className="nav-link">
+              Expenses
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/add-expenses" className="nav-link">
+              Add Expenses
+            </Link>
+          </li>
 
           <li className="nav-item">
             <Link to="/login" className="nav-link">
@@ -63,20 +94,20 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
+            <Link to="/quotations" className="nav-link">
+              Quotation
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/add-quotations" className="nav-link">
+              Add Quotations
+            </Link>
+          </li>
+
+          <li className="nav-item">
             <Link to="/vendor-profile" className="nav-link">
               Vendor Profile
-            </Link>
-          </li>
-
-          <li className="nav-item">
-            <Link to="/add-customer" className="nav-link">
-              Add Customer
-            </Link>
-          </li>
-
-          <li className="nav-item">
-            <Link to="/add-invoice" className="nav-link">
-              Add Invoice
             </Link>
           </li>
 

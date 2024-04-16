@@ -1,10 +1,13 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable no-script-url */
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-const AddInvoicePage = () => {
+const Invoices = () => {
   return (
     <>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/add-invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:27 GMT */}
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/invoices.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:58:00 GMT */}
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
@@ -55,7 +58,7 @@ const AddInvoicePage = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}",
+            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}",
         }}
       />
       <link
@@ -67,10 +70,6 @@ const AddInvoicePage = () => {
         href="assets/plugins/fontawesome/css/all.min.css"
       />
       <link rel="stylesheet" href="assets/plugins/feather/feather.css" />
-      <link
-        rel="stylesheet"
-        href="assets/plugins/select2/css/select2.min.css"
-      />
       <link
         rel="stylesheet"
         href="assets/css/bootstrap-datetimepicker.min.css"
@@ -161,7 +160,7 @@ const AddInvoicePage = () => {
                 <img src="assets/img/flags/us1.png" alt="flag" />
                 <span>English</span>
               </a>
-              <div className="dropdown-menu dropdown-menu-right">
+              <div className="dropdown-menu dropdown-menu-end">
                 <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/us.png" alt="flag" />
                   <span>English</span>
@@ -347,7 +346,7 @@ const AddInvoicePage = () => {
               >
                 <span className="user-img">
                   <img
-                    src="assets/img/profiles/avatar-22.jpg"
+                    src="assets/img/profiles/avatar-07.jpg"
                     alt="img"
                     className="profilesidebar"
                   />
@@ -454,8 +453,11 @@ const AddInvoicePage = () => {
                   </li>
                   <li className="submenu">
                     <a href="#">
-                      <i className="fe fe-users" />
-                      <span>Customers</span> <span className="menu-arrow" />
+                      <span>
+                        {" "}
+                        <i className="fe fe-users" /> Customers
+                      </span>{" "}
+                      <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
@@ -504,8 +506,9 @@ const AddInvoicePage = () => {
                   </li>
                   <li className="submenu">
                     <a href="#">
+                      {" "}
                       <i className="fe fe-file-plus" />
-                      <span>Signature</span> <span className="menu-arrow" />
+                      <span>Signature </span> <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
@@ -532,7 +535,9 @@ const AddInvoicePage = () => {
                     </a>
                     <ul>
                       <li>
-                        <a href="invoices.html">Invoices List</a>
+                        <a href="invoices.html" className="active">
+                          Invoices List
+                        </a>
                       </li>
                       <li>
                         <a href="invoice-details-admin.html">
@@ -618,9 +623,6 @@ const AddInvoicePage = () => {
                       <i className="fe fe-credit-card" />{" "}
                       <span>Payment Summary</span>
                     </a>
-                  </li>
-                  <li className="menu-title">
-                    <span>Reports</span>
                   </li>
                   <li className="submenu">
                     <a href="#">
@@ -1097,6 +1099,11 @@ const AddInvoicePage = () => {
                       <i className="fe fe-settings" /> <span>Settings</span>
                     </a>
                   </li>
+                  <li>
+                    <a href="login.html">
+                      <i className="fe fe-power" /> <span>Logout</span>
+                    </a>
+                  </li>
                   <li className="menu-title">
                     <span>Extras</span>
                   </li>
@@ -1161,11 +1168,6 @@ const AddInvoicePage = () => {
                         </a>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <a href="login.html">
-                      <i className="fe fe-power" /> <span>Logout</span>
-                    </a>
                   </li>
                 </ul>
               </nav>
@@ -1290,13 +1292,15 @@ const AddInvoicePage = () => {
                   <span>Sales</span>
                 </li>
                 <li className="submenu">
-                  <a href="#" className="">
+                  <a href="#">
                     <i className="fe fe-file" /> <span>Invoices</span>
                     <span className="menu-arrow" />
                   </a>
                   <ul style={{ display: "none" }}>
                     <li>
-                      <a href="invoices.html">Invoices List</a>
+                      <a href="invoices.html" className="active">
+                        Invoices List
+                      </a>
                     </li>
                     <li>
                       <a href="invoice-details-admin.html">
@@ -1919,327 +1923,1639 @@ const AddInvoicePage = () => {
             </div>
           </div>
         </div>
-
         <div className="page-wrapper">
           <div className="content container-fluid">
-            <div className="card mb-0">
-              <div className="card-body">
-                <div className="page-header">
-                  <div className="content-page-header">
-                    <h5>Add Invoice</h5>
-                  </div>
+            <div className="page-header">
+              <div className="content-page-header">
+                <h5>Invoices</h5>
+                <div className="list-btn">
+                  <ul className="filter-list">
+                    <li>
+                      <a
+                        className="btn btn-filters w-auto popup-toggle"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="bottom"
+                        title="Filter"
+                      >
+                        <span className="me-2">
+                          <img
+                            src="assets/img/icons/filter-icon.svg"
+                            alt="filter"
+                          />
+                        </span>
+                        Filter{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="btn-filters"
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="bottom"
+                        title="Settings"
+                      >
+                        <span>
+                          <i className="fe fe-settings" />
+                        </span>{" "}
+                      </a>
+                    </li>
+                    <li>
+                      <a className="btn btn-primary" href="/add-invoice">
+                        <i
+                          className="fa fa-plus-circle me-2"
+                          aria-hidden="true"
+                        />
+                        New Invoice
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-
-                <div className="container">
-                  <div className="row">
-                    {/* Seller Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Seller Details</h2>
-                        <div className="form-group">
-                          <label for="tradeName">Trade Name</label>
-                          <input
-                            type="text"
-                            id="tradeName"
-                            name="tradeName"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="officeAddress">
-                            Office / Shop Address
-                          </label>
-                          <textarea
-                            id="officeAddress"
-                            name="officeAddress"
-                            className="form-control"
-                            rows="3"
-                            required
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="shippingAddress">Shipping Address</label>
-                          <textarea
-                            id="shippingAddress"
-                            name="shippingAddress"
-                            className="form-control"
-                            rows="3"
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="sellersGstin">Seller's GSTIN</label>
-                          <input
-                            type="text"
-                            id="sellersGstin"
-                            name="sellersGstin"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    {/* Type of Invoice Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Type of Invoice</h2>
-                        <div className="form-group">
-                          <label for="invoiceType">Type of Invoice</label>
-                          <select
-                            id="invoiceType"
-                            name="invoiceType"
-                            className="form-control"
-                            required
-                          >
-                            <option value="TaxInvoice">Tax Invoice</option>
-                            <option value="ProformaInvoice">
-                              Proforma Invoice
-                            </option>
-                            <option value="CommercialInvoice">
-                              Commercial Invoice
-                            </option>
-                          </select>
-                        </div>
-                        <div className="form-group">
-                          <label for="buyerGstin">Buyer GSTIN</label>
-                          <input
-                            type="text"
-                            id="buyerGstin"
-                            name="buyerGstin"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="partyName">Name of Party</label>
-                          <input
-                            type="text"
-                            id="partyName"
-                            name="partyName"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="billToAddress">Bill To Address</label>
-                          <textarea
-                            id="billToAddress"
-                            name="billToAddress"
-                            className="form-control"
-                            rows="3"
-                            required
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="shipToAddress">Ship To Address</label>
-                          <textarea
-                            id="shipToAddress"
-                            name="shipToAddress"
-                            className="form-control"
-                            rows="3"
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="placeOfSupply">Place of Supply</label>
-                          <input
-                            type="text"
-                            id="placeOfSupply"
-                            name="placeOfSupply"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                      </div>
+              </div>
+            </div>
+            <div id="filter_inputs" className="card filter-card">
+              <div className="card-body pb-0">
+                <div className="row">
+                  <div className="col-sm-6 col-md-3">
+                    <div className="input-block mb-3">
+                      <label>Name</label>
+                      <input type="text" className="form-control" />
                     </div>
                   </div>
-                </div>
-
-                <div className="container">
-                  <div className="row">
-                    {/* Invoice Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Invoice Details</h2>
-                        <div className="form-group">
-                          <label for="invoiceNumber">Invoice Number</label>
-                          <input
-                            type="text"
-                            id="invoiceNumber"
-                            name="invoiceNumber"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="invoiceDate">Invoice Date</label>
-                          <input
-                            type="date"
-                            id="invoiceDate"
-                            name="invoiceDate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="itemRate">Item Rate</label>
-                          <input
-                            type="number"
-                            id="itemRate"
-                            name="itemRate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="hsnSac">HSN/SAC</label>
-                          <input
-                            type="text"
-                            id="hsnSac"
-                            name="hsnSac"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="goodsServices">Goods / Services</label>
-                          <input
-                            type="text"
-                            id="goodsServices"
-                            name="goodsServices"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="taxableValue">Taxable Value</label>
-                          <input
-                            type="number"
-                            id="taxableValue"
-                            name="taxableValue"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="form-group">
-                        <label for="reverseCharge">Reverse Charge</label>
-                        <select
-                          id="reverseCharge"
-                          name="reverseCharge"
-                          className="form-control"
-                          required
-                        >
-                          <option value="Yes">Yes</option>
-                          <option value="No">No</option>
-                        </select>
-                      </div>
+                  <div className="col-sm-6 col-md-3">
+                    <div className="input-block mb-3">
+                      <label>Email</label>
+                      <input type="text" className="form-control" />
                     </div>
-                    {/* GST Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>GST Details</h2>
-                        <div className="form-group">
-                          <label for="quantity">Quantity</label>
-                          <input
-                            type="number"
-                            id="quantity"
-                            name="quantity"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="uqc">UQC (Unit Quantity Code)</label>
-                          <select
-                            id="uqc"
-                            name="uqc"
-                            className="form-control"
-                            required
-                          >
-                            <option value="NO OF PCS">NO OF PCS</option>
-                            <option value="KG">KG</option>
-                            <option value="METER">METER</option>
-                            <option value="DOZEN">DOZEN</option>
-                            <option value="LITER">LITER</option>
-                            <option value="ETC">ETC</option>
-                          </select>
-                        </div>
-                        <div className="form-group">
-                          <label for="gstRate">GST Rate</label>
-                          <input
-                            type="number"
-                            id="gstRate"
-                            name="gstRate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="igst">IGST</label>
-                          <input
-                            type="number"
-                            id="igst"
-                            name="igst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="cgst">CGST</label>
-                          <input
-                            type="number"
-                            id="cgst"
-                            name="cgst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="sgstUtgst">SGST / UTGST</label>
-                          <input
-                            type="number"
-                            id="sgstUtgst"
-                            name="sgstUtgst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="supplyType">Supply Type</label>
-                          <select
-                            id="supplyType"
-                            name="supplyType"
-                            className="form-control"
-                            required
-                          >
-                            <option value="NON GST">NON GST</option>
-                            <option value="EXPORT">EXPORT</option>
-                            <option value="DEEMED EXPORT">DEEMED EXPORT</option>
-                            <option value="SEZ">SEZ</option>
-                            <option value="NIL RATED">NIL RATED</option>
-                            <option value="EXEMPT">EXEMPT</option>
-                          </select>
-                        </div>
-                      </div>
+                  </div>
+                  <div className="col-sm-6 col-md-3">
+                    <div className="input-block mb-3">
+                      <label>Phone</label>
+                      <input type="text" className="form-control" />
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="modal-footer">
-                <a
-                  href="#"
-                  data-bs-dismiss="modal"
-                  className="btn btn-back cancel-btn me-2"
-                >
-                  Cancel
-                </a>
-                <a
-                  href="#"
-                  data-bs-dismiss="modal"
-                  className="btn btn-primary paid-continue-btn"
-                >
-                  Save
-                </a>
+            </div>
+            <div className="row">
+              <div className="col-xl-2 col-lg-4 col-sm-6 col-12 d-flex">
+                <div className="card inovices-card w-100">
+                  <div className="card-body">
+                    <div className="dash-widget-header">
+                      <span className="inovices-widget-icon bg-info-light">
+                        <img
+                          src="assets/img/icons/receipt-item.svg"
+                          alt="invoice"
+                        />
+                      </span>
+                      <div className="dash-count">
+                        <div className="dash-title">Total Invoice</div>
+                        <div className="dash-counts">
+                          <p>$298</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <p className="inovices-all">
+                        No of Invoice{" "}
+                        <span className="rounded-circle bg-light-gray">02</span>
+                      </p>
+                      <p className="inovice-trending text-success-light">
+                        02{" "}
+                        <span className="ms-2">
+                          <i className="fe fe-trending-up" />
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-4 col-sm-6 col-12 d-flex">
+                <div className="card inovices-card w-100">
+                  <div className="card-body">
+                    <div className="dash-widget-header">
+                      <span className="inovices-widget-icon bg-primary-light">
+                        <img
+                          src="assets/img/icons/transaction-minus.svg"
+                          alt="invoice"
+                        />
+                      </span>
+                      <div className="dash-count">
+                        <div className="dash-title">Outstanding</div>
+                        <div className="dash-counts">
+                          <p>$325,215</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <p className="inovices-all">
+                        No of Invoice{" "}
+                        <span className="rounded-circle bg-light-gray">03</span>
+                      </p>
+                      <p className="inovice-trending text-success-light">
+                        04{" "}
+                        <span className="ms-2">
+                          <i className="fe fe-trending-up" />
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-4 col-sm-6 col-12 d-flex">
+                <div className="card inovices-card w-100">
+                  <div className="card-body">
+                    <div className="dash-widget-header">
+                      <span className="inovices-widget-icon bg-warning-light">
+                        <img
+                          src="assets/img/icons/archive-book.svg"
+                          alt="archivebook"
+                        />
+                      </span>
+                      <div className="dash-count">
+                        <div className="dash-title">Total Overdue</div>
+                        <div className="dash-counts">
+                          <p>$7825</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <p className="inovices-all">
+                        No of Invoice{" "}
+                        <span className="rounded-circle bg-light-gray">01</span>
+                      </p>
+                      <p className="inovice-trending text-danger-light">
+                        03{" "}
+                        <span className="ms-2">
+                          <i className="fe fe-trending-down" />
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-4 col-sm-6 col-12 d-flex">
+                <div className="card inovices-card w-100">
+                  <div className="card-body">
+                    <div className="dash-widget-header">
+                      <span className="inovices-widget-icon bg-primary-light">
+                        <img
+                          src="assets/img/icons/clipboard-close.svg"
+                          alt="clipboard"
+                        />
+                      </span>
+                      <div className="dash-count">
+                        <div className="dash-title">Cancelled</div>
+                        <div className="dash-counts">
+                          <p>100</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <p className="inovices-all">
+                        No of Invoice{" "}
+                        <span className="rounded-circle bg-light-gray">04</span>
+                      </p>
+                      <p className="inovice-trending text-danger-light">
+                        05{" "}
+                        <span className="ms-2">
+                          <i className="fe fe-trending-down" />
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-4 col-sm-6 col-12 d-flex">
+                <div className="card inovices-card w-100">
+                  <div className="card-body">
+                    <div className="dash-widget-header">
+                      <span className="inovices-widget-icon bg-green-light">
+                        <img
+                          src="assets/img/icons/message-edit.svg"
+                          alt="message"
+                        />
+                      </span>
+                      <div className="dash-count">
+                        <div className="dash-title">Draft</div>
+                        <div className="dash-counts">
+                          <p>$125,586</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <p className="inovices-all">
+                        No of Invoice{" "}
+                        <span className="rounded-circle bg-light-gray">06</span>
+                      </p>
+                      <p className="inovice-trending text-danger-light">
+                        02{" "}
+                        <span className="ms-2">
+                          <i className="fe fe-trending-down" />
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-4 col-sm-6 col-12 d-flex">
+                <div className="card inovices-card w-100">
+                  <div className="card-body">
+                    <div className="dash-widget-header">
+                      <span className="inovices-widget-icon bg-danger-light">
+                        <img
+                          src="assets/img/icons/3d-rotate.svg"
+                          alt="invoice"
+                        />
+                      </span>
+                      <div className="dash-count">
+                        <div className="dash-title">Recurring</div>
+                        <div className="dash-counts">
+                          <p>$86,892</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <p className="inovices-all">
+                        No of Invoice{" "}
+                        <span className="rounded-circle bg-light-gray">03</span>
+                      </p>
+                      <p className="inovice-trending text-success-light">
+                        02{" "}
+                        <span className="ms-2">
+                          <i className="fe fe-trending-up" />
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card invoices-tabs-card">
+              <div className="invoices-main-tabs">
+                <div className="row align-items-center">
+                  <div className="col-lg-12">
+                    <div className="invoices-tabs">
+                      <ul>
+                        <li>
+                          <a href="invoices.html" className="active">
+                            All
+                          </a>
+                        </li>
+                        {/* <li><a href="invoices-paid.html">Paid</a></li>
+                                  <li><a href="invoices-overdue.html">Overdue</a></li>
+                                  <li><a href="invoices-cancelled.html">Cancelled</a></li>
+                                  <li><a href="invoices-recurring.html">Partially Paid</a></li>
+                                  <li><a href="invoices-unpaid.html">Unpaid</a></li>
+                                  <li><a href="invoices-refunded.html">Refunded</a></li>
+                                  <li><a href="invoices-draft.html">Draft</a></li> */}
+                        <li>
+                          <a href="invoices.html">NON GST</a>
+                        </li>
+                        <li>
+                          <a href="invoices.html">EXPORT</a>
+                        </li>
+                        <li>
+                          <a href="invoices.html">DEEMED EXPORT</a>
+                        </li>
+                        <li>
+                          <a href="invoices.html">SEZ</a>
+                        </li>
+                        <li>
+                          <a href="invoices.html">NIL RATED</a>
+                        </li>
+                        <li>
+                          <a href="invoices.html">EXEMPT</a>
+                        </li>
+                        <li>
+                          <a href="invoices-paid.html" />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="card-table">
+                  <div className="card-body">
+                    <div className="table-responsive">
+                      <table className="table table-stripped table-hover datatable">
+                        <thead className="thead-light">
+                          <tr>
+                            <th>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              Invoice NO
+                            </th>
+                            {/* <th>Category</th>
+                                          <th>Created On</th>
+                                          <th>Invoice To</th>
+                                          <th>Total</th>
+                                          <th>Paid</th>
+                                          <th>Payment Mode</th>
+                                          <th>Balance</th>
+                                          <th>Due Date</th>
+                                          <th>Status</th> */}
+                            <th>GST NO / State (In case of no GSTIN)</th>
+                            <th>Party's Name</th>
+                            <th>Invoice Date</th>
+                            <th>Goods / Service</th>
+                            <th>Taxable Value</th>
+                            <th>HSN/SAC Code</th>
+                            <th>Quantity</th>
+                            <th>
+                              UQC
+                              <div className="input-group input-group-sm">
+                                <select
+                                  className="form-select"
+                                  style={{ width: 100 }}
+                                >
+                                  <option value="select">select</option>
+                                  <option value="NO OF PCS">NO OF PCS</option>
+                                  <option value="KG">KG</option>
+                                  <option value="METER">METER</option>
+                                  <option value="DOZEN">DOZEN</option>
+                                  <option value="LITER">LITER</option>
+                                  <option value="ETC">ETC</option>
+                                </select>
+                              </div>
+                            </th>
+                            <th>GST RATE</th>
+                            <th className="text-end">Action</th>
+                            <th>IGST</th>
+                            <th>CGST / UTGST</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              <a
+                                href="invoice-details.html"
+                                className="invoice-link"
+                              >
+                                #4987
+                              </a>
+                            </td>
+                            <td>Advertising</td>
+                            <td>23 Mar 2023</td>
+                            <td>
+                              <h2 className="table-avatar">
+                                <a
+                                  href="profile.html"
+                                  className="avatar avatar-sm me-2"
+                                >
+                                  <img
+                                    className="avatar-img rounded-circle"
+                                    src="assets/img/profiles/avatar-14.jpg"
+                                    alt="User Image"
+                                  />
+                                </a>
+                                <a href="profile.html">
+                                  John Smith <span>+1 843-443-3282</span>
+                                </a>
+                              </h2>
+                            </td>
+                            <td>$1,54,220</td>
+                            <td>$1,50,000</td>
+                            <td>Cash</td>
+                            <td>$0</td>
+                            <td>-</td>
+                            <td>
+                              <span className="badge bg-success-light">
+                                Paid
+                              </span>
+                            </td>
+                            <td className="text-end">
+                              <div className="dropdown dropdown-action">
+                                <a
+                                  href="#"
+                                  className="btn-action-icon"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <i className="fas fa-ellipsis-v" />
+                                </a>
+                                <div className="dropdown-menu dropdown-menu-end customer-dropdown">
+                                  <a
+                                    className="dropdown-item"
+                                    href="edit-invoice.html"
+                                  >
+                                    <i className="far fa-edit me-2" />
+                                    Edit
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="invoice-details.html"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#view_modal"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View Delivery Challans
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delete_modal"
+                                  >
+                                    <i className="far fa-trash-alt me-2" />
+                                    Delete
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-send me-2" />
+                                    Send
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-download me-2" />
+                                    Download
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="add-credit-notes.html"
+                                  >
+                                    <i className="fe fe-file-text me-2" />
+                                    Convert to Sales Return
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-copy me-2" />
+                                    Clone as Invoice
+                                  </a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              <a
+                                href="invoice-details.html"
+                                className="invoice-link"
+                              >
+                                #4988
+                              </a>
+                            </td>
+                            <td>Food</td>
+                            <td>16 Mar 2023</td>
+                            <td>
+                              <h2 className="table-avatar">
+                                <a
+                                  href="profile.html"
+                                  className="avatar avatar-sm me-2"
+                                >
+                                  <img
+                                    className="avatar-img rounded-circle"
+                                    src="assets/img/profiles/avatar-15.jpg"
+                                    alt="User Image"
+                                  />
+                                </a>
+                                <a href="profile.html">
+                                  Johnny <span>+1 917-409-0861</span>
+                                </a>
+                              </h2>
+                            </td>
+                            <td>$3,54,220</td>
+                            <td>$2,50,000</td>
+                            <td>Cheque</td>
+                            <td>$4,220</td>
+                            <td>16 Jan 2023</td>
+                            <td>
+                              <span className="badge bg-warning-light text-warning">
+                                Overdue
+                              </span>
+                            </td>
+                            <td className="text-end">
+                              <div className="dropdown dropdown-action">
+                                <a
+                                  href="#"
+                                  className="btn-action-icon"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <i className="fas fa-ellipsis-v" />
+                                </a>
+                                <div className="dropdown-menu dropdown-menu-end customer-dropdown">
+                                  <a
+                                    className="dropdown-item"
+                                    href="edit-invoice.html"
+                                  >
+                                    <i className="far fa-edit me-2" />
+                                    Edit
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="invoice-details.html"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#view_modal"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View Delivery Challans
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delete_modal"
+                                  >
+                                    <i className="far fa-trash-alt me-2" />
+                                    Delete
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-send me-2" />
+                                    Send
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-download me-2" />
+                                    Download
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="add-credit-notes.html"
+                                  >
+                                    <i className="fe fe-file-text me-2" />
+                                    Convert to Sales Return
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-copy me-2" />
+                                    Clone as Invoice
+                                  </a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              <a
+                                href="invoice-details.html"
+                                className="invoice-link"
+                              >
+                                #4989
+                              </a>
+                            </td>
+                            <td>Marketing</td>
+                            <td>25 Feb 2023</td>
+                            <td>
+                              <h2 className="table-avatar">
+                                <a
+                                  href="profile.html"
+                                  className="avatar avatar-sm me-2"
+                                >
+                                  <img
+                                    className="avatar-img rounded-circle"
+                                    src="assets/img/profiles/avatar-16.jpg"
+                                    alt="User Image"
+                                  />
+                                </a>
+                                <a href="profile.html">
+                                  Robert <span>+1 956-623-2880</span>
+                                </a>
+                              </h2>
+                            </td>
+                            <td>$1,54,220</td>
+                            <td>$1,50,000</td>
+                            <td>Cash</td>
+                            <td>$4,220</td>
+                            <td>16 Jan 2023</td>
+                            <td>
+                              <span className="badge bg-danger-light">
+                                Cancelled
+                              </span>
+                            </td>
+                            <td className="text-end">
+                              <div className="dropdown dropdown-action">
+                                <a
+                                  href="#"
+                                  className="btn-action-icon"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <i className="fas fa-ellipsis-v" />
+                                </a>
+                                <div className="dropdown-menu dropdown-menu-end customer-dropdown">
+                                  <a
+                                    className="dropdown-item"
+                                    href="edit-invoice.html"
+                                  >
+                                    <i className="far fa-edit me-2" />
+                                    Edit
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="invoice-details.html"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#view_modal"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View Delivery Challans
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delete_modal"
+                                  >
+                                    <i className="far fa-trash-alt me-2" />
+                                    Delete
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-send me-2" />
+                                    Send
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-download me-2" />
+                                    Download
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="add-credit-notes.html"
+                                  >
+                                    <i className="fe fe-file-text me-2" />
+                                    Convert to Sales Return
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-copy me-2" />
+                                    Clone as Invoice
+                                  </a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              <a
+                                href="invoice-details.html"
+                                className="invoice-link"
+                              >
+                                #4990
+                              </a>
+                            </td>
+                            <td>Repairs</td>
+                            <td>25 Mar 2023</td>
+                            <td>
+                              <h2 className="table-avatar">
+                                <a
+                                  href="profile.html"
+                                  className="avatar avatar-sm me-2"
+                                >
+                                  <img
+                                    className="avatar-img rounded-circle"
+                                    src="assets/img/profiles/avatar-17.jpg"
+                                    alt="User Image"
+                                  />
+                                </a>
+                                <a href="profile.html">
+                                  Sharonda <span>+1 707-439-1732</span>
+                                </a>
+                              </h2>
+                            </td>
+                            <td>$1,54,220</td>
+                            <td>$1,50,000</td>
+                            <td>Cash</td>
+                            <td>$4,220</td>
+                            <td>12 May 2023</td>
+                            <td>
+                              <span className="badge bg-primary-light">
+                                Partially Paid
+                              </span>
+                            </td>
+                            <td className="text-end">
+                              <div className="dropdown dropdown-action">
+                                <a
+                                  href="#"
+                                  className="btn-action-icon"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <i className="fas fa-ellipsis-v" />
+                                </a>
+                                <div className="dropdown-menu dropdown-menu-end customer-dropdown">
+                                  <a
+                                    className="dropdown-item"
+                                    href="edit-invoice.html"
+                                  >
+                                    <i className="far fa-edit me-2" />
+                                    Edit
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="invoice-details.html"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#view_modal"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View Delivery Challans
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delete_modal"
+                                  >
+                                    <i className="far fa-trash-alt me-2" />
+                                    Delete
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-send me-2" />
+                                    Send
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-download me-2" />
+                                    Download
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="add-credit-notes.html"
+                                  >
+                                    <i className="fe fe-file-text me-2" />
+                                    Convert to Sales Return
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-copy me-2" />
+                                    Clone as Invoice
+                                  </a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              <a
+                                href="invoice-details.html"
+                                className="invoice-link"
+                              >
+                                #4991
+                              </a>
+                            </td>
+                            <td>Software</td>
+                            <td>12 May 2022</td>
+                            <td>
+                              <h2 className="table-avatar">
+                                <a
+                                  href="profile.html"
+                                  className="avatar avatar-sm me-2"
+                                >
+                                  <img
+                                    className="avatar-img rounded-circle"
+                                    src="assets/img/profiles/avatar-18.jpg"
+                                    alt="User Image"
+                                  />
+                                </a>
+                                <a href="profile.html">
+                                  Pricilla <span>+1 559-741-9672</span>
+                                </a>
+                              </h2>
+                            </td>
+                            <td>$5,54,220</td>
+                            <td>$3,50,000</td>
+                            <td>Cheque</td>
+                            <td>$4,220</td>
+                            <td>18 May 2022</td>
+                            <td>
+                              <span className="badge bg-light-gray text-secondary">
+                                Unpaid
+                              </span>
+                            </td>
+                            <td className="text-end">
+                              <div className="dropdown dropdown-action">
+                                <a
+                                  href="#"
+                                  className="btn-action-icon"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <i className="fas fa-ellipsis-v" />
+                                </a>
+                                <div className="dropdown-menu dropdown-menu-end customer-dropdown">
+                                  <a
+                                    className="dropdown-item"
+                                    href="edit-invoice.html"
+                                  >
+                                    <i className="far fa-edit me-2" />
+                                    Edit
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="invoice-details.html"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#view_modal"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View Delivery Challans
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delete_modal"
+                                  >
+                                    <i className="far fa-trash-alt me-2" />
+                                    Delete
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-send me-2" />
+                                    Send
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-download me-2" />
+                                    Download
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="add-credit-notes.html"
+                                  >
+                                    <i className="fe fe-file-text me-2" />
+                                    Convert to Sales Return
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-copy me-2" />
+                                    Clone as Invoice
+                                  </a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label className="custom_check">
+                                <input type="checkbox" name="invoice" />
+                                <span className="checkmark" />
+                              </label>
+                              <a
+                                href="invoice-details.html"
+                                className="invoice-link"
+                              >
+                                #4992
+                              </a>
+                            </td>
+                            <td>Stationary</td>
+                            <td>16 Nov 2022</td>
+                            <td>
+                              <h2 className="table-avatar">
+                                <a
+                                  href="profile.html"
+                                  className="avatar avatar-sm me-2"
+                                >
+                                  <img
+                                    className="avatar-img rounded-circle"
+                                    src="assets/img/profiles/avatar-19.jpg"
+                                    alt="User Image"
+                                  />
+                                </a>
+                                <a href="profile.html">
+                                  Randall <span>+1 989-438-3131</span>
+                                </a>
+                              </h2>
+                            </td>
+                            <td>$5,54,220</td>
+                            <td>$6,50,000</td>
+                            <td>Cash</td>
+                            <td>$4,220</td>
+                            <td>25 Feb 2022</td>
+                            <td>
+                              <span className="badge bg-info-lights">
+                                Refunded
+                              </span>
+                            </td>
+                            <td className="text-end">
+                              <div className="dropdown dropdown-action">
+                                <a
+                                  href="#"
+                                  className="btn-action-icon"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <i className="fas fa-ellipsis-v" />
+                                </a>
+                                <div className="dropdown-menu dropdown-menu-end customer-dropdown">
+                                  <a
+                                    className="dropdown-item"
+                                    href="edit-invoice.html"
+                                  >
+                                    <i className="far fa-edit me-2" />
+                                    Edit
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="invoice-details.html"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#view_modal"
+                                  >
+                                    <i className="far fa-eye me-2" />
+                                    View Delivery Challans
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="javascript:void(0);"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delete_modal"
+                                  >
+                                    <i className="far fa-trash-alt me-2" />
+                                    Delete
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-send me-2" />
+                                    Send
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-download me-2" />
+                                    Download
+                                  </a>
+                                  <a
+                                    className="dropdown-item"
+                                    href="add-credit-notes.html"
+                                  >
+                                    <i className="fe fe-file-text me-2" />
+                                    Convert to Sales Return
+                                  </a>
+                                  <a className="dropdown-item" href="">
+                                    <i className="fe fe-copy me-2" />
+                                    Clone as Invoice
+                                  </a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="toggle-sidebar">
+          <div className="sidebar-layout-filter">
+            <div className="sidebar-header">
+              <h5>Filter</h5>
+              <a href="#" className="sidebar-closes">
+                <i className="fa-regular fa-circle-xmark" />
+              </a>
+            </div>
+            <div className="sidebar-body">
+              <form action="#" autoComplete="off">
+                <div className="accordion" id="accordionMain1">
+                  <div className="card-header-new" id="headingOne">
+                    <h6 className="filter-title">
+                      <a
+                        href="#"
+                        className="w-100"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Customer
+                        <span className="float-end">
+                          <i className="fa-solid fa-chevron-down" />
+                        </span>
+                      </a>
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    className="collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample1"
+                  >
+                    <div className="card-body-chat">
+                      <div className="row">
+                        <div className="col-md-12">
+                          <div id="checkBoxes1">
+                            <div className="form-custom">
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="member_search1"
+                                placeholder="Search Customer"
+                              />
+                              <span>
+                                <img
+                                  src="assets/img/icons/search.svg"
+                                  alt="img"
+                                />
+                              </span>
+                            </div>
+                            <div className="selectBox-cont">
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> John Smith
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> Johnny
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> Robert
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> Sharonda
+                              </label>
+                              <div className="view-content">
+                                <div className="viewall-One">
+                                  <label className="custom_check w-100">
+                                    <input type="checkbox" name="username" />
+                                    <span className="checkmark" /> Pricilla
+                                  </label>
+                                  <label className="custom_check w-100">
+                                    <input type="checkbox" name="username" />
+                                    <span className="checkmark" /> Randall
+                                  </label>
+                                </div>
+                                <div className="view-all">
+                                  <a href="#" className="viewall-button-One">
+                                    <span className="me-2">View All</span>
+                                    <span>
+                                      <i className="fa fa-circle-chevron-down" />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion" id="accordionMain5">
+                  <div className="card-header-new" id="headingFive">
+                    <h6 className="filter-title">
+                      <a
+                        href="#"
+                        className="w-100"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive"
+                        aria-expanded="true"
+                        aria-controls="collapseFive"
+                      >
+                        Invoice Number
+                        <span className="float-end">
+                          <i className="fa-solid fa-chevron-down" />
+                        </span>
+                      </a>
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseFive"
+                    className="collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample5"
+                  >
+                    <div className="card-body-chat">
+                      <div className="row">
+                        <div className="col-md-12">
+                          <div id="checkBoxes5">
+                            <div className="form-custom">
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="member_search"
+                                placeholder="Search Invoice"
+                              />
+                              <span>
+                                <img
+                                  src="assets/img/icons/search.svg"
+                                  alt="img"
+                                />
+                              </span>
+                            </div>
+                            <div className="selectBox-cont">
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> 4987
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> 4988
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> 4989
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> 4990
+                              </label>
+                              <div className="view-content">
+                                <div className="viewall-One">
+                                  <label className="custom_check w-100">
+                                    <input type="checkbox" name="username" />
+                                    <span className="checkmark" /> 4991
+                                  </label>
+                                  <label className="custom_check w-100">
+                                    <input type="checkbox" name="username" />
+                                    <span className="checkmark" /> 4992
+                                  </label>
+                                  <label className="custom_check w-100">
+                                    <input type="checkbox" name="username" />
+                                    <span className="checkmark" /> 4993
+                                  </label>
+                                </div>
+                                <div className="view-all">
+                                  <a href="#" className="viewall-button-One">
+                                    <span className="me-2">View All</span>
+                                    <span>
+                                      <i className="fa fa-circle-chevron-down" />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion" id="accordionMain2">
+                  <div className="card-header-new" id="headingTwo">
+                    <h6 className="filter-title">
+                      <a
+                        href="#"
+                        className="w-100 collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="collapseTwo"
+                      >
+                        Select Date
+                        <span className="float-end">
+                          <i className="fa-solid fa-chevron-down" />
+                        </span>
+                      </a>
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    className="collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample2"
+                  >
+                    <div className="card-body-chat">
+                      <div className="input-block mb-3">
+                        <label className="form-control-label">From</label>
+                        <div className="cal-icon">
+                          <input
+                            type="email"
+                            className="form-control datetimepicker"
+                            placeholder="DD-MM-YYYY"
+                          />
+                        </div>
+                      </div>
+                      <div className="input-block mb-3">
+                        <label className="form-control-label">To</label>
+                        <div className="cal-icon">
+                          <input
+                            type="email"
+                            className="form-control datetimepicker"
+                            placeholder="DD-MM-YYYY"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion" id="accordionMain3">
+                  <div className="card-header-new" id="headingThree">
+                    <h6 className="filter-title">
+                      <a
+                        href="#"
+                        className="w-100 collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseThree"
+                      >
+                        By Status
+                        <span className="float-end">
+                          <i className="fa-solid fa-chevron-down" />
+                        </span>
+                      </a>
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    className="collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample3"
+                  >
+                    <div className="card-body-chat">
+                      <div id="checkBoxes2">
+                        <div className="selectBox-cont">
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="bystatus" />
+                            <span className="checkmark" /> All Invoices
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="bystatus" />
+                            <span className="checkmark" /> Paid
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="bystatus" />
+                            <span className="checkmark" /> Overdue
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="bystatus" />
+                            <span className="checkmark" /> cancelled
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="bystatus" />
+                            <span className="checkmark" /> Partially Paid
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="bystatus" />
+                            <span className="checkmark" /> Unpaid
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion accordion-last" id="accordionMain4">
+                  <div className="card-header-new" id="headingFour">
+                    <h6 className="filter-title">
+                      <a
+                        href="#"
+                        className="w-100 collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="true"
+                        aria-controls="collapseFour"
+                      >
+                        Category
+                        <span className="float-end">
+                          <i className="fa-solid fa-chevron-down" />
+                        </span>
+                      </a>
+                    </h6>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    className="collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample4"
+                  >
+                    <div className="card-body-chat">
+                      <div id="checkBoxes3">
+                        <div className="selectBox-cont">
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="category" />
+                            <span className="checkmark" /> Advertising
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="category" />
+                            <span className="checkmark" /> Food
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="category" />
+                            <span className="checkmark" /> Marketing
+                          </label>
+                          <label className="custom_check w-100">
+                            <input type="checkbox" name="category" />
+                            <span className="checkmark" /> Repairs
+                          </label>
+                          <div className="view-content">
+                            <div className="viewall-Two">
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> Software
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" />
+                                Stationary
+                              </label>
+                              <label className="custom_check w-100">
+                                <input type="checkbox" name="username" />
+                                <span className="checkmark" /> Designing
+                              </label>
+                            </div>
+                            <div className="view-all">
+                              <a href="#" className="viewall-button-Two">
+                                <span className="me-2">View All</span>
+                                <span>
+                                  <i className="fa fa-circle-chevron-down" />
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="filter-buttons">
+                  <button
+                    type="submit"
+                    className="d-inline-flex align-items-center justify-content-center btn w-100 btn-primary"
+                  >
+                    Apply
+                  </button>
+                  <button
+                    type="submit"
+                    className="d-inline-flex align-items-center justify-content-center btn w-100 btn-secondary"
+                  >
+                    Reset
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div className="modal custom-modal fade" id="view_modal" role="dialog">
+          <div className="modal-dialog modal-dialog-centered modal-xl">
+            <div className="modal-content view-delivery-challans">
+              <div className="modal-header border-0 pb-0 justify-content-end d-flex align-items-center">
+                <div className="file-link mb-0 ">
+                  <button className="download_btn download-link">
+                    <i
+                      className="fa fa-cloud-download me-1"
+                      aria-hidden="true"
+                    />{" "}
+                    <span>Download</span>
+                  </button>
+                  <a href="javascript:window.print()" className="print-link">
+                    <i className="fa fa-print me-1" aria-hidden="true" />{" "}
+                    <span className="">Print</span>
+                  </a>
+                </div>
+              </div>
+              <div className="modal-body invoice-one">
+                <div className="invoice-wrapper download_section">
+                  <div className="inv-content">
+                    <div className="invoice-header p-0">
+                      <div className="inv-header-left">
+                        <h4>DELIVERY CHALLAN</h4>
+                        <h5>Dreamguys Technologies Pvt Ltd</h5>
+                        <h6>Mobile 8072687299</h6>
+                      </div>
+                      <div className="inv-header-right">
+                        <h3 className="mb-3">Delivery Challan</h3>
+                        <h6 className="mb-1">
+                          Invoice # : <span> INV-1</span>
+                        </h6>
+                        <h6 className="mb-1">
+                          Invoice Date :<span> 07-10-2023</span>
+                        </h6>
+                        <p>
+                          Due Date : <span>07-12-2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <span className="line my-4" />
+                    <div className="patient-infos">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <div className=" patient-detailed">
+                            <div className="bill-add">Customer Details :</div>
+                            <div className="customer-name">
+                              <h4 className="mb-1">Test Customer</h4>
+                              <h4 className="mb-1">Test Company</h4>
+                              <p>
+                                <span>GSTIN : ACWR000054321</span>
+                              </p>
+                              <p>
+                                <span>Phone Number : +91 1234567890</span>
+                              </p>
+                              <p>
+                                <span>
+                                  Email :{" "}
+                                  <a
+                                    href="https://kanakku.dreamstechnologies.com/cdn-cgi/l/email-protection"
+                                    className="__cf_email__"
+                                    data-cfemail="d1b5b4bdb8a7b491b4a9b0bca1bdb4ffb2bebc"
+                                  >
+                                    [email&nbsp;protected]
+                                  </a>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-sm-4">
+                          <div className=" patient-detailed">
+                            <div className="bill-add">Billing Address :</div>
+                            <div className="add-details">
+                              Walter Roberson <br /> 299 Star Trek Drive, Panama
+                              City,
+                              <br /> Florida, 32405,
+                              <br /> USA
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-sm-4">
+                          <div className=" patient-detailed">
+                            <div className="bill-add">Shipping Address :</div>
+                            <div className="add-details">
+                              Walter Roberson <br /> 299 Star Trek Drive, Panama
+                              City,
+                              <br /> Florida, 32405,
+                              <br /> USA
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="reference">
+                        <h4>Reference</h4>
+                        <p>
+                          Keep the Delivery Challan for reference in the future.
+                          Now it's simple to create an invoice, download it
+                        </p>
+                        <hr />
+                      </div>
+                    </div>
+                    <div className="invoice-table">
+                      <div className="table-responsive">
+                        <table>
+                          <thead>
+                            <tr className="ecommercetable">
+                              <th className="table_width_1">#</th>
+                              <th>Item</th>
+                              <th className="text-end">Quantity</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td className="text-start">
+                                Accounting Software Maintainence
+                              </td>
+                              <td className="text-end">3</td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td className="text-start">Man Power Support</td>
+                              <td className="text-end">1</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td className="text-start">Transportation Fee</td>
+                              <td className="text-end">2</td>
+                            </tr>
+                            <tr>
+                              <td>4</td>
+                              <td className="text-start">
+                                Spars Replacement Charges
+                              </td>
+                              <td className="text-end">5</td>
+                            </tr>
+                            <tr>
+                              <td>5</td>
+                              <td className="text-start">Materials Handling</td>
+                              <td className="text-end">1</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h5 className="text-end">Total Quantity : 12</h5>
+                      </div>
+                    </div>
+                    <div className="authorization text-end">
+                      <h6>For YOUR BUSINESS NAME</h6>
+                      <img
+                        src="assets/img/signature.png"
+                        className="my-3"
+                        alt="signature-img"
+                      />
+                      <h6>Authorized Signatory</h6>
+                    </div>
+                    <div className="row">
+                      <div className="col-12">
+                        <div className="terms-condition p-0">
+                          <span>Terms &amp; Conditions:</span>
+                          <ol>
+                            <li>
+                              This is a GST based invoice bill, Which is
+                              applicable for TDS Deduction
+                            </li>
+                            <li>
+                              We are not the manufactures, company will stand
+                              for warranty as per their terms and conditions.
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-center powered">
+                    <h6 className="mt-4 mb-3">Powered By</h6>
+                    <a href="#">
+                      <img
+                        className="logo-lightmode"
+                        src="assets/img/logo.png"
+                        alt="Logo"
+                      />
+                      <img
+                        className="logo-darkmode"
+                        src="assets/img/logo-white.png"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal custom-modal fade"
+          id="delete_modal"
+          role="dialog"
+        >
+          <div className="modal-dialog modal-dialog-centered modal-md">
+            <div className="modal-content">
+              <div className="modal-body">
+                <div className="form-header">
+                  <h3>Delete Invoice</h3>
+                  <p>Are you sure want to delete?</p>
+                </div>
+                <div className="modal-btn delete-action">
+                  <div className="row">
+                    <div className="col-6">
+                      <button
+                        type="reset"
+                        data-bs-dismiss="modal"
+                        className="w-100 btn btn-primary paid-continue-btn"
+                      >
+                        Delete
+                      </button>
+                    </div>
+                    <div className="col-6">
+                      <button
+                        type="submit"
+                        data-bs-dismiss="modal"
+                        className="w-100 btn btn-primary paid-cancel-btn"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -2632,7 +3948,7 @@ const AddInvoicePage = () => {
                     </div>
                     <h5 className="fs-13 text-center mt-2">Compact</h5>
                   </div>
-                  <div className="col-4">
+                  <div className="col-4 ">
                     <div className="form-check sidebar-setting card-radio p-0 ">
                       <input
                         className="form-check-input"
@@ -2820,9 +4136,9 @@ const AddInvoicePage = () => {
           </div>
         </div>
       </div>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/add-invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:27 GMT */}
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/invoices.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:58:05 GMT */}
     </>
   );
 };
 
-export default AddInvoicePage;
+export default Invoices;

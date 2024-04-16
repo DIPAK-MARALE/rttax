@@ -1,11 +1,16 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import axios from "axios";
+//import axios from "axios";
+import { Link } from "react-router-dom"; // Import Link component from react-router-dom
 
 const CustomerRegistration = () => {
   const [formData, setFormData] = useState({
     username: "",
     phoneNumber: "",
+    mobileOtp: "",
     email: "",
+    emailOtp: "",
     password: "",
     confirmPassword: "",
   });
@@ -23,15 +28,17 @@ const CustomerRegistration = () => {
     }
 
     try {
-      await axios.post(
-        "http://localhost:3001/api/customers/register",
-        formData
-      );
+      // await axios.post(
+      //   "http://localhost:3001/api/customers/register",
+      //   formData
+      // );
       // Reset form fields after successful registration
       setFormData({
         username: "",
         phoneNumber: "",
+        mobileOtp: "",
         email: "",
+        emailOtp: "",
         password: "",
         confirmPassword: "",
       });
@@ -84,6 +91,18 @@ const CustomerRegistration = () => {
                       onChange={handleChange}
                       required
                     />
+                    {/* OTP field for mobile number */}
+                    {formData.phoneNumber && (
+                      <input
+                        className="form-control mt-3"
+                        type="text"
+                        name="mobileOtp"
+                        placeholder="Enter Mobile OTP"
+                        value={formData.mobileOtp}
+                        onChange={handleChange}
+                        required
+                      />
+                    )}
                   </div>
                   <div className="input-block mb-3">
                     <label className="form-control-label">Email Address</label>
@@ -95,7 +114,32 @@ const CustomerRegistration = () => {
                       onChange={handleChange}
                       required
                     />
+                    {/* OTP field for email address */}
+                    {formData.email && (
+                      <input
+                        className="form-control mt-3"
+                        type="text"
+                        name="emailOtp"
+                        placeholder="Enter Email OTP"
+                        value={formData.emailOtp}
+                        onChange={handleChange}
+                        required
+                      />
+                    )}
                   </div>
+                  {formData.phoneNumber &&
+                    formData.email &&
+                    formData.otp && ( // Check if phoneNumber, email, and otp are filled
+                      <div className="input-block mb-0">
+                        <Link to="/vendor-profile" />
+                        <button
+                          className="btn btn-lg btn-primary w-100"
+                          type="button"
+                        >
+                          Register
+                        </button>
+                      </div>
+                    )}
                   <div className="input-block mb-3">
                     <label className="form-control-label">Password</label>
                     <input

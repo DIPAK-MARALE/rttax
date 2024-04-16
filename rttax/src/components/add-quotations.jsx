@@ -1,10 +1,20 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-const AddInvoicePage = () => {
+import "./css/bootstrap.min.css";
+import "./css/bootstrap-datetimepicker.min.css";
+import "./css/dataTables.bootstrap5.min.css";
+import "./css/feather.css";
+import "./css/owl.carousel.min.css";
+import "./css/style.css";
+
+import "../assets/css/select.scss";
+
+const AddQuotations = () => {
   return (
     <>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/add-invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:27 GMT */}
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/add-quotations.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:34 GMT */}
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
@@ -55,7 +65,7 @@ const AddInvoicePage = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}",
+            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}",
         }}
       />
       <link
@@ -96,9 +106,8 @@ const AddInvoicePage = () => {
             <div className="logo-white">
               <a href="index.html">
                 <img
-                  src="assets/img/taxrx_logo1.png"
-                  className="img-fluid logo2"
-                  style={{ width: "200px", height: "90px" }}
+                  src="assets/img/logo-full-white.png"
+                  className="img-fluid logo-blue"
                   alt="Logo"
                 />
               </a>
@@ -347,7 +356,7 @@ const AddInvoicePage = () => {
               >
                 <span className="user-img">
                   <img
-                    src="assets/img/profiles/avatar-22.jpg"
+                    src="assets/img/profiles/avatar-07.jpg"
                     alt="img"
                     className="profilesidebar"
                   />
@@ -600,7 +609,7 @@ const AddInvoicePage = () => {
                     <span>Quotations</span>
                   </li>
                   <li>
-                    <a href="quotations.html">
+                    <a href="quotations.html" className="active">
                       <i className="fe fe-clipboard" /> <span>Quotations</span>
                     </a>
                   </li>
@@ -1290,7 +1299,7 @@ const AddInvoicePage = () => {
                   <span>Sales</span>
                 </li>
                 <li className="submenu">
-                  <a href="#" className="">
+                  <a href="#">
                     <i className="fe fe-file" /> <span>Invoices</span>
                     <span className="menu-arrow" />
                   </a>
@@ -1360,7 +1369,7 @@ const AddInvoicePage = () => {
                   <span>Quotations</span>
                 </li>
                 <li>
-                  <a href="quotations.html">
+                  <a href="quotations.html" className="active">
                     <i className="fe fe-clipboard" /> <span>Quotations</span>
                   </a>
                 </li>
@@ -1919,308 +1928,419 @@ const AddInvoicePage = () => {
             </div>
           </div>
         </div>
-
         <div className="page-wrapper">
           <div className="content container-fluid">
             <div className="card mb-0">
               <div className="card-body">
                 <div className="page-header">
                   <div className="content-page-header">
-                    <h5>Add Invoice</h5>
+                    <h5>Create Quotations</h5>
                   </div>
                 </div>
-
-                <div className="container">
-                  <div className="row">
-                    {/* Seller Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Seller Details</h2>
-                        <div className="form-group">
-                          <label for="tradeName">Trade Name</label>
-                          <input
-                            type="text"
-                            id="tradeName"
-                            name="tradeName"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="officeAddress">
-                            Office / Shop Address
-                          </label>
-                          <textarea
-                            id="officeAddress"
-                            name="officeAddress"
-                            className="form-control"
-                            rows="3"
-                            required
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="shippingAddress">Shipping Address</label>
-                          <textarea
-                            id="shippingAddress"
-                            name="shippingAddress"
-                            className="form-control"
-                            rows="3"
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="sellersGstin">Seller's GSTIN</label>
-                          <input
-                            type="text"
-                            id="sellersGstin"
-                            name="sellersGstin"
-                            className="form-control"
-                            required
-                          />
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="quotation-card">
+                      <div className="row">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                          <div className="input-block mb-3">
+                            <div className="mb-2">
+                              <label>Document Title</label>
+                            </div>
+                            <label className="custom_check me-3 mb-0">
+                              <input type="checkbox" name="invoice" />
+                              <span className="checkmark" /> Quotation
+                            </label>
+                            <label className="custom_check mb-0">
+                              <input type="checkbox" name="re_invoice" />
+                              <span className="checkmark" /> Estimate
+                            </label>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/* Type of Invoice Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Type of Invoice</h2>
-                        <div className="form-group">
-                          <label for="invoiceType">Type of Invoice</label>
-                          <select
-                            id="invoiceType"
-                            name="invoiceType"
-                            className="form-control"
-                            required
-                          >
-                            <option value="TaxInvoice">Tax Invoice</option>
-                            <option value="ProformaInvoice">
-                              Proforma Invoice
-                            </option>
-                            <option value="CommercialInvoice">
-                              Commercial Invoice
-                            </option>
-                          </select>
+                      <div className="form-group-item border-0 mb-0">
+                        <div className="row align-item-center">
+                          <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="input-block mb-3">
+                              <label>Quotation Id</label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter Quotation ID"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="input-block mb-3">
+                              <label>Select Customer</label>
+                              <ul className="form-group-plus css-equal-heights">
+                                <li>
+                                  <select className="select">
+                                    <option>Choose Customer</option>
+                                    <option>Customer 1</option>
+                                    <option>Customer 2</option>
+                                    <option>Customer 3</option>
+                                  </select>
+                                </li>
+                                <li>
+                                  <a
+                                    className="btn btn-primary form-plus-btn"
+                                    href="add-customer.html"
+                                  >
+                                    <i className="fas fa-plus-circle" />
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="input-block mb-3">
+                              <label>Quotation Date</label>
+                              <input
+                                type="text"
+                                className="datetimepicker form-control"
+                                placeholder="Select Date"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="input-block mb-3">
+                              <label>Due Date</label>
+                              <input
+                                type="text"
+                                className="datetimepicker form-control"
+                                placeholder="Select Date"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="input-block mb-3">
+                              <label>Reference No</label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter Reference Number"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="input-block mb-3">
+                              <label>Create Quotation with/without GST</label>
+                              <select className="select">
+                                <option>Without GST</option>
+                                <option>With GST</option>
+                              </select>
+                            </div>
+                          </div>
                         </div>
-                        <div className="form-group">
-                          <label for="buyerGstin">Buyer GSTIN</label>
-                          <input
-                            type="text"
-                            id="buyerGstin"
-                            name="buyerGstin"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="partyName">Name of Party</label>
-                          <input
-                            type="text"
-                            id="partyName"
-                            name="partyName"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="billToAddress">Bill To Address</label>
-                          <textarea
-                            id="billToAddress"
-                            name="billToAddress"
-                            className="form-control"
-                            rows="3"
-                            required
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="shipToAddress">Ship To Address</label>
-                          <textarea
-                            id="shipToAddress"
-                            name="shipToAddress"
-                            className="form-control"
-                            rows="3"
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="placeOfSupply">Place of Supply</label>
-                          <input
-                            type="text"
-                            id="placeOfSupply"
-                            name="placeOfSupply"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="container">
-                  <div className="row">
-                    {/* Invoice Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Invoice Details</h2>
-                        <div className="form-group">
-                          <label for="invoiceNumber">Invoice Number</label>
-                          <input
-                            type="text"
-                            id="invoiceNumber"
-                            name="invoiceNumber"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="invoiceDate">Invoice Date</label>
-                          <input
-                            type="date"
-                            id="invoiceDate"
-                            name="invoiceDate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="itemRate">Item Rate</label>
-                          <input
-                            type="number"
-                            id="itemRate"
-                            name="itemRate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="hsnSac">HSN/SAC</label>
-                          <input
-                            type="text"
-                            id="hsnSac"
-                            name="hsnSac"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="goodsServices">Goods / Services</label>
-                          <input
-                            type="text"
-                            id="goodsServices"
-                            name="goodsServices"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="taxableValue">Taxable Value</label>
-                          <input
-                            type="number"
-                            id="taxableValue"
-                            name="taxableValue"
-                            className="form-control"
-                            required
-                          />
+                        <div className="row">
+                          <div className="col-lg-12">
+                            <div className="input-block mb-3">
+                              <label>Products</label>
+                              <ul className="form-group-plus css-equal-heights">
+                                <li>
+                                  <select className="select">
+                                    <option>Select Product</option>
+                                    <option>Product 1</option>
+                                    <option>Product 2</option>
+                                    <option>Product 3</option>
+                                  </select>
+                                </li>
+                                <li>
+                                  <a
+                                    className="btn btn-primary form-plus-btn"
+                                    href="add-products.html"
+                                  >
+                                    <i className="fas fa-plus-circle" />
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div className="form-group">
-                        <label for="reverseCharge">Reverse Charge</label>
-                        <select
-                          id="reverseCharge"
-                          name="reverseCharge"
-                          className="form-control"
-                          required
+                      <div className="form-group-item">
+                        <div className="card-table">
+                          <div className="card-body">
+                            <div className="table-responsive no-pagination">
+                              <table className="table table-center table-hover datatable">
+                                <thead className="thead-light">
+                                  <tr>
+                                    <th>Product / Service</th>
+                                    <th>Quantity</th>
+                                    <th>Unit</th>
+                                    <th>Rate</th>
+                                    <th>Discount</th>
+                                    <th>Tax</th>
+                                    <th>Amount</th>
+                                    <th className="no-sort">Action</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        className="form-control"
+                                        placeholder={0}
+                                      />
+                                    </td>
+                                    <td>Pcs</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        className="form-control"
+                                        placeholder={120}
+                                      />
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>$120.00</td>
+                                    <td className="d-flex align-items-center">
+                                      <a
+                                        href="#"
+                                        className="btn-action-icon me-2"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#add_discount"
+                                      >
+                                        <span>
+                                          <i className="fe fe-edit" />
+                                        </span>
+                                      </a>
+                                      <a
+                                        href="#"
+                                        className="btn-action-icon"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#delete_discount"
+                                      >
+                                        <span>
+                                          <i className="fe fe-trash-2" />
+                                        </span>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-md-4">
+                          <div className="row">
+                            <div className="col-lg-7">
+                              <div className="input-block mb-3">
+                                <label>Discount Type</label>
+                                <select className="select">
+                                  <option>Percentage(%)</option>
+                                  <option>Fixed</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div className="col-lg-5">
+                              <div className="input-block mb-3">
+                                <label>Discount(%)</label>
+                                <input
+                                  type="text"
+                                  className="form-control"
+                                  placeholder={10}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-md-4">
+                          <div className="input-block mb-3">
+                            <label>Tax</label>
+                            <select className="select">
+                              <option>No Tax</option>
+                              <option>IVA - (21%)</option>
+                              <option>IRPF - (-15%)</option>
+                              <option>PDV - (20%)</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div className="col-md-4" />
+                      </div>
+                      <div className="form-group-item border-0 p-0">
+                        <div className="row">
+                          <div className="col-xl-6 col-lg-12">
+                            <div className="form-group-bank">
+                              <div className="row align-items-center">
+                                <div className="col-md-8">
+                                  <div className="input-block mb-3">
+                                    <label>Select Bank</label>
+                                    <select className="select">
+                                      <option>Select Bank</option>
+                                      <option>SBI</option>
+                                      <option>IOB</option>
+                                      <option>Canara</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div className="col-md-4">
+                                  <div className="form-groups">
+                                    <a
+                                      className="btn btn-primary"
+                                      href="#"
+                                      data-bs-toggle="modal"
+                                      data-bs-target="#bank_details"
+                                    >
+                                      Add Bank
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="input-block mb-3 notes-form-group-info">
+                                <label>Notes</label>
+                                <textarea
+                                  className="form-control"
+                                  placeholder="Enter Notes"
+                                  defaultValue={""}
+                                />
+                              </div>
+                              <div className="input-block mb-3 notes-form-group-info mb-0">
+                                <label>Terms and Conditions</label>
+                                <textarea
+                                  className="form-control"
+                                  placeholder="Enter Terms and Conditions"
+                                  defaultValue={""}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-12">
+                            <div className="form-group-bank">
+                              <div className="invoice-total-box">
+                                <div className="invoice-total-inner">
+                                  <p>
+                                    Taxable Amount <span>$120.00</span>
+                                  </p>
+                                  <p>
+                                    Discount <span>$13.20</span>
+                                  </p>
+                                  <p>
+                                    Vat <span>$0.00</span>
+                                  </p>
+                                  <div className="status-toggle justify-content-between">
+                                    <div className="d-flex align-center">
+                                      <p>Round Off </p>
+                                      <input
+                                        id="rating_1"
+                                        className="check"
+                                        type="checkbox"
+                                        defaultChecked=""
+                                      />
+                                      <label
+                                        htmlFor="rating_1"
+                                        className="checktoggle checkbox-bg"
+                                      >
+                                        checkbox
+                                      </label>
+                                    </div>
+                                    <span>$0.00</span>
+                                  </div>
+                                </div>
+                                <div className="invoice-total-footer">
+                                  <h4>
+                                    Total Amount <span>$107.80</span>
+                                  </h4>
+                                </div>
+                              </div>
+                              <div className="input-block mb-3">
+                                <label>Signature Name</label>
+                                <input
+                                  type="text"
+                                  className="form-control"
+                                  placeholder="Enter Signature Name"
+                                />
+                              </div>
+                              <div className="input-block mb-0">
+                                <label>Signature Image</label>
+                                <div className="input-block service-upload service-upload-info mb-0">
+                                  <span>
+                                    <i className="fe fe-upload-cloud me-1" />
+                                    Upload Signature
+                                  </span>
+                                  <input
+                                    type="file"
+                                    multiple=""
+                                    id="image_sign"
+                                  />
+                                  <div id="frames" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="text-end">
+                        <a
+                          href="quotations.html"
+                          className="btn btn-primary cancel me-2"
                         >
-                          <option value="Yes">Yes</option>
-                          <option value="No">No</option>
-                        </select>
+                          Cancel
+                        </a>
+                        <a href="quotations.html" className="btn btn-primary">
+                          Save
+                        </a>
                       </div>
                     </div>
-                    {/* GST Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>GST Details</h2>
-                        <div className="form-group">
-                          <label for="quantity">Quantity</label>
-                          <input
-                            type="number"
-                            id="quantity"
-                            name="quantity"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="uqc">UQC (Unit Quantity Code)</label>
-                          <select
-                            id="uqc"
-                            name="uqc"
-                            className="form-control"
-                            required
-                          >
-                            <option value="NO OF PCS">NO OF PCS</option>
-                            <option value="KG">KG</option>
-                            <option value="METER">METER</option>
-                            <option value="DOZEN">DOZEN</option>
-                            <option value="LITER">LITER</option>
-                            <option value="ETC">ETC</option>
-                          </select>
-                        </div>
-                        <div className="form-group">
-                          <label for="gstRate">GST Rate</label>
-                          <input
-                            type="number"
-                            id="gstRate"
-                            name="gstRate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="igst">IGST</label>
-                          <input
-                            type="number"
-                            id="igst"
-                            name="igst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="cgst">CGST</label>
-                          <input
-                            type="number"
-                            id="cgst"
-                            name="cgst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="sgstUtgst">SGST / UTGST</label>
-                          <input
-                            type="number"
-                            id="sgstUtgst"
-                            name="sgstUtgst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="supplyType">Supply Type</label>
-                          <select
-                            id="supplyType"
-                            name="supplyType"
-                            className="form-control"
-                            required
-                          >
-                            <option value="NON GST">NON GST</option>
-                            <option value="EXPORT">EXPORT</option>
-                            <option value="DEEMED EXPORT">DEEMED EXPORT</option>
-                            <option value="SEZ">SEZ</option>
-                            <option value="NIL RATED">NIL RATED</option>
-                            <option value="EXEMPT">EXEMPT</option>
-                          </select>
-                        </div>
-                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal custom-modal fade"
+          id="add_discount"
+          role="dialog"
+        >
+          <div className="modal-dialog modal-dialog-centered modal-md">
+            <div className="modal-content">
+              <div className="modal-header border-0 pb-0">
+                <div className="form-header modal-header-title text-start mb-0">
+                  <h4 className="mb-0">Add Tax &amp; Discount</h4>
+                </div>
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body">
+                <div className="row">
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-3">
+                      <label>Rate</label>
+                      <input
+                        type="number"
+                        className="form-control"
+                        placeholder={120}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-3">
+                      <label>Discount Amount</label>
+                      <input
+                        type="number"
+                        className="form-control"
+                        placeholder={0}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-0">
+                      <label>Tax</label>
+                      <select className="select">
+                        <option>N/A</option>
+                        <option>5%</option>
+                        <option>10%</option>
+                        <option>15%</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -2229,9 +2349,9 @@ const AddInvoicePage = () => {
                 <a
                   href="#"
                   data-bs-dismiss="modal"
-                  className="btn btn-back cancel-btn me-2"
+                  className="btn btn-primary paid-cancel-btn me-2"
                 >
-                  Cancel
+                  Back
                 </a>
                 <a
                   href="#"
@@ -2240,6 +2360,125 @@ const AddInvoicePage = () => {
                 >
                   Save
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal custom-modal fade"
+          id="delete_discount"
+          role="dialog"
+        >
+          <div className="modal-dialog modal-dialog-centered modal-md">
+            <div className="modal-content">
+              <div className="modal-body">
+                <div className="form-header">
+                  <h3>Delete Products</h3>
+                  <p>Are you sure want to delete?</p>
+                </div>
+                <div className="modal-btn delete-action">
+                  <div className="row">
+                    <div className="col-6">
+                      <a
+                        href="#"
+                        data-bs-dismiss="modal"
+                        className="btn btn-primary paid-continue-btn"
+                      >
+                        Delete
+                      </a>
+                    </div>
+                    <div className="col-6">
+                      <a
+                        href="#"
+                        data-bs-dismiss="modal"
+                        className="btn btn-primary paid-cancel-btn"
+                      >
+                        Cancel
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal custom-modal fade"
+          id="bank_details"
+          role="dialog"
+        >
+          <div className="modal-dialog modal-dialog-centered modal-md">
+            <div className="modal-content">
+              <div className="modal-header border-0 pb-0">
+                <div className="form-header modal-header-title text-start mb-0">
+                  <h4 className="mb-0">Add Bank Details</h4>
+                </div>
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div className="modal-body">
+                <div className="row">
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-3">
+                      <label>
+                        Bank Name <span className="text-danger">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter Bank Name"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-3">
+                      <label>
+                        Account Number <span className="text-danger">*</span>
+                      </label>
+                      <input
+                        type="number"
+                        className="form-control"
+                        placeholder="Enter Account Number"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-3">
+                      <label>
+                        Branch Name <span className="text-danger">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter Branch Name"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12">
+                    <div className="input-block mb-0">
+                      <label>
+                        IFSC Code <span className="text-danger">*</span>
+                      </label>
+                      <input
+                        type="number"
+                        className="form-control"
+                        placeholder="Enter IFSC COde"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="modal-footer">
+                <button type="reset" className="btn btn-primary cancel me-2">
+                  Cancel
+                </button>
+                <button type="submit" className="btn btn-primary">
+                  Save
+                </button>
               </div>
             </div>
           </div>
@@ -2812,7 +3051,6 @@ const AddInvoicePage = () => {
                 href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
                 target="_blank"
                 className="btn btn-primary w-100 bor-rad-50"
-                rel="noreferrer"
               >
                 Buy Now
               </a>
@@ -2820,9 +3058,9 @@ const AddInvoicePage = () => {
           </div>
         </div>
       </div>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/add-invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:27 GMT */}
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/add-quotations.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:34 GMT */}
     </>
   );
 };
 
-export default AddInvoicePage;
+export default AddQuotations;

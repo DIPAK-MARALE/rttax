@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 function AddCustomer() {
@@ -48,7 +49,7 @@ function AddCustomer() {
             </a>
           </div>
         </div>
-        <a href="javascript:void(0);" id="toggle_btn">
+        <a href="#" id="toggle_btn">
           <span className="toggle-bars">
             <span className="bar-icons"></span>
             <span className="bar-icons"></span>
@@ -83,26 +84,26 @@ function AddCustomer() {
               <span>English</span>
             </a>
             <div className="dropdown-menu dropdown-menu-right">
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/us.png" alt="flag" />
                 <span>English</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/fr.png" alt="flag" />
                 <span>French</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/es.png" alt="flag" />
                 <span>Spanish</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/de.png" alt="flag" />
                 <span>German</span>
               </a>
             </div>
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="javascript:void(0);" className="toggle-switch">
+            <a href="#" className="toggle-switch">
               <i className="fe fe-moon"></i>
             </a>
           </li>
@@ -121,10 +122,7 @@ function AddCustomer() {
                 <div className="notification-title">
                   Notifications <a href="notifications.html">View all</a>
                 </div>
-                <a
-                  href="javascript:void(0)"
-                  className="clear-noti d-flex align-items-center"
-                >
+                <a href="#" className="clear-noti d-flex align-items-center">
                   Mark all as read
                   <i className="fe fe-check-circle"></i>
                 </a>
@@ -260,13 +258,13 @@ function AddCustomer() {
             </div>
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="javascript:void(0);" className="win-maximize">
+            <a href="#" className="win-maximize">
               <i className="fe fe-maximize"></i>
             </a>
           </li>
           <li className="nav-item dropdown">
             <a
-              href="javascript:void(0)"
+              href="#"
               className="user-link  nav-link"
               data-bs-toggle="dropdown"
             >
@@ -747,27 +745,27 @@ function AddCustomer() {
                                     <a href="#"><i className="fe fe-file-text"></i> <span>Documentation</span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);"><i className="fe fe-lock"></i> <span>Change Log</span> <span className="badge badge-primary ms-auto">v2.0</span></a>
+                                    <a href="#"><i className="fe fe-lock"></i> <span>Change Log</span> <span className="badge badge-primary ms-auto">v2.0</span></a>
                                 </li>
                                 <li className="submenu">
-                                    <a href="javascript:void(0);"><i className="fa fa-list"></i> <span>Multi Level</span> <span className="menu-arrow"></span></a>
+                                    <a href="#"><i className="fa fa-list"></i> <span>Multi Level</span> <span className="menu-arrow"></span></a>
                                     <ul style={{ display: "none" }}>
                                         <li className="submenu">
-                                            <a href="javascript:void(0);"> <span>Level 1</span> <span className="menu-arrow"></span></a>
+                                            <a href="#"> <span>Level 1</span> <span className="menu-arrow"></span></a>
                                             <ul style={{ display: "none" }} className="level2">
-                                                <li><a href="javascript:void(0);"><span>Level 2</span></a></li>
+                                                <li><a href="#"><span>Level 2</span></a></li>
                                                 <li className="submenu">
-                                                    <a href="javascript:void(0);"> <span> Level 2</span> <span className="menu-arrow"></span></a>
+                                                    <a href="#"> <span> Level 2</span> <span className="menu-arrow"></span></a>
                                                     <ul style={{ display: "none" }} className="level3">
-                                                        <li><a href="javascript:void(0);">Level 3</a></li>
-                                                        <li><a href="javascript:void(0);">Level 3</a></li>
+                                                        <li><a href="#">Level 3</a></li>
+                                                        <li><a href="#">Level 3</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="javascript:void(0);"> <span>Level 2</span></a></li>
+                                                <li><a href="#"> <span>Level 2</span></a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0);"> <span>Level 1</span></a>
+                                            <a href="#"> <span>Level 1</span></a>
                                         </li>
                                     </ul>
                                 </li>
@@ -920,27 +918,27 @@ function AddCustomer() {
                                 <a href="#"><i className="fe fe-file-text"></i> <span>Documentation</span></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);"><i className="fe fe-lock"></i> <span>Change Log</span> <span className="badge badge-primary ms-auto">v2.0</span></a>
+                                <a href="#"><i className="fe fe-lock"></i> <span>Change Log</span> <span className="badge badge-primary ms-auto">v2.0</span></a>
                             </li>
                             <li className="submenu">
-                                <a href="javascript:void(0);"><i className="fa fa-list"></i> <span>Multi Level</span> <span className="menu-arrow"></span></a>
+                                <a href="#"><i className="fa fa-list"></i> <span>Multi Level</span> <span className="menu-arrow"></span></a>
                                 <ul style={{ display: "none" }}>
                                     <li className="submenu">
-                                        <a href="javascript:void(0);"> <span>Level 1</span> <span className="menu-arrow"></span></a>
+                                        <a href="#"> <span>Level 1</span> <span className="menu-arrow"></span></a>
                                         <ul style={{ display: "none" }} className="level2">
-                                            <li><a href="javascript:void(0);"><span>Level 2</span></a></li>
+                                            <li><a href="#"><span>Level 2</span></a></li>
                                             <li className="submenu">
-                                                <a href="javascript:void(0);"> <span> Level 2</span> <span className="menu-arrow"></span></a>
+                                                <a href="#"> <span> Level 2</span> <span className="menu-arrow"></span></a>
                                                 <ul style={{ display: "none" }} className="level3">
-                                                    <li><a href="javascript:void(0);">Level 3</a></li>
-                                                    <li><a href="javascript:void(0);">Level 3</a></li>
+                                                    <li><a href="#">Level 3</a></li>
+                                                    <li><a href="#">Level 3</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="javascript:void(0);"> <span>Level 2</span></a></li>
+                                            <li><a href="#"> <span>Level 2</span></a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"> <span>Level 1</span></a>
+                                        <a href="#"> <span>Level 1</span></a>
                                     </li>
                                 </ul>
                             </li>
