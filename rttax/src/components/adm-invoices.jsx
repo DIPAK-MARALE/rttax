@@ -1,13 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-const Invoices = () => {
+const AdmInvoices = () => {
   return (
     <>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:56:56 GMT */}
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:55:13 GMT */}
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
@@ -58,7 +57,7 @@ const Invoices = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}",
+            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}",
         }}
       />
       <link
@@ -70,6 +69,10 @@ const Invoices = () => {
         href="assets/plugins/fontawesome/css/all.min.css"
       />
       <link rel="stylesheet" href="assets/plugins/feather/feather.css" />
+      <link
+        rel="stylesheet"
+        href="assets/plugins/select2/css/select2.min.css"
+      />
       <link
         rel="stylesheet"
         href="assets/css/bootstrap-datetimepicker.min.css"
@@ -85,15 +88,16 @@ const Invoices = () => {
             href="index.html"
             className="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo"
           >
-            <img
+            {/* <img
               src="assets/img/logo.png"
               className="img-fluid logo2"
+              style={{ width: "116px", height: "30px" }}
               alt="Logo"
-            />
+            /> */}
           </a>
           <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
             <div className="logo-white">
-              <a href="/user-dashboard">
+              <a href="/admin-dashboard">
                 <img
                   src="assets/img/taxrx_logo1.png"
                   className="img-fluid logo2"
@@ -178,6 +182,11 @@ const Invoices = () => {
                   <span>German</span>
                 </a>
               </div>
+            </li>
+            <li className="nav-item  has-arrow dropdown-heads ">
+              <a href="#" className="toggle-switch">
+                <i className="fe fe-moon" />
+              </a>
             </li>
             <li className="nav-item dropdown  flag-nav dropdown-heads">
               <a
@@ -388,18 +397,16 @@ const Invoices = () => {
               <nav className="greedys sidebar-horizantal">
                 <ul className="list-inline-item list-unstyled links">
                   <li className="menu-title">
-                    <span>Main</span>
+                    <span> Main</span>
                   </li>
-                  <li className="submenu">
+                  {/* <li className="submenu">
                     <a href="#">
                       <i className="fe fe-home" /> <span> Dashboard</span>{" "}
                       <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
-                        <a href="index.html" className="active">
-                          Admin Dashboard
-                        </a>
+                        <a href="index.html">Admin Dashboard</a>
                       </li>
                     </ul>
                   </li>
@@ -419,7 +426,7 @@ const Invoices = () => {
                         <a href="inbox.html">Email</a>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="submenu">
                     <a href="#">
                       <i className="fe fe-user" /> <span> Super Admin</span>{" "}
@@ -427,7 +434,9 @@ const Invoices = () => {
                     </a>
                     <ul>
                       <li>
-                        <a href="dashboard.html">Dashboard</a>
+                        <a href="dashboard.html" className="active">
+                          Dashboard
+                        </a>
                       </li>
                       <li>
                         <a href="companies.html">Companies</a>
@@ -450,8 +459,11 @@ const Invoices = () => {
                   </li>
                   <li className="submenu">
                     <a href="#">
-                      <i className="fe fe-users" />
-                      <span>Customers</span> <span className="menu-arrow" />
+                      <span>
+                        {" "}
+                        <i className="fe fe-users" /> Customers
+                      </span>{" "}
+                      <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
@@ -500,8 +512,9 @@ const Invoices = () => {
                   </li>
                   <li className="submenu">
                     <a href="#">
+                      {" "}
                       <i className="fe fe-file-plus" />
-                      <span>Signature</span> <span className="menu-arrow" />
+                      <span>Signature </span> <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
@@ -644,7 +657,7 @@ const Invoices = () => {
                         <a href="quotation-report.html">Quotation Report</a>
                       </li>
                       <li>
-                        <a href="payment-report-2.html">Payment Report</a>
+                        <a href="payment-report.html">Payment Report</a>
                       </li>
                       <li>
                         <a href="stock-report.html">Stock Report</a>
@@ -1090,6 +1103,11 @@ const Invoices = () => {
                       <i className="fe fe-settings" /> <span>Settings</span>
                     </a>
                   </li>
+                  <li>
+                    <a href="login.html">
+                      <i className="fe fe-power" /> <span>Logout</span>
+                    </a>
+                  </li>
                   <li className="menu-title">
                     <span>Extras</span>
                   </li>
@@ -1155,31 +1173,24 @@ const Invoices = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <a href="login.html">
-                      <i className="fe fe-power" /> <span>Logout</span>
-                    </a>
-                  </li>
                 </ul>
               </nav>
               <ul className="sidebar-vertical">
                 <li className="menu-title">
                   <span> </span>
                 </li>
-                <li className="menu">
-                  <a href="/user-dashboard">
+                {/* <li className="submenu">
+                  <a href="#">
                     <i className="fe fe-home" /> <span> Dashboard</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  {/* <ul style={{ display: "none" }}>
+                  <ul style={{ display: "none" }}>
                     <li>
-                      <a className="" href="index.html">
-                        Admin Dashboard
-                      </a>
+                      <a href="index.html">Admin Dashboard</a>
                     </li>
-                  </ul> */}
+                  </ul>
                 </li>
-                {/* <li className="submenu">
+                <li className="submenu">
                   <a href="#">
                     <i className="fe fe-grid" /> <span> Applications</span>{" "}
                     <span className="menu-arrow" />
@@ -1195,40 +1206,39 @@ const Invoices = () => {
                       <a href="inbox.html">Email</a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="submenu">
-                  <a href="#" className="">
+                  <a href="/admin-dashboard" className="menu">
                     <i className="fe fe-user" /> <span> Super Admin</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  <ul>
-                    <li>
-                      <a href="dashboard.html">Dashboard</a>
-                    </li>
-                    <li>
-                      <a href="companies.html">Companies</a>
-                    </li>
-                    <li>
-                      <a href="subscription.html">Subscription</a>
-                    </li>
-                    <li>
-                      <a href="packages.html">Packages</a>
-                    </li>
-                    <li>
-                      <a href="domain.html">Domain</a>
-                    </li>
-                    <li>
-                      <a href="purchase-transaction.html">
-                        Purchase Transaction
-                      </a>
-                    </li>
-                  </ul>
-                </li> */}
-                <li className="menu-title">
-                  <span>Customer</span>
+
+                  <li>
+                    <a href="/admin-dashboard" className="menu">
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/companies">Companies</a>
+                  </li>
+                  <li>
+                    <a href="/subscription">Subscription</a>
+                  </li>
+                  <li>
+                    <a href="/packages">Packages</a>
+                  </li>
+                  <li>
+                    <a href="/domain">Domain</a>
+                  </li>
+                  <li>
+                    <a href="/purchase-transaction">Purchase Transaction</a>
+                  </li>
                 </li>
-                <li>
-                  <a href="/add-customer">
+                <li className="menu-title">
+                  <span>Customers & Vendor</span>
+                </li>
+                <li className="menu">
+                  <a href="/adm-add-customer">
                     <i className="fe fe-users" /> <span>Add Customers</span>
                   </a>
                 </li>
@@ -1238,19 +1248,20 @@ const Invoices = () => {
                   </a>
                 </li> */}
                 <li>
-                  <a href="add-vendor">
+                  <a href="/adm-add-vendor">
                     <i className="fe fe-user" /> <span>Add Vendors</span>
                   </a>
                 </li>
-                <li className="menu-title">
-                  <span>Invoices</span>
+                {/* <li className="menu-title">
+                  <span>Inventory</span>
                 </li>
-                <li className="active">
-                  <a href="/invoices">
-                    <i className="fe fe-package" /> <span> Invoices</span>{" "}
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-package" />{" "}
+                    <span> Products / Services</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  {/* <ul style={{ display: "none" }}>
+                  <ul style={{ display: "none" }}>
                     <li>
                       <a href="product-list.html">Product List</a>
                     </li>
@@ -1260,34 +1271,36 @@ const Invoices = () => {
                     <li>
                       <a href="units.html">Units</a>
                     </li>
-                  </ul> */}
+                  </ul>
                 </li>
                 <li>
-                  <a href="/add-invoice">
-                    <i className="fe fe-user" /> <span>Add Invoice</span>
+                  <a href="inventory.html">
+                    <i className="fe fe-user" /> <span>Inventory</span>
                   </a>
                 </li>
                 <li className="menu-title">
-                  <span>Finance & Accounts</span>
+                  {" "}
+                  <span>Signature</span>
                 </li>
                 <li>
-                  <a href="/expenses">
-                    <i className="fe fe-file-plus" /> <span>Expenses</span>
+                  <a href="signature-list.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>List of Signature</span>
                   </a>
-                  <a href="/add-expenses">
-                    <i className="fe fe-box" /> <span>Add Expenses</span>
+                  <a href="signature-invoice.html">
+                    <i className="fe fe-box" /> <span>Signature Invoice</span>
                   </a>
+                </li> */}
+                <li className="menu-title">
+                  <span>Invoices</span>
                 </li>
-                {/* <li className="menu-title">
-                  <span>Sales</span>
-                </li>
-                <li className="submenu">
-                  <a href="#">
+                <li className="active">
+                  <a href="/adm-invoices">
                     <i className="fe fe-file" /> <span>Invoices</span>
                     <span className="menu-arrow" />
                   </a>
-                  <ul style={{ display: "none" }}>
-                    <li>
+                  {/* <ul style={{ display: "none" }}> */}
+                  {/* <li>
                       <a href="invoices.html">Invoices List</a>
                     </li>
                     <li>
@@ -1302,10 +1315,15 @@ const Invoices = () => {
                     </li>
                     <li>
                       <a href="invoice-template.html">Invoice Templates</a>
-                    </li>
-                  </ul>
+                    </li> */}
+                  {/* </ul> */}
                 </li>
                 <li>
+                  <a href="/adm-add-invoice">
+                    <i className="fe fe-folder" /> <span>Add Invoices</span>
+                  </a>
+                </li>
+                {/* <li>
                   <a href="recurring-invoices.html">
                     <i className="fe fe-clipboard" />{" "}
                     <span>Recurring Invoices</span>
@@ -1334,21 +1352,22 @@ const Invoices = () => {
                   <a href="debit-notes.html">
                     <i className="fe fe-file-text" /> <span>Debit Notes</span>
                   </a>
-                </li>
+                </li> */}
                 <li className="menu-title">
                   <span>Finance &amp; Accounts</span>
                 </li>
-                <li>
-                  <a href="expenses.html">
+                <li className="menu">
+                  <a href="/adm-expenses">
                     <i className="fe fe-file-plus" /> <span>Expenses</span>
                   </a>
                 </li>
-                <li>
-                  <a href="payments.html">
-                    <i className="fe fe-credit-card" /> <span>Payments</span>
+                <li className="menu">
+                  <a href="/adm-add-expenses">
+                    <i className="fe fe-credit-card" />{" "}
+                    <span>Add Expenses</span>
                   </a>
                 </li>
-                <li className="menu-title">
+                {/* <li className="menu-title">
                   <span>Quotations</span>
                 </li>
                 <li>
@@ -1414,8 +1433,8 @@ const Invoices = () => {
                       <a href="profit-loss-list.html">Profit &amp; Loss</a>
                     </li>
                   </ul>
-                </li> */}
-                {/* <li className="menu-title">
+                </li>
+                <li className="menu-title">
                   <span>User Management</span>
                 </li>
                 <li>
@@ -1539,8 +1558,8 @@ const Invoices = () => {
                       <a href="ticket-details.html">Ticket Overview</a>
                     </li>
                   </ul>
-                </li>
-                <li className="menu-title">
+                </li> */}
+                {/* <li className="menu-title">
                   <span>Pages</span>
                 </li>
                 <li>
@@ -2347,7 +2366,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#view_modal"
                                   >
@@ -2356,7 +2375,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#delete_modal"
                                   >
@@ -2455,7 +2474,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#view_modal"
                                   >
@@ -2464,7 +2483,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#delete_modal"
                                   >
@@ -2563,7 +2582,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#view_modal"
                                   >
@@ -2572,7 +2591,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#delete_modal"
                                   >
@@ -2671,7 +2690,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#view_modal"
                                   >
@@ -2680,7 +2699,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#delete_modal"
                                   >
@@ -2779,7 +2798,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#view_modal"
                                   >
@@ -2788,7 +2807,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#delete_modal"
                                   >
@@ -2887,7 +2906,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#view_modal"
                                   >
@@ -2896,7 +2915,7 @@ const Invoices = () => {
                                   </a>
                                   <a
                                     className="dropdown-item"
-                                    href="javascript:void(0);"
+                                    href="#"
                                     data-bs-toggle="modal"
                                     data-bs-target="#delete_modal"
                                   >
@@ -2963,1198 +2982,9 @@ const Invoices = () => {
             </div>
           </div>
         </div>
-        <div className="toggle-sidebar">
-          <div className="sidebar-layout-filter">
-            <div className="sidebar-header">
-              <h5>Filter</h5>
-              <a href="#" className="sidebar-closes">
-                <i className="fa-regular fa-circle-xmark" />
-              </a>
-            </div>
-            <div className="sidebar-body">
-              <form action="#" autoComplete="off">
-                <div className="accordion" id="accordionMain1">
-                  <div className="card-header-new" id="headingOne">
-                    <h6 className="filter-title">
-                      <a
-                        href="#"
-                        className="w-100"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        Customer
-                        <span className="float-end">
-                          <i className="fa-solid fa-chevron-down" />
-                        </span>
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="collapseOne"
-                    className="collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample1"
-                  >
-                    <div className="card-body-chat">
-                      <div className="row">
-                        <div className="col-md-12">
-                          <div id="checkBoxes1">
-                            <div className="form-custom">
-                              <input
-                                type="text"
-                                className="form-control"
-                                id="member_search1"
-                                placeholder="Search Customer"
-                              />
-                              <span>
-                                <img
-                                  src="assets/img/icons/search.svg"
-                                  alt="img"
-                                />
-                              </span>
-                            </div>
-                            <div className="selectBox-cont">
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> John Smith
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> Johnny
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> Robert
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> Sharonda
-                              </label>
-                              <div className="view-content">
-                                <div className="viewall-One">
-                                  <label className="custom_check w-100">
-                                    <input type="checkbox" name="username" />
-                                    <span className="checkmark" /> Pricilla
-                                  </label>
-                                  <label className="custom_check w-100">
-                                    <input type="checkbox" name="username" />
-                                    <span className="checkmark" /> Randall
-                                  </label>
-                                </div>
-                                <div className="view-all">
-                                  <a href="#" className="viewall-button-One">
-                                    <span className="me-2">View All</span>
-                                    <span>
-                                      <i className="fa fa-circle-chevron-down" />
-                                    </span>
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion" id="accordionMain5">
-                  <div className="card-header-new" id="headingFive">
-                    <h6 className="filter-title">
-                      <a
-                        href="#"
-                        className="w-100"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive"
-                        aria-expanded="true"
-                        aria-controls="collapseFive"
-                      >
-                        Invoice Number
-                        <span className="float-end">
-                          <i className="fa-solid fa-chevron-down" />
-                        </span>
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="collapseFive"
-                    className="collapse"
-                    aria-labelledby="headingFive"
-                    data-bs-parent="#accordionExample5"
-                  >
-                    <div className="card-body-chat">
-                      <div className="row">
-                        <div className="col-md-12">
-                          <div id="checkBoxes5">
-                            <div className="form-custom">
-                              <input
-                                type="text"
-                                className="form-control"
-                                id="member_search"
-                                placeholder="Search Invoice"
-                              />
-                              <span>
-                                <img
-                                  src="assets/img/icons/search.svg"
-                                  alt="img"
-                                />
-                              </span>
-                            </div>
-                            <div className="selectBox-cont">
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> 4987
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> 4988
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> 4989
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> 4990
-                              </label>
-                              <div className="view-content">
-                                <div className="viewall-One">
-                                  <label className="custom_check w-100">
-                                    <input type="checkbox" name="username" />
-                                    <span className="checkmark" /> 4991
-                                  </label>
-                                  <label className="custom_check w-100">
-                                    <input type="checkbox" name="username" />
-                                    <span className="checkmark" /> 4992
-                                  </label>
-                                  <label className="custom_check w-100">
-                                    <input type="checkbox" name="username" />
-                                    <span className="checkmark" /> 4993
-                                  </label>
-                                </div>
-                                <div className="view-all">
-                                  <a href="#" className="viewall-button-One">
-                                    <span className="me-2">View All</span>
-                                    <span>
-                                      <i className="fa fa-circle-chevron-down" />
-                                    </span>
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion" id="accordionMain2">
-                  <div className="card-header-new" id="headingTwo">
-                    <h6 className="filter-title">
-                      <a
-                        href="#"
-                        className="w-100 collapsed"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="true"
-                        aria-controls="collapseTwo"
-                      >
-                        Select Date
-                        <span className="float-end">
-                          <i className="fa-solid fa-chevron-down" />
-                        </span>
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="collapseTwo"
-                    className="collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample2"
-                  >
-                    <div className="card-body-chat">
-                      <div className="input-block mb-3">
-                        <label className="form-control-label">From</label>
-                        <div className="cal-icon">
-                          <input
-                            type="email"
-                            className="form-control datetimepicker"
-                            placeholder="DD-MM-YYYY"
-                          />
-                        </div>
-                      </div>
-                      <div className="input-block mb-3">
-                        <label className="form-control-label">To</label>
-                        <div className="cal-icon">
-                          <input
-                            type="email"
-                            className="form-control datetimepicker"
-                            placeholder="DD-MM-YYYY"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion" id="accordionMain3">
-                  <div className="card-header-new" id="headingThree">
-                    <h6 className="filter-title">
-                      <a
-                        href="#"
-                        className="w-100 collapsed"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
-                        aria-expanded="true"
-                        aria-controls="collapseThree"
-                      >
-                        By Status
-                        <span className="float-end">
-                          <i className="fa-solid fa-chevron-down" />
-                        </span>
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="collapseThree"
-                    className="collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample3"
-                  >
-                    <div className="card-body-chat">
-                      <div id="checkBoxes2">
-                        <div className="selectBox-cont">
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="bystatus" />
-                            <span className="checkmark" /> All Invoices
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="bystatus" />
-                            <span className="checkmark" /> Paid
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="bystatus" />
-                            <span className="checkmark" /> Overdue
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="bystatus" />
-                            <span className="checkmark" /> cancelled
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="bystatus" />
-                            <span className="checkmark" /> Partially Paid
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="bystatus" />
-                            <span className="checkmark" /> Unpaid
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion accordion-last" id="accordionMain4">
-                  <div className="card-header-new" id="headingFour">
-                    <h6 className="filter-title">
-                      <a
-                        href="#"
-                        className="w-100 collapsed"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour"
-                        aria-expanded="true"
-                        aria-controls="collapseFour"
-                      >
-                        Category
-                        <span className="float-end">
-                          <i className="fa-solid fa-chevron-down" />
-                        </span>
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="collapseFour"
-                    className="collapse"
-                    aria-labelledby="headingFour"
-                    data-bs-parent="#accordionExample4"
-                  >
-                    <div className="card-body-chat">
-                      <div id="checkBoxes3">
-                        <div className="selectBox-cont">
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="category" />
-                            <span className="checkmark" /> Advertising
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="category" />
-                            <span className="checkmark" /> Food
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="category" />
-                            <span className="checkmark" /> Marketing
-                          </label>
-                          <label className="custom_check w-100">
-                            <input type="checkbox" name="category" />
-                            <span className="checkmark" /> Repairs
-                          </label>
-                          <div className="view-content">
-                            <div className="viewall-Two">
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> Software
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" />
-                                Stationary
-                              </label>
-                              <label className="custom_check w-100">
-                                <input type="checkbox" name="username" />
-                                <span className="checkmark" /> Designing
-                              </label>
-                            </div>
-                            <div className="view-all">
-                              <a href="#" className="viewall-button-Two">
-                                <span className="me-2">View All</span>
-                                <span>
-                                  <i className="fa fa-circle-chevron-down" />
-                                </span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="filter-buttons">
-                  <button
-                    type="submit"
-                    className="d-inline-flex align-items-center justify-content-center btn w-100 btn-primary"
-                  >
-                    Apply
-                  </button>
-                  <button
-                    type="submit"
-                    className="d-inline-flex align-items-center justify-content-center btn w-100 btn-secondary"
-                  >
-                    Reset
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div className="modal custom-modal fade" id="view_modal" role="dialog">
-          <div className="modal-dialog modal-dialog-centered modal-xl">
-            <div className="modal-content view-delivery-challans">
-              <div className="modal-header border-0 pb-0 justify-content-end d-flex align-items-center">
-                <div className="file-link mb-0 ">
-                  <button className="download_btn download-link">
-                    <i
-                      className="fa fa-cloud-download me-1"
-                      aria-hidden="true"
-                    />{" "}
-                    <span>Download</span>
-                  </button>
-                  <a href="javascript:window.print()" className="print-link">
-                    <i className="fa fa-print me-1" aria-hidden="true" />{" "}
-                    <span className="">Print</span>
-                  </a>
-                </div>
-              </div>
-              <div className="modal-body invoice-one">
-                <div className="invoice-wrapper download_section">
-                  <div className="inv-content">
-                    <div className="invoice-header p-0">
-                      <div className="inv-header-left">
-                        <h4>DELIVERY CHALLAN</h4>
-                        <h5>Dreamguys Technologies Pvt Ltd</h5>
-                        <h6>Mobile 8072687299</h6>
-                      </div>
-                      <div className="inv-header-right">
-                        <h3 className="mb-3">Delivery Challan</h3>
-                        <h6 className="mb-1">
-                          Invoice # : <span> INV-1</span>
-                        </h6>
-                        <h6 className="mb-1">
-                          Invoice Date :<span> 07-10-2023</span>
-                        </h6>
-                        <p>
-                          Due Date : <span>07-12-2023</span>
-                        </p>
-                      </div>
-                    </div>
-                    <span className="line my-4" />
-                    <div className="patient-infos">
-                      <div className="row">
-                        <div className="col-sm-4">
-                          <div className=" patient-detailed">
-                            <div className="bill-add">Customer Details :</div>
-                            <div className="customer-name">
-                              <h4 className="mb-1">Test Customer</h4>
-                              <h4 className="mb-1">Test Company</h4>
-                              <p>
-                                <span>GSTIN : ACWR000054321</span>
-                              </p>
-                              <p>
-                                <span>Phone Number : +91 1234567890</span>
-                              </p>
-                              <p>
-                                <span>
-                                  Email :{" "}
-                                  <a
-                                    href="https://kanakku.dreamstechnologies.com/cdn-cgi/l/email-protection"
-                                    className="__cf_email__"
-                                    data-cfemail="d1b5b4bdb8a7b491b4a9b0bca1bdb4ffb2bebc"
-                                  >
-                                    [email&nbsp;protected]
-                                  </a>
-                                </span>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div className=" patient-detailed">
-                            <div className="bill-add">Billing Address :</div>
-                            <div className="add-details">
-                              Walter Roberson <br /> 299 Star Trek Drive, Panama
-                              City,
-                              <br /> Florida, 32405,
-                              <br /> USA
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-sm-4">
-                          <div className=" patient-detailed">
-                            <div className="bill-add">Shipping Address :</div>
-                            <div className="add-details">
-                              Walter Roberson <br /> 299 Star Trek Drive, Panama
-                              City,
-                              <br /> Florida, 32405,
-                              <br /> USA
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="reference">
-                        <h4>Reference</h4>
-                        <p>
-                          Keep the Delivery Challan for reference in the future.
-                          Now it's simple to create an invoice, download it
-                        </p>
-                        <hr />
-                      </div>
-                    </div>
-                    <div className="invoice-table">
-                      <div className="table-responsive">
-                        <table>
-                          <thead>
-                            <tr className="ecommercetable">
-                              <th className="table_width_1">#</th>
-                              <th>Item</th>
-                              <th className="text-end">Quantity</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td className="text-start">
-                                Accounting Software Maintainence
-                              </td>
-                              <td className="text-end">3</td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td className="text-start">Man Power Support</td>
-                              <td className="text-end">1</td>
-                            </tr>
-                            <tr>
-                              <td>3</td>
-                              <td className="text-start">Transportation Fee</td>
-                              <td className="text-end">2</td>
-                            </tr>
-                            <tr>
-                              <td>4</td>
-                              <td className="text-start">
-                                Spars Replacement Charges
-                              </td>
-                              <td className="text-end">5</td>
-                            </tr>
-                            <tr>
-                              <td>5</td>
-                              <td className="text-start">Materials Handling</td>
-                              <td className="text-end">1</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <h5 className="text-end">Total Quantity : 12</h5>
-                      </div>
-                    </div>
-                    <div className="authorization text-end">
-                      <h6>For YOUR BUSINESS NAME</h6>
-                      <img
-                        src="assets/img/signature.png"
-                        className="my-3"
-                        alt="signature-img"
-                      />
-                      <h6>Authorized Signatory</h6>
-                    </div>
-                    <div className="row">
-                      <div className="col-12">
-                        <div className="terms-condition p-0">
-                          <span>Terms &amp; Conditions:</span>
-                          <ol>
-                            <li>
-                              This is a GST based invoice bill, Which is
-                              applicable for TDS Deduction
-                            </li>
-                            <li>
-                              We are not the manufactures, company will stand
-                              for warranty as per their terms and conditions.
-                            </li>
-                          </ol>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="text-center powered">
-                    <h6 className="mt-4 mb-3">Powered By</h6>
-                    <a href="#">
-                      <img
-                        className="logo-lightmode"
-                        src="assets/img/logo.png"
-                        alt="Logo"
-                      />
-                      <img
-                        className="logo-darkmode"
-                        src="assets/img/logo-white.png"
-                        alt="Logo"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="modal custom-modal fade"
-          id="delete_modal"
-          role="dialog"
-        >
-          <div className="modal-dialog modal-dialog-centered modal-md">
-            <div className="modal-content">
-              <div className="modal-body">
-                <div className="form-header">
-                  <h3>Delete Invoice</h3>
-                  <p>Are you sure want to delete?</p>
-                </div>
-                <div className="modal-btn delete-action">
-                  <div className="row">
-                    <div className="col-6">
-                      <button
-                        type="reset"
-                        data-bs-dismiss="modal"
-                        className="w-100 btn btn-primary paid-continue-btn"
-                      >
-                        Delete
-                      </button>
-                    </div>
-                    <div className="col-6">
-                      <button
-                        type="submit"
-                        data-bs-dismiss="modal"
-                        className="w-100 btn btn-primary paid-cancel-btn"
-                      >
-                        Cancel
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      <div className="settings-icon">
-        <span
-          data-bs-toggle="offcanvas"
-          data-bs-target="#theme-settings-offcanvas"
-          aria-controls="theme-settings-offcanvas"
-        >
-          <img
-            src="assets/img/icons/siderbar-icon2.svg"
-            className="feather-five"
-            alt="layout"
-          />
-        </span>
-      </div>
-      <div
-        className="offcanvas offcanvas-end border-0 "
-        tabIndex={-1}
-        id="theme-settings-offcanvas"
-      >
-        <div className="sidebar-headerset">
-          <div className="sidebar-headersets">
-            <h2>Customizer</h2>
-            <h3>Customize your overview Page layout</h3>
-          </div>
-          <div className="sidebar-headerclose">
-            <a data-bs-dismiss="offcanvas" aria-label="Close">
-              <img src="assets/img/close.png" alt="img" />
-            </a>
-          </div>
-        </div>
-        <div className="offcanvas-body p-0">
-          <div data-simplebar="" className="h-100">
-            <div className="settings-mains">
-              <div className="layout-head">
-                <h5>Layout</h5>
-                <h6>Choose your layout</h6>
-              </div>
-              <div className="row">
-                <div className="col-4">
-                  <div className="form-check card-radio p-0">
-                    <input
-                      id="customizer-layout01"
-                      name="data-layout"
-                      type="radio"
-                      defaultValue="vertical"
-                      className="form-check-input"
-                    />
-                    <label
-                      className="form-check-label avatar-md w-100"
-                      htmlFor="customizer-layout01"
-                    >
-                      <img src="assets/img/vertical.png" alt="img" />
-                    </label>
-                  </div>
-                  <h5 className="fs-13 text-center mt-2">Vertical</h5>
-                </div>
-                <div className="col-4">
-                  <div className="form-check card-radio p-0">
-                    <input
-                      id="customizer-layout02"
-                      name="data-layout"
-                      type="radio"
-                      defaultValue="horizontal"
-                      className="form-check-input"
-                    />
-                    <label
-                      className="form-check-label  avatar-md w-100"
-                      htmlFor="customizer-layout02"
-                    >
-                      <img src="assets/img/horizontal.png" alt="img" />
-                    </label>
-                  </div>
-                  <h5 className="fs-13 text-center mt-2">Horizontal</h5>
-                </div>
-                <div className="col-4 d-none">
-                  <div className="form-check card-radio p-0">
-                    <input
-                      id="customizer-layout03"
-                      name="data-layout"
-                      type="radio"
-                      defaultValue="twocolumn"
-                      className="form-check-input"
-                    />
-                    <label
-                      className="form-check-label  avatar-md w-100"
-                      htmlFor="customizer-layout03"
-                    >
-                      <img src="assets/img/two-col.png" alt="img" />
-                    </label>
-                  </div>
-                  <h5 className="fs-13 text-center mt-2">Two Column</h5>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-between pt-3">
-                <div className="layout-head mb-0">
-                  <h5>RTL Mode</h5>
-                  <h6>Change Language Direction.</h6>
-                </div>
-                <div className="active-switch">
-                  <div className="status-toggle">
-                    <input id="rtl" className="check" type="checkbox" />
-                    <label htmlFor="rtl" className="checktoggle checkbox-bg">
-                      checkbox
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div className="layout-head pt-3">
-                <h5>Color Scheme</h5>
-                <h6>Choose Light or Dark Scheme.</h6>
-              </div>
-              <div className="colorscheme-cardradio">
-                <div className="row">
-                  <div className="col-4">
-                    <div className="form-check card-radio blue  p-0 ">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-mode"
-                        id="layout-mode-blue"
-                        defaultValue="blue"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100"
-                        htmlFor="layout-mode-blue"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2 mb-2">Blue</h5>
-                  </div>
-                  <div className="col-4">
-                    <div className="form-check card-radio p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-mode"
-                        id="layout-mode-light"
-                        defaultValue="light"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100"
-                        htmlFor="layout-mode-light"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2 mb-2">Light</h5>
-                  </div>
-                  <div className="col-4">
-                    <div className="form-check card-radio dark  p-0 ">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-mode"
-                        id="layout-mode-dark"
-                        defaultValue="dark"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100 "
-                        htmlFor="layout-mode-dark"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2 mb-2">Dark</h5>
-                  </div>
-                  <div className="col-4 d-none">
-                    <div className="form-check card-radio p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-mode"
-                        id="layout-mode-orange"
-                        defaultValue="orange"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100 "
-                        htmlFor="layout-mode-orange"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2 mb-2">Orange</h5>
-                  </div>
-                  <div className="col-4 d-none">
-                    <div className="form-check card-radio maroon p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-mode"
-                        id="layout-mode-maroon"
-                        defaultValue="maroon"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100 "
-                        htmlFor="layout-mode-maroon"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2 mb-2">Brink Pink</h5>
-                  </div>
-                  <div className="col-4 d-none">
-                    <div className="form-check card-radio purple p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-mode"
-                        id="layout-mode-purple"
-                        defaultValue="purple"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100 "
-                        htmlFor="layout-mode-purple"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2 mb-2">Green</h5>
-                  </div>
-                </div>
-              </div>
-              <div id="layout-width">
-                <div className="layout-head pt-3">
-                  <h5>Layout Width</h5>
-                  <h6>Choose Fluid or Boxed layout.</h6>
-                </div>
-                <div className="row">
-                  <div className="col-4">
-                    <div className="form-check card-radio p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-width"
-                        id="layout-width-fluid"
-                        defaultValue="fluid"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100"
-                        htmlFor="layout-width-fluid"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Fluid</h5>
-                  </div>
-                  <div className="col-4">
-                    <div className="form-check card-radio p-0 ">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-width"
-                        id="layout-width-boxed"
-                        defaultValue="boxed"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100 px-2"
-                        htmlFor="layout-width-boxed"
-                      >
-                        <img src="assets/img/boxed.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Boxed</h5>
-                  </div>
-                </div>
-              </div>
-              <div id="layout-position" className="d-none">
-                <div className="layout-head pt-3">
-                  <h5>Layout Position</h5>
-                  <h6>Choose Fixed or Scrollable Layout Position.</h6>
-                </div>
-                <div
-                  className="btn-group bor-rad-50 overflow-hidden radio"
-                  role="group"
-                >
-                  <input
-                    type="radio"
-                    className="btn-check"
-                    name="data-layout-position"
-                    id="layout-position-fixed"
-                    defaultValue="fixed"
-                  />
-                  <label
-                    className="btn btn-light w-sm"
-                    htmlFor="layout-position-fixed"
-                  >
-                    Fixed
-                  </label>
-                  <input
-                    type="radio"
-                    className="btn-check"
-                    name="data-layout-position"
-                    id="layout-position-scrollable"
-                    defaultValue="scrollable"
-                  />
-                  <label
-                    className="btn btn-light w-sm ms-0"
-                    htmlFor="layout-position-scrollable"
-                  >
-                    Scrollable
-                  </label>
-                </div>
-              </div>
-              <div className="layout-head pt-3">
-                <h5>Topbar Color</h5>
-                <h6>Choose Light or Dark Topbar Color.</h6>
-              </div>
-              <div className="row">
-                <div className="col-4">
-                  <div className="form-check card-radio  p-0">
-                    <input
-                      className="form-check-input"
-                      type="radio"
-                      name="data-topbar"
-                      id="topbar-color-light"
-                      defaultValue="light"
-                    />
-                    <label
-                      className="form-check-label avatar-md w-100"
-                      htmlFor="topbar-color-light"
-                    >
-                      <img src="assets/img/vertical.png" alt="img" />
-                    </label>
-                  </div>
-                  <h5 className="fs-13 text-center mt-2">Light</h5>
-                </div>
-                <div className="col-4">
-                  <div className="form-check card-radio p-0">
-                    <input
-                      className="form-check-input"
-                      type="radio"
-                      name="data-topbar"
-                      id="topbar-color-dark"
-                      defaultValue="dark"
-                    />
-                    <label
-                      className="form-check-label  avatar-md w-100"
-                      htmlFor="topbar-color-dark"
-                    >
-                      <img src="assets/img/dark.png" alt="img" />
-                    </label>
-                  </div>
-                  <h5 className="fs-13 text-center mt-2">Dark</h5>
-                </div>
-              </div>
-              <div id="sidebar-size">
-                <div className="layout-head pt-3">
-                  <h5>Sidebar Size</h5>
-                  <h6>Choose a size of Sidebar.</h6>
-                </div>
-                <div className="row">
-                  <div className="col-4">
-                    <div className="form-check sidebar-setting card-radio  p-0 ">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-sidebar-size"
-                        id="sidebar-size-default"
-                        defaultValue="lg"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100"
-                        htmlFor="sidebar-size-default"
-                      >
-                        <img src="assets/img/vertical.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Default</h5>
-                  </div>
-                  <div className="col-4 d-none">
-                    <div className="form-check sidebar-setting card-radio p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-sidebar-size"
-                        id="sidebar-size-compact"
-                        defaultValue="md"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100"
-                        htmlFor="sidebar-size-compact"
-                      >
-                        <img src="assets/img/compact.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Compact</h5>
-                  </div>
-                  <div className="col-4 ">
-                    <div className="form-check sidebar-setting card-radio p-0 ">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-sidebar-size"
-                        id="sidebar-size-small-hover"
-                        defaultValue="sm-hover"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100"
-                        htmlFor="sidebar-size-small-hover"
-                      >
-                        <img src="assets/img/small-hover.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Small Sidebar</h5>
-                  </div>
-                </div>
-              </div>
-              <div id="sidebar-view">
-                <div className="layout-head pt-3">
-                  <h5>Sidebar View</h5>
-                  <h6>Choose Default or Detached Sidebar view.</h6>
-                </div>
-                <div className="row">
-                  <div className="col-4">
-                    <div className="form-check sidebar-setting card-radio  p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-style"
-                        id="sidebar-view-default"
-                        defaultValue="default"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100"
-                        htmlFor="sidebar-view-default"
-                      >
-                        <img src="assets/img/compact.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Default</h5>
-                  </div>
-                  <div className="col-4">
-                    <div className="form-check sidebar-setting card-radio p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-layout-style"
-                        id="sidebar-view-detached"
-                        defaultValue="detached"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100"
-                        htmlFor="sidebar-view-detached"
-                      >
-                        <img src="assets/img/detached.png" alt="img" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Detached</h5>
-                  </div>
-                </div>
-              </div>
-              <div id="sidebar-color">
-                <div className="layout-head pt-3">
-                  <h5>Sidebar Color</h5>
-                  <h6>Choose a color of Sidebar.</h6>
-                </div>
-                <div className="row">
-                  <div className="col-4">
-                    <div
-                      className="form-check sidebar-setting card-radio p-0"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseBgGradient.show"
-                    >
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-sidebar"
-                        id="sidebar-color-light"
-                        defaultValue="light"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100"
-                        htmlFor="sidebar-color-light"
-                      >
-                        <span className="bg-light bg-sidebarcolor" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Light</h5>
-                  </div>
-                  <div className="col-4">
-                    <div
-                      className="form-check sidebar-setting card-radio p-0"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseBgGradient.show"
-                    >
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-sidebar"
-                        id="sidebar-color-dark"
-                        defaultValue="dark"
-                      />
-                      <label
-                        className="form-check-label  avatar-md w-100"
-                        htmlFor="sidebar-color-dark"
-                      >
-                        <span className="bg-darks bg-sidebarcolor" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Dark</h5>
-                  </div>
-                  <div className="col-4 d-none">
-                    <div className="form-check sidebar-setting card-radio p-0">
-                      <input
-                        className="form-check-input"
-                        type="radio"
-                        name="data-sidebar"
-                        id="sidebar-color-gradient"
-                        defaultValue="gradient"
-                      />
-                      <label
-                        className="form-check-label avatar-md w-100"
-                        htmlFor="sidebar-color-gradient"
-                      >
-                        <span className="bg-gradients bg-sidebarcolor" />
-                      </label>
-                    </div>
-                    <h5 className="fs-13 text-center mt-2">Gradient</h5>
-                  </div>
-                  <div className="col-4 d-none">
-                    <button
-                      className="btn btn-link avatar-md w-100 p-0 overflow-hidden border collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseBgGradient"
-                      aria-expanded="false"
-                    >
-                      <span className="d-flex gap-1 h-100">
-                        <span className="flex-shrink-0">
-                          <span className="bg-vertical-gradient d-flex h-100 flex-column gap-1 p-1">
-                            <span className="d-block p-1 px-2 bg-soft-light rounded mb-2" />
-                            <span className="d-block p-1 px-2 pb-0 bg-soft-light" />
-                            <span className="d-block p-1 px-2 pb-0 bg-soft-light" />
-                            <span className="d-block p-1 px-2 pb-0 bg-soft-light" />
-                          </span>
-                        </span>
-                        <span className="flex-grow-1">
-                          <span className="d-flex h-100 flex-column">
-                            <span className="bg-light d-block p-1" />
-                            <span className="bg-light d-block p-1 mt-auto" />
-                          </span>
-                        </span>
-                      </span>
-                    </button>
-                    <h5 className="fs-13 text-center mt-2">Gradient</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="offcanvas-footer border-top p-3 text-center">
-          <div className="row">
-            <div className="col-6">
-              <button
-                type="button"
-                className="btn btn-light w-100 bor-rad-50"
-                id="reset-layout"
-              >
-                Reset
-              </button>
-            </div>
-            <div className="col-6">
-              <a
-                href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
-                target="_blank"
-                className="btn btn-primary w-100 bor-rad-50"
-                rel="noreferrer"
-              >
-                Buy Now
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/invoices.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:58:05 GMT */}
     </>
   );
 };
 
-export default Invoices;
+export default AdmInvoices;

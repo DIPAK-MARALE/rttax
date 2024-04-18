@@ -1,10 +1,12 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "../assets/css/companies.scss";
 
 const Companies = () => {
   return (
     <>
-      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/companies.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:57:14 GMT */}
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:55:13 GMT */}
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
@@ -55,7 +57,7 @@ const Companies = () => {
         type="text/css"
         dangerouslySetInnerHTML={{
           __html:
-            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}",
+            "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}",
         }}
       />
       <link
@@ -73,14 +75,12 @@ const Companies = () => {
       />
       <link
         rel="stylesheet"
-        href="assets/plugins/intltelinput/css/intlTelInput.html"
-      />
-      <link rel="stylesheet" href="assets/plugins/intltelinput/css/demo.html" />
-      <link
-        rel="stylesheet"
         href="assets/css/bootstrap-datetimepicker.min.css"
       />
-      <link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css" />
+      <link
+        rel="stylesheet"
+        href="assets/plugins/datatables/datatables.min.css"
+      />
       <link rel="stylesheet" href="assets/css/style.css" />
       <div className="main-wrapper">
         <div className="header header-one">
@@ -88,18 +88,20 @@ const Companies = () => {
             href="index.html"
             className="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo"
           >
-            <img
+            {/* <img
               src="assets/img/logo.png"
               className="img-fluid logo2"
+              style={{ width: "116px", height: "30px" }}
               alt="Logo"
-            />
+            /> */}
           </a>
           <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
             <div className="logo-white">
               <a href="/admin-dashboard">
                 <img
-                  src="assets/img/logo.png"
-                  className="img-fluid logo-blue"
+                  src="assets/img/taxrx_logo1.png"
+                  className="img-fluid logo2"
+                  style={{ width: "200px", height: "90px" }}
                   alt="Logo"
                 />
               </a>
@@ -128,7 +130,7 @@ const Companies = () => {
               </a>
             </div>
           </div>
-          <a href="javascript:void(0);" id="toggle_btn">
+          <a href="#" id="toggle_btn">
             <span className="toggle-bars">
               <span className="bar-icons" />
               <span className="bar-icons" />
@@ -163,26 +165,26 @@ const Companies = () => {
                 <span>English</span>
               </a>
               <div className="dropdown-menu dropdown-menu-end">
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/us.png" alt="flag" />
                   <span>English</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/fr.png" alt="flag" />
                   <span>French</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/es.png" alt="flag" />
                   <span>Spanish</span>
                 </a>
-                <a href="javascript:void(0);" className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/de.png" alt="flag" />
                   <span>German</span>
                 </a>
               </div>
             </li>
             <li className="nav-item  has-arrow dropdown-heads ">
-              <a href="javascript:void(0);" className="toggle-switch">
+              <a href="#" className="toggle-switch">
                 <i className="fe fe-moon" />
               </a>
             </li>
@@ -201,12 +203,8 @@ const Companies = () => {
                   <div className="notification-title">
                     Notifications <a href="notifications.html">View all</a>
                   </div>
-                  <a
-                    href="javascript:void(0)"
-                    className="clear-noti d-flex align-items-center"
-                  >
-                    Mark all as read
-                    <i className="fe fe-check-circle" />
+                  <a href="#" className="clear-noti d-flex align-items-center">
+                    Mark all as read <i className="fe fe-check-circle" />
                   </a>
                 </div>
                 <div className="noti-content">
@@ -223,7 +221,7 @@ const Companies = () => {
                           </span>
                           <div className="media-body">
                             <p className="noti-details">
-                              <span className="noti-title">Lex Murphy</span>
+                              <span className="noti-title">Lex Murphy</span>{" "}
                               requested access to{" "}
                               <span className="noti-title">
                                 UNIX directory tree hierarchy
@@ -283,7 +281,7 @@ const Companies = () => {
                           </span>
                           <div className="media-body">
                             <p className="noti-details">
-                              <span className="noti-title">Dennis Nedry</span>
+                              <span className="noti-title">Dennis Nedry</span>{" "}
                               commented on{" "}
                               <span className="noti-title">
                                 {" "}
@@ -317,7 +315,7 @@ const Companies = () => {
                           </span>
                           <div className="media-body">
                             <p className="noti-details">
-                              <span className="noti-title">John Hammond</span>
+                              <span className="noti-title">John Hammond</span>{" "}
                               created{" "}
                               <span className="noti-title">
                                 Isla Nublar SOC2 compliance report
@@ -340,19 +338,19 @@ const Companies = () => {
               </div>
             </li>
             <li className="nav-item  has-arrow dropdown-heads ">
-              <a href="javascript:void(0);" className="win-maximize">
+              <a href="#" className="win-maximize">
                 <i className="fe fe-maximize" />
               </a>
             </li>
             <li className="nav-item dropdown">
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="user-link  nav-link"
                 data-bs-toggle="dropdown"
               >
                 <span className="user-img">
                   <img
-                    src="assets/img/profiles/avatar-20.jpg"
+                    src="assets/img/profiles/avatar-07.jpg"
                     alt="img"
                     className="profilesidebar"
                   />
@@ -399,9 +397,9 @@ const Companies = () => {
               <nav className="greedys sidebar-horizantal">
                 <ul className="list-inline-item list-unstyled links">
                   <li className="menu-title">
-                    <span>Main</span>
+                    <span> Main</span>
                   </li>
-                  <li className="submenu">
+                  {/* <li className="submenu">
                     <a href="#">
                       <i className="fe fe-home" /> <span> Dashboard</span>{" "}
                       <span className="menu-arrow" />
@@ -428,7 +426,7 @@ const Companies = () => {
                         <a href="inbox.html">Email</a>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="submenu">
                     <a href="#">
                       <i className="fe fe-user" /> <span> Super Admin</span>{" "}
@@ -436,9 +434,12 @@ const Companies = () => {
                     </a>
                     <ul>
                       <li>
-                        <a href="companies.html" className="active">
-                          Companies
+                        <a href="dashboard.html" className="active">
+                          Dashboard
                         </a>
+                      </li>
+                      <li>
+                        <a href="companies.html">Companies</a>
                       </li>
                       <li>
                         <a href="subscription.html">Subscription</a>
@@ -458,8 +459,11 @@ const Companies = () => {
                   </li>
                   <li className="submenu">
                     <a href="#">
-                      <i className="fe fe-users" />
-                      <span>Customers</span> <span className="menu-arrow" />
+                      <span>
+                        {" "}
+                        <i className="fe fe-users" /> Customers
+                      </span>{" "}
+                      <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
@@ -479,6 +483,9 @@ const Companies = () => {
                         </a>
                       </li>
                     </ul>
+                  </li>
+                  <li className="menu-title">
+                    <span>Inventory</span>
                   </li>
                   <li className="submenu">
                     <a href="#">
@@ -505,8 +512,9 @@ const Companies = () => {
                   </li>
                   <li className="submenu">
                     <a href="#">
+                      {" "}
                       <i className="fe fe-file-plus" />
-                      <span>Signature</span> <span className="menu-arrow" />
+                      <span>Signature </span> <span className="menu-arrow" />
                     </a>
                     <ul>
                       <li>
@@ -1095,6 +1103,11 @@ const Companies = () => {
                       <i className="fe fe-settings" /> <span>Settings</span>
                     </a>
                   </li>
+                  <li>
+                    <a href="login.html">
+                      <i className="fe fe-power" /> <span>Logout</span>
+                    </a>
+                  </li>
                   <li className="menu-title">
                     <span>Extras</span>
                   </li>
@@ -1105,7 +1118,7 @@ const Companies = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">
+                    <a href="#">
                       <i className="fe fe-lock" /> <span>Change Log</span>{" "}
                       <span className="badge badge-primary ms-auto">
                         v2.0.4
@@ -1113,39 +1126,39 @@ const Companies = () => {
                     </a>
                   </li>
                   <li className="submenu">
-                    <a href="javascript:void(0);">
+                    <a href="#">
                       <i className="fa fa-list" /> <span>Multi Level</span>{" "}
                       <span className="menu-arrow" />
                     </a>
                     <ul style={{ display: "none" }}>
                       <li className="submenu">
-                        <a href="javascript:void(0);">
+                        <a href="#">
                           {" "}
                           <span>Level 1</span> <span className="menu-arrow" />
                         </a>
                         <ul style={{ display: "none" }} className="level2">
                           <li>
-                            <a href="javascript:void(0);">
+                            <a href="#">
                               <span>Level 2</span>
                             </a>
                           </li>
                           <li className="submenu">
-                            <a href="javascript:void(0);">
+                            <a href="#">
                               {" "}
                               <span> Level 2</span>{" "}
                               <span className="menu-arrow" />
                             </a>
                             <ul style={{ display: "none" }} className="level3">
                               <li>
-                                <a href="javascript:void(0);">Level 3</a>
+                                <a href="#">Level 3</a>
                               </li>
                               <li>
-                                <a href="javascript:void(0);">Level 3</a>
+                                <a href="#">Level 3</a>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="javascript:void(0);">
+                            <a href="#">
                               {" "}
                               <span>Level 2</span>
                             </a>
@@ -1153,23 +1166,18 @@ const Companies = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="javascript:void(0);">
+                        <a href="#">
                           {" "}
                           <span>Level 1</span>
                         </a>
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <a href="login.html">
-                      <i className="fe fe-power" /> <span>Logout</span>
-                    </a>
-                  </li>
                 </ul>
               </nav>
               <ul className="sidebar-vertical">
                 <li className="menu-title">
-                  <span></span>
+                  <span> </span>
                 </li>
                 {/* <li className="submenu">
                   <a href="#">
@@ -1200,18 +1208,18 @@ const Companies = () => {
                   </ul>
                 </li> */}
                 <li className="submenu">
-                  <a href="/admin-dashboard" className="">
+                  <a href="/admin-dashboard" className="menu">
                     <i className="fe fe-user" /> <span> Super Admin</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  {/* <ul> */}
+
                   <li>
-                    <a href="/admin-dashboard">Dashboard</a>
-                  </li>
-                  <li>
-                    <a href="/companies" className="active">
-                      Companies
+                    <a href="/admin-dashboard" className="manu">
+                      Dashboard
                     </a>
+                  </li>
+                  <li className="active">
+                    <a href="/companies">Companies</a>
                   </li>
                   <li>
                     <a href="/subscription">Subscription</a>
@@ -1225,27 +1233,26 @@ const Companies = () => {
                   <li>
                     <a href="/purchase-transaction">Purchase Transaction</a>
                   </li>
-                  {/* </ul> */}
                 </li>
                 <li className="menu-title">
-                  <span>Customers</span>
+                  <span>Customers & Vendor</span>
                 </li>
-                <li>
-                  <a href="/customer-registration">
-                    <i className="fe fe-users" /> <span>Customers</span>
+                <li className="menu">
+                  <a href="/adm-add-customer">
+                    <i className="fe fe-users" /> <span>Add Customers</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="customer-details.html">
                     <i className="fe fe-file" /> <span>Customer Details</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="vendors.html">
-                    <i className="fe fe-user" /> <span>Vendors</span>
+                  <a href="/adm-add-vendor">
+                    <i className="fe fe-user" /> <span>Add Vendors</span>
                   </a>
                 </li>
-                <li className="menu-title">
+                {/* <li className="menu-title">
                   <span>Inventory</span>
                 </li>
                 <li className="submenu">
@@ -1272,6 +1279,7 @@ const Companies = () => {
                   </a>
                 </li>
                 <li className="menu-title">
+                  {" "}
                   <span>Signature</span>
                 </li>
                 <li>
@@ -1282,17 +1290,17 @@ const Companies = () => {
                   <a href="signature-invoice.html">
                     <i className="fe fe-box" /> <span>Signature Invoice</span>
                   </a>
-                </li>
+                </li> */}
                 <li className="menu-title">
-                  <span>Sales</span>
+                  <span>Invoices</span>
                 </li>
                 <li className="submenu">
-                  <a href="#">
+                  <a href="/adm-invoices">
                     <i className="fe fe-file" /> <span>Invoices</span>
                     <span className="menu-arrow" />
                   </a>
-                  <ul style={{ display: "none" }}>
-                    <li>
+                  {/* <ul style={{ display: "none" }}> */}
+                  {/* <li>
                       <a href="invoices.html">Invoices List</a>
                     </li>
                     <li>
@@ -1307,10 +1315,15 @@ const Companies = () => {
                     </li>
                     <li>
                       <a href="invoice-template.html">Invoice Templates</a>
-                    </li>
-                  </ul>
+                    </li> */}
+                  {/* </ul> */}
                 </li>
                 <li>
+                  <a href="/adm-add-invoice">
+                    <i className="fe fe-folder" /> <span>Add Invoices</span>
+                  </a>
+                </li>
+                {/* <li>
                   <a href="recurring-invoices.html">
                     <i className="fe fe-clipboard" />{" "}
                     <span>Recurring Invoices</span>
@@ -1339,21 +1352,22 @@ const Companies = () => {
                   <a href="debit-notes.html">
                     <i className="fe fe-file-text" /> <span>Debit Notes</span>
                   </a>
-                </li>
+                </li> */}
                 <li className="menu-title">
                   <span>Finance &amp; Accounts</span>
                 </li>
-                <li>
-                  <a href="expenses.html">
+                <li className="menu">
+                  <a href="/adm-expenses">
                     <i className="fe fe-file-plus" /> <span>Expenses</span>
                   </a>
                 </li>
-                <li>
-                  <a href="payments.html">
-                    <i className="fe fe-credit-card" /> <span>Payments</span>
+                <li className="menu">
+                  <a href="/adm-add-expenses">
+                    <i className="fe fe-credit-card" />{" "}
+                    <span>Add Expenses</span>
                   </a>
                 </li>
-                <li className="menu-title">
+                {/* <li className="menu-title">
                   <span>Quotations</span>
                 </li>
                 <li>
@@ -1544,8 +1558,8 @@ const Companies = () => {
                       <a href="ticket-details.html">Ticket Overview</a>
                     </li>
                   </ul>
-                </li>
-                <li className="menu-title">
+                </li> */}
+                {/* <li className="menu-title">
                   <span>Pages</span>
                 </li>
                 <li>
@@ -1859,45 +1873,45 @@ const Companies = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fe fe-lock" /> <span>Change Log</span>{" "}
                     <span className="badge badge-primary ms-auto">v2.0.4</span>
                   </a>
                 </li>
                 <li className="submenu">
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fa fa-list" /> <span>Multi Level</span>{" "}
                     <span className="menu-arrow" />
                   </a>
                   <ul style={{ display: "none" }}>
                     <li className="submenu">
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span> <span className="menu-arrow" />
                       </a>
                       <ul style={{ display: "none" }} className="level2">
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             <span>Level 2</span>
                           </a>
                         </li>
                         <li className="submenu">
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span> Level 2</span>{" "}
                             <span className="menu-arrow" />
                           </a>
                           <ul style={{ display: "none" }} className="level3">
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span>Level 2</span>
                           </a>
@@ -1905,13 +1919,13 @@ const Companies = () => {
                       </ul>
                     </li>
                     <li>
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span>
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -1927,7 +1941,7 @@ const Companies = () => {
                       <li>
                         <a
                           className="btn-filters"
-                          href="javascript:void(0);"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="bottom"
                           title="Refresh"
@@ -1976,7 +1990,7 @@ const Companies = () => {
                               <li>
                                 <a
                                   className="d-flex align-items-center download-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   download=""
                                 >
                                   <i className="far fa-file-pdf me-2" />
@@ -1986,7 +2000,7 @@ const Companies = () => {
                               <li>
                                 <a
                                   className="d-flex align-items-center download-item"
-                                  href="javascript:void(0);"
+                                  href="#"
                                   download=""
                                 >
                                   <i className="far fa-file-text me-2" />
@@ -2000,7 +2014,7 @@ const Companies = () => {
                       <li>
                         <a
                           className="btn btn-filters"
-                          href="javascript:void(0);"
+                          href="#"
                           data-bs-toggle="tooltip"
                           data-bs-placement="bottom"
                           title="Print"
@@ -2200,7 +2214,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2211,7 +2225,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2223,7 +2237,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2233,19 +2247,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -2316,7 +2324,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2327,7 +2335,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2339,7 +2347,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2349,19 +2357,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -2432,7 +2434,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2443,7 +2445,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2455,7 +2457,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2465,19 +2467,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -2548,7 +2544,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2559,7 +2555,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2571,7 +2567,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2581,19 +2577,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -2664,7 +2654,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2675,7 +2665,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2687,7 +2677,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2697,19 +2687,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -2780,7 +2764,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2791,7 +2775,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2803,7 +2787,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2813,19 +2797,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -2896,7 +2874,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -2907,7 +2885,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -2919,7 +2897,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -2929,19 +2907,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -3012,7 +2984,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -3023,7 +2995,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -3035,7 +3007,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -3045,19 +3017,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -3128,7 +3094,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -3139,7 +3105,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -3151,7 +3117,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -3161,19 +3127,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -3244,7 +3204,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#view_companies"
                                         >
@@ -3255,7 +3215,7 @@ const Companies = () => {
                                       <li>
                                         <a
                                           className="dropdown-item"
-                                          href="javascript:void(0);"
+                                          href="#"
                                           data-bs-toggle="modal"
                                           data-bs-target="#edit_companies"
                                         >
@@ -3267,7 +3227,7 @@ const Companies = () => {
                                         <div>
                                           <a
                                             className="dropdown-item"
-                                            href="javascript:void(0);"
+                                            href="#"
                                             data-bs-toggle="modal"
                                             data-bs-target="#delete_modal"
                                           >
@@ -3277,19 +3237,13 @@ const Companies = () => {
                                         </div>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-user-x me-2" />
                                           Cancel Plan
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fe fe-shuffle me-2" />
                                           Subscription Log
                                         </a>
@@ -3323,7 +3277,7 @@ const Companies = () => {
                   <div className="card-header-new" id="headingOne">
                     <h6 className="filter-title">
                       <a
-                        href="javascript:void(0);"
+                        href="#"
                         className="w-100"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseOne"
@@ -3417,7 +3371,7 @@ const Companies = () => {
                   <div className="card-header-new" id="headingThree">
                     <h6 className="filter-title">
                       <a
-                        href="javascript:void(0);"
+                        href="#"
                         className="w-100 collapsed"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseThree"
@@ -3475,7 +3429,7 @@ const Companies = () => {
                   <div className="card-header-new" id="headingFour">
                     <h6 className="filter-title">
                       <a
-                        href="javascript:void(0);"
+                        href="#"
                         className="w-100 collapsed"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFour"
@@ -3524,7 +3478,7 @@ const Companies = () => {
                   <div className="card-header-new" id="headingTwo">
                     <h6 className="filter-title">
                       <a
-                        href="javascript:void(0);"
+                        href="#"
                         className="w-100 collapsed"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo"
@@ -4407,6 +4361,34 @@ const Companies = () => {
           </div>
         </div>
       </div>
+      <div className="" align="center">
+        <div className="content container-fluid">
+          <div className="card mb-0">
+            <div className="card-body">
+              <div
+                class="elementor-element elementor-element-1942af2 elementor-widget elementor-widget-copyright"
+                data-id="1942af2"
+                data-element_type="widget"
+                data-settings='{"align":"center"}'
+                data-widget_type="copyright.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="hfe-copyright-wrapper">
+                    <a href="https://psyber.co/">
+                      <span>
+                        <b>
+                          2024 © All Rights Reserved | Cooked with ❤️ by Psyber
+                          Inc
+                        </b>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="settings-icon">
         <span
           data-bs-toggle="offcanvas"
@@ -4974,6 +4956,7 @@ const Companies = () => {
                 href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
                 target="_blank"
                 className="btn btn-primary w-100 bor-rad-50"
+                rel="noreferrer"
               >
                 Buy Now
               </a>

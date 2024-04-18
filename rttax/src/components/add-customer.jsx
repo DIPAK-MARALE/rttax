@@ -17,10 +17,11 @@ function AddCustomer() {
         </a>
         <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
           <div className="logo-white">
-            <a href="index.html">
+            <a href="/user-dashboard">
               <img
-                src="assets/img/logo-full-white.png"
-                className="img-fluid logo-blue"
+                src="assets/img/taxrx_logo1.png"
+                className="img-fluid logo2"
+                style={{ width: "200px", height: "90px" }}
                 alt="Logo"
               />
             </a>
@@ -51,10 +52,10 @@ function AddCustomer() {
         </div>
         <a href="#" id="toggle_btn">
           <span className="toggle-bars">
-            <span className="bar-icons"></span>
-            <span className="bar-icons"></span>
-            <span className="bar-icons"></span>
-            <span className="bar-icons"></span>
+            <span className="bar-icons" />
+            <span className="bar-icons" />
+            <span className="bar-icons" />
+            <span className="bar-icons" />
           </span>
         </a>
         <div className="top-nav-search">
@@ -70,7 +71,7 @@ function AddCustomer() {
           </form>
         </div>
         <a className="mobile_btn" id="mobile_btn">
-          <i className="fas fa-bars"></i>
+          <i className="fas fa-bars" />
         </a>
         <ul className="nav nav-tabs user-menu">
           <li className="nav-item dropdown has-arrow flag-nav">
@@ -83,7 +84,7 @@ function AddCustomer() {
               <img src="assets/img/flags/us1.png" alt="flag" />
               <span>English</span>
             </a>
-            <div className="dropdown-menu dropdown-menu-right">
+            <div className="dropdown-menu dropdown-menu-end">
               <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/us.png" alt="flag" />
                 <span>English</span>
@@ -102,11 +103,6 @@ function AddCustomer() {
               </a>
             </div>
           </li>
-          <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="#" className="toggle-switch">
-              <i className="fe fe-moon"></i>
-            </a>
-          </li>
           <li className="nav-item dropdown  flag-nav dropdown-heads">
             <a
               className="nav-link"
@@ -114,8 +110,8 @@ function AddCustomer() {
               href="#"
               role="button"
             >
-              <i className="fe fe-bell"></i>{" "}
-              <span className="badge rounded-pill"></span>
+              <i className="fe fe-bell" />{" "}
+              <span className="badge rounded-pill" />
             </a>
             <div className="dropdown-menu notifications">
               <div className="topnav-dropdown-header">
@@ -123,8 +119,7 @@ function AddCustomer() {
                   Notifications <a href="notifications.html">View all</a>
                 </div>
                 <a href="#" className="clear-noti d-flex align-items-center">
-                  Mark all as read
-                  <i className="fe fe-check-circle"></i>
+                  Mark all as read <i className="fe fe-check-circle" />
                 </a>
               </div>
               <div className="noti-content">
@@ -141,7 +136,7 @@ function AddCustomer() {
                         </span>
                         <div className="media-body">
                           <p className="noti-details">
-                            <span className="noti-title">Lex Murphy</span>
+                            <span className="noti-title">Lex Murphy</span>{" "}
                             requested access to{" "}
                             <span className="noti-title">
                               UNIX directory tree hierarchy
@@ -201,7 +196,7 @@ function AddCustomer() {
                         </span>
                         <div className="media-body">
                           <p className="noti-details">
-                            <span className="noti-title">Dennis Nedry</span>
+                            <span className="noti-title">Dennis Nedry</span>{" "}
                             commented on{" "}
                             <span className="noti-title">
                               {" "}
@@ -235,7 +230,7 @@ function AddCustomer() {
                         </span>
                         <div className="media-body">
                           <p className="noti-details">
-                            <span className="noti-title">John Hammond</span>
+                            <span className="noti-title">John Hammond</span>{" "}
                             created{" "}
                             <span className="noti-title">
                               Isla Nublar SOC2 compliance report
@@ -259,7 +254,7 @@ function AddCustomer() {
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
             <a href="#" className="win-maximize">
-              <i className="fe fe-maximize"></i>
+              <i className="fe fe-maximize" />
             </a>
           </li>
           <li className="nav-item dropdown">
@@ -270,11 +265,11 @@ function AddCustomer() {
             >
               <span className="user-img">
                 <img
-                  src="assets/img/profiles/avatar-20.jpg"
+                  src="assets/img/profiles/avatar-07.jpg"
                   alt="img"
                   className="profilesidebar"
                 />
-                <span className="animate-circle"></span>
+                <span className="animate-circle" />
               </span>
               <span className="user-content">
                 <span className="user-details">Admin</span>
@@ -311,7 +306,1525 @@ function AddCustomer() {
           </li>
         </ul>
       </div>
-
+      <div className="sidebar" id="sidebar">
+        <div className="sidebar-inner slimscroll">
+          <div id="sidebar-menu" className="sidebar-menu">
+            <nav className="greedys sidebar-horizantal">
+              <ul className="list-inline-item list-unstyled links">
+                <li className="menu-title">
+                  <span>Main</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-home" /> <span> Dashboard</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="index.html" className="active">
+                        Admin Dashboard
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-grid" /> <span> Applications</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="chat.html">Chat</a>
+                    </li>
+                    <li>
+                      <a href="calendar.html">Calendar</a>
+                    </li>
+                    <li>
+                      <a href="inbox.html">Email</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-user" /> <span> Super Admin</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="companies.html">Companies</a>
+                    </li>
+                    <li>
+                      <a href="subscription.html">Subscription</a>
+                    </li>
+                    <li>
+                      <a href="packages.html">Packages</a>
+                    </li>
+                    <li>
+                      <a href="domain.html">Domain</a>
+                    </li>
+                    <li>
+                      <a href="purchase-transaction.html">
+                        Purchase Transaction
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-users" />
+                    <span>Customers</span> <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="customers.html">
+                        <i className="fe fe-users" /> <span>Customers</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="customer-details.html">
+                        <i className="fe fe-file" />{" "}
+                        <span>Customer Details</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="vendors.html">
+                        <i className="fe fe-user" /> <span>Vendors</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Inventory</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-package" />{" "}
+                    <span> Products / Services</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="product-list.html">Product List</a>
+                    </li>
+                    <li>
+                      <a href="category.html">Category</a>
+                    </li>
+                    <li>
+                      <a href="units.html">Units</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="inventory.html">
+                    <i className="fe fe-user" /> <span>Inventory</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-file-plus" />
+                    <span>Signature</span> <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="signature-list.html">
+                        <i className="fe fe-clipboard" />{" "}
+                        <span>List of Signature</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="signature-invoice.html">
+                        <i className="fe fe-box" />{" "}
+                        <span>Signature Invoice</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Sales</span>
+                </li>
+                <li className="submenu">
+                  <a href="invoices.html">
+                    <i className="fe fe-file" /> <span>Invoices</span>
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="invoices.html">Invoices List</a>
+                    </li>
+                    <li>
+                      <a href="invoice-details-admin.html">
+                        Invoice Details (Admin)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice-details.html">
+                        Invoice Details (Customer)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice-template.html">Invoice Templates</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <button className="viewmoremenu">More Menu</button>
+              <ul className="hidden-links hidden">
+                <li>
+                  <a href="recurring-invoices.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>Recurring Invoices</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="credit-notes.html">
+                    <i className="fe fe-edit" /> <span>Credit Notes</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Purchases</span>
+                </li>
+                <li>
+                  <a href="purchases.html">
+                    <i className="fe fe-shopping-cart" /> <span>Purchases</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="purchase-orders.html">
+                    <i className="fe fe-shopping-bag" />{" "}
+                    <span>Purchase Orders</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="debit-notes.html">
+                    <i className="fe fe-file-text" /> <span>Debit Notes</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Finance &amp; Accounts</span>
+                </li>
+                <li>
+                  <a href="expenses.html">
+                    <i className="fe fe-file-plus" /> <span>Expenses</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="payments.html">
+                    <i className="fe fe-credit-card" /> <span>Payments</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Quotations</span>
+                </li>
+                <li>
+                  <a href="quotations.html">
+                    <i className="fe fe-clipboard" /> <span>Quotations</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="delivery-challans.html">
+                    <i className="fe fe-file-text" />{" "}
+                    <span>Delivery Challans</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Reports</span>
+                </li>
+                <li>
+                  <a href="payment-summary.html">
+                    <i className="fe fe-credit-card" />{" "}
+                    <span>Payment Summary</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-box" />
+                    <span>Reports</span> <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="expense-report.html">Expense Report</a>
+                    </li>
+                    <li>
+                      <a href="purchase-report.html">Purchase Report</a>
+                    </li>
+                    <li>
+                      <a href="purchase-return.html">Purchase Return Report</a>
+                    </li>
+                    <li>
+                      <a href="sales-report.html">Sales Report</a>
+                    </li>
+                    <li>
+                      <a href="sales-return-report.html">Sales Return Report</a>
+                    </li>
+                    <li>
+                      <a href="quotation-report.html">Quotation Report</a>
+                    </li>
+                    <li>
+                      <a href="payment-report-2.html">Payment Report</a>
+                    </li>
+                    <li>
+                      <a href="stock-report.html">Stock Report</a>
+                    </li>
+                    <li>
+                      <a href="low-stock-report.html">Low Stock Report</a>
+                    </li>
+                    <li>
+                      <a href="income-report.html">Income Report</a>
+                    </li>
+                    <li>
+                      <a href="tax-purchase.html">Tax Report</a>
+                    </li>
+                    <li>
+                      <a href="profit-loss-list.html">Profit &amp; Loss</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>User Management</span>
+                </li>
+                <li>
+                  <a href="users.html">
+                    <i className="fe fe-user" /> <span>Users</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="roles-permission.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>Roles &amp; Permission</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="delete-account-request.html">
+                    <i className="fe fe-trash-2" />{" "}
+                    <span>Delete Account Request</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Membership</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-book" /> <span> Membership</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="membership-plans.html">Membership Plans</a>
+                    </li>
+                    <li>
+                      <a href="membership-addons.html">Membership Addons</a>
+                    </li>
+                    <li>
+                      <a href="subscribers.html">Subscribers</a>
+                    </li>
+                    <li>
+                      <a href="transactions.html">Transactions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Content (CMS)</span>
+                </li>
+                <li>
+                  <a href="pages.html">
+                    <i className="fe fe-folder" /> <span>Pages</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-book" /> <span> Blog</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="all-blogs.html">All Blogs</a>
+                    </li>
+                    <li>
+                      <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                      <a href="blog-comments.html">Blog Comments</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-map-pin" /> <span> Location</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="countries.html">Countries</a>
+                    </li>
+                    <li>
+                      <a href="states.html">States</a>
+                    </li>
+                    <li>
+                      <a href="cities.html">Cities</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="testimonials.html">
+                    <i className="fe fe-message-square" />{" "}
+                    <span>Testimonials</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="faq.html">
+                    <i className="fe fe-alert-circle" /> <span>FAQ</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Support</span>
+                </li>
+                <li>
+                  <a href="contact-messages.html">
+                    <i className="fe fe-printer" />{" "}
+                    <span>Contact Messages</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-save" /> <span> Tickets</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li>
+                      <a href="tickets-list.html">Tickets List</a>
+                    </li>
+                    <li>
+                      <a href="tickets-kanban.html">Tickets Kanban</a>
+                    </li>
+                    <li>
+                      <a href="ticket-details.html">Ticket Overview</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Pages</span>
+                </li>
+                <li>
+                  <a href="profile.html">
+                    <i className="fe fe-user" /> <span>Profile</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-lock" /> <span> Authentication </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="login.html"> Login </a>
+                    </li>
+                    <li>
+                      <a href="register.html"> Register </a>
+                    </li>
+                    <li>
+                      <a href="forgot-password.html"> Forgot Password </a>
+                    </li>
+                    <li>
+                      <a href="lock-screen.html"> Lock Screen </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="error-404.html">
+                    <i className="fe fe-x-square" /> <span>Error Pages</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="blank-page.html">
+                    <i className="fe fe-file" /> <span>Blank Page</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="maps-vector.html">
+                    <i className="fe fe-image" /> <span>Vector Maps</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>UI Interface</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-pocket" /> <span>Base UI </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="alerts.html">Alerts</a>
+                    </li>
+                    <li>
+                      <a href="accordions.html">Accordions</a>
+                    </li>
+                    <li>
+                      <a href="avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                      <a href="badges.html">Badges</a>
+                    </li>
+                    <li>
+                      <a href="buttons.html">Buttons</a>
+                    </li>
+                    <li>
+                      <a href="buttongroup.html">Button Group</a>
+                    </li>
+                    <li>
+                      <a href="breadcrumbs.html">Breadcrumb</a>
+                    </li>
+                    <li>
+                      <a href="cards.html">Cards</a>
+                    </li>
+                    <li>
+                      <a href="carousel.html">Carousel</a>
+                    </li>
+                    <li>
+                      <a href="dropdowns.html">Dropdowns</a>
+                    </li>
+                    <li>
+                      <a href="grid.html">Grid</a>
+                    </li>
+                    <li>
+                      <a href="images.html">Images</a>
+                    </li>
+                    <li>
+                      <a href="lightbox.html">Lightbox</a>
+                    </li>
+                    <li>
+                      <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                      <a href="modal.html">Modals</a>
+                    </li>
+                    <li>
+                      <a href="offcanvas.html">Offcanvas</a>
+                    </li>
+                    <li>
+                      <a href="pagination.html">Pagination</a>
+                    </li>
+                    <li>
+                      <a href="popover.html">Popover</a>
+                    </li>
+                    <li>
+                      <a href="progress.html">Progress Bars</a>
+                    </li>
+                    <li>
+                      <a href="placeholders.html">Placeholders</a>
+                    </li>
+                    <li>
+                      <a href="rangeslider.html">Range Slider</a>
+                    </li>
+                    <li>
+                      <a href="spinners.html">Spinner</a>
+                    </li>
+                    <li>
+                      <a href="sweetalerts.html">Sweet Alerts</a>
+                    </li>
+                    <li>
+                      <a href="tab.html">Tabs</a>
+                    </li>
+                    <li>
+                      <a href="toastr.html">Toasts</a>
+                    </li>
+                    <li>
+                      <a href="tooltip.html">Tooltip</a>
+                    </li>
+                    <li>
+                      <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                      <a href="video.html">Video</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-box" /> <span>Elements </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="ribbon.html">Ribbon</a>
+                    </li>
+                    <li>
+                      <a href="clipboard.html">Clipboard</a>
+                    </li>
+                    <li>
+                      <a href="drag-drop.html">Drag &amp; Drop</a>
+                    </li>
+                    <li>
+                      <a href="rating.html">Rating</a>
+                    </li>
+                    <li>
+                      <a href="text-editor.html">Text Editor</a>
+                    </li>
+                    <li>
+                      <a href="counter.html">Counter</a>
+                    </li>
+                    <li>
+                      <a href="scrollbar.html">Scrollbar</a>
+                    </li>
+                    <li>
+                      <a href="notification.html">Notification</a>
+                    </li>
+                    <li>
+                      <a href="stickynote.html">Sticky Note</a>
+                    </li>
+                    <li>
+                      <a href="timeline.html">Timeline</a>
+                    </li>
+                    <li>
+                      <a href="horizontal-timeline.html">Horizontal Timeline</a>
+                    </li>
+                    <li>
+                      <a href="form-wizard.html">Form Wizard</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-bar-chart" /> <span> Charts </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="chart-apex.html">Apex Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-js.html">Chart Js</a>
+                    </li>
+                    <li>
+                      <a href="chart-morris.html">Morris Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-flot.html">Flot Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-peity.html">Peity Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-c3.html">C3 Charts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-award" /> <span> Icons </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="icon-fontawesome.html">Fontawesome Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-feather.html">Feather Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-ionic.html">Ionic Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-material.html">Material Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-pe7.html">Pe7 Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-simpleline.html">Simpleline Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-themify.html">Themify Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-weather.html">Weather Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-typicon.html">Typicon Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-flag.html">Flag Icons</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-sidebar" /> <span> Forms </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="form-basic-inputs.html">Basic Inputs </a>
+                    </li>
+                    <li>
+                      <a href="form-input-groups.html">Input Groups </a>
+                    </li>
+                    <li>
+                      <a href="form-horizontal.html">Horizontal Form </a>
+                    </li>
+                    <li>
+                      <a href="form-vertical.html"> Vertical Form </a>
+                    </li>
+                    <li>
+                      <a href="form-mask.html">Form Mask </a>
+                    </li>
+                    <li>
+                      <a href="form-validation.html">Form Validation </a>
+                    </li>
+                    <li>
+                      <a href="form-select2.html">Form Select2 </a>
+                    </li>
+                    <li>
+                      <a href="form-fileupload.html">File Upload </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-layout" /> <span> Tables </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="tables-basic.html">Basic Tables </a>
+                    </li>
+                    <li>
+                      <a href="data-tables.html">Data Table </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Settings</span>
+                </li>
+                <li>
+                  <a href="settings.html">
+                    <i className="fe fe-settings" /> <span>Settings</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Extras</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fe fe-file-text" /> <span>Documentation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fe fe-lock" /> <span>Change Log</span>{" "}
+                    <span className="badge badge-primary ms-auto">v2.0.4</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fa fa-list" /> <span>Multi Level</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li className="submenu">
+                      <a href="#">
+                        {" "}
+                        <span>Level 1</span> <span className="menu-arrow" />
+                      </a>
+                      <ul style={{ display: "none" }} className="level2">
+                        <li>
+                          <a href="#">
+                            <span>Level 2</span>
+                          </a>
+                        </li>
+                        <li className="submenu">
+                          <a href="#">
+                            {" "}
+                            <span> Level 2</span>{" "}
+                            <span className="menu-arrow" />
+                          </a>
+                          <ul style={{ display: "none" }} className="level3">
+                            <li>
+                              <a href="#">Level 3</a>
+                            </li>
+                            <li>
+                              <a href="#">Level 3</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#">
+                            {" "}
+                            <span>Level 2</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        {" "}
+                        <span>Level 1</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="login.html">
+                    <i className="fe fe-power" /> <span>Logout</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <ul className="sidebar-vertical">
+              <li className="menu-title">
+                <span> </span>
+              </li>
+              <li className="menu">
+                <a href="/user-dashboard">
+                  <i className="fe fe-home" /> <span> Dashboard</span>{" "}
+                  <span className="menu-arrow" />
+                </a>
+                {/* <ul style={{ display: "none" }}>
+                    <li>
+                      <a className="" href="index.html">
+                        Admin Dashboard
+                      </a>
+                    </li>
+                  </ul> */}
+              </li>
+              {/* <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-grid" /> <span> Applications</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="chat.html">Chat</a>
+                    </li>
+                    <li>
+                      <a href="calendar.html">Calendar</a>
+                    </li>
+                    <li>
+                      <a href="inbox.html">Email</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#" className="">
+                    <i className="fe fe-user" /> <span> Super Admin</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="companies.html">Companies</a>
+                    </li>
+                    <li>
+                      <a href="subscription.html">Subscription</a>
+                    </li>
+                    <li>
+                      <a href="packages.html">Packages</a>
+                    </li>
+                    <li>
+                      <a href="domain.html">Domain</a>
+                    </li>
+                    <li>
+                      <a href="purchase-transaction.html">
+                        Purchase Transaction
+                      </a>
+                    </li>
+                  </ul>
+                </li> */}
+              <li className="menu-title">
+                <span>Customer</span>
+              </li>
+              <li className="active">
+                <a href="/add-customer">
+                  <i className="fe fe-users" /> <span>Add Customers</span>
+                </a>
+              </li>
+              {/* <li>
+                  <a href="customer-details.html">
+                    <i className="fe fe-file" /> <span>Customer Details</span>
+                  </a>
+                </li> */}
+              <li>
+                <a href="add-vendor">
+                  <i className="fe fe-user" /> <span>Add Vendors</span>
+                </a>
+              </li>
+              <li className="menu-title">
+                <span>Invoice</span>
+              </li>
+              <li className="submenu">
+                <a href="/invoices">
+                  <i className="fe fe-package" /> <span> Invoice</span>{" "}
+                  <span className="menu-arrow" />
+                </a>
+                {/* <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="product-list.html">Product List</a>
+                    </li>
+                    <li>
+                      <a href="category.html">Category</a>
+                    </li>
+                    <li>
+                      <a href="units.html">Units</a>
+                    </li>
+                  </ul> */}
+              </li>
+              <li>
+                <a href="/add-invoice">
+                  <i className="fe fe-user" /> <span>Add Invoice</span>
+                </a>
+              </li>
+              <li className="menu-title">
+                <span>Finance & Accounts</span>
+              </li>
+              <li>
+                <a href="/expenses">
+                  <i className="fe fe-file-plus" /> <span>Expenses</span>
+                </a>
+                <a href="/add-expenses">
+                  <i className="fe fe-box" /> <span>Add Expenses</span>
+                </a>
+              </li>
+              {/* <li className="menu-title">
+                  <span>Sales</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-file" /> <span>Invoices</span>
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="invoices.html">Invoices List</a>
+                    </li>
+                    <li>
+                      <a href="invoice-details-admin.html">
+                        Invoice Details (Admin)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice-details.html">
+                        Invoice Details (Customer)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice-template.html">Invoice Templates</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="recurring-invoices.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>Recurring Invoices</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="credit-notes.html">
+                    <i className="fe fe-edit" /> <span>Credit Notes</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Purchases</span>
+                </li>
+                <li>
+                  <a href="purchases.html">
+                    <i className="fe fe-shopping-cart" /> <span>Purchases</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="purchase-orders.html">
+                    <i className="fe fe-shopping-bag" />{" "}
+                    <span>Purchase Orders</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="debit-notes.html">
+                    <i className="fe fe-file-text" /> <span>Debit Notes</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Finance &amp; Accounts</span>
+                </li>
+                <li>
+                  <a href="expenses.html">
+                    <i className="fe fe-file-plus" /> <span>Expenses</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="payments.html">
+                    <i className="fe fe-credit-card" /> <span>Payments</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Quotations</span>
+                </li>
+                <li>
+                  <a href="quotations.html">
+                    <i className="fe fe-clipboard" /> <span>Quotations</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="delivery-challans.html">
+                    <i className="fe fe-file-text" />{" "}
+                    <span>Delivery Challans</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Reports</span>
+                </li>
+                <li>
+                  <a href="payment-summary.html">
+                    <i className="fe fe-credit-card" />{" "}
+                    <span>Payment Summary</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-box" />
+                    <span>Reports</span> <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="expense-report.html">Expense Report</a>
+                    </li>
+                    <li>
+                      <a href="purchase-report.html">Purchase Report</a>
+                    </li>
+                    <li>
+                      <a href="purchase-return.html">Purchase Return Report</a>
+                    </li>
+                    <li>
+                      <a href="sales-report.html">Sales Report</a>
+                    </li>
+                    <li>
+                      <a href="sales-return-report.html">Sales Return Report</a>
+                    </li>
+                    <li>
+                      <a href="quotation-report.html">Quotation Report</a>
+                    </li>
+                    <li>
+                      <a href="payment-report.html">Payment Report</a>
+                    </li>
+                    <li>
+                      <a href="stock-report.html">Stock Report</a>
+                    </li>
+                    <li>
+                      <a href="low-stock-report.html">Low Stock Report</a>
+                    </li>
+                    <li>
+                      <a href="income-report.html">Income Report</a>
+                    </li>
+                    <li>
+                      <a href="tax-purchase.html">Tax Report</a>
+                    </li>
+                    <li>
+                      <a href="profit-loss-list.html">Profit &amp; Loss</a>
+                    </li>
+                  </ul>
+                </li> */}
+              {/* <li className="menu-title">
+                  <span>User Management</span>
+                </li>
+                <li>
+                  <a href="users.html">
+                    <i className="fe fe-user" /> <span>Users</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="roles-permission.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>Roles &amp; Permission</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="delete-account-request.html">
+                    <i className="fe fe-trash-2" />{" "}
+                    <span>Delete Account Request</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Membership</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-book" /> <span> Membership</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="membership-plans.html">Membership Plans</a>
+                    </li>
+                    <li>
+                      <a href="membership-addons.html">Membership Addons</a>
+                    </li>
+                    <li>
+                      <a href="subscribers.html">Subscribers</a>
+                    </li>
+                    <li>
+                      <a href="transactions.html">Transactions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Content (CMS)</span>
+                </li>
+                <li>
+                  <a href="pages.html">
+                    <i className="fe fe-folder" /> <span>Pages</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-book" /> <span> Blog</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="all-blogs.html">All Blogs</a>
+                    </li>
+                    <li>
+                      <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                      <a href="blog-comments.html">Blog Comments</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-map-pin" /> <span> Location</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="countries.html">Countries</a>
+                    </li>
+                    <li>
+                      <a href="states.html">States</a>
+                    </li>
+                    <li>
+                      <a href="cities.html">Cities</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="testimonials.html">
+                    <i className="fe fe-message-square" />{" "}
+                    <span>Testimonials</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="faq.html">
+                    <i className="fe fe-alert-circle" /> <span>FAQ</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Support</span>
+                </li>
+                <li>
+                  <a href="contact-messages.html">
+                    <i className="fe fe-printer" />{" "}
+                    <span>Contact Messages</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-save" /> <span> Tickets</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li>
+                      <a href="tickets-list.html">Tickets List</a>
+                    </li>
+                    <li>
+                      <a href="tickets-kanban.html">Tickets Kanban</a>
+                    </li>
+                    <li>
+                      <a href="ticket-details.html">Ticket Overview</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Pages</span>
+                </li>
+                <li>
+                  <a href="profile.html">
+                    <i className="fe fe-user" /> <span>Profile</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-lock" /> <span> Authentication </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="login.html"> Login </a>
+                    </li>
+                    <li>
+                      <a href="register.html"> Register </a>
+                    </li>
+                    <li>
+                      <a href="forgot-password.html"> Forgot Password </a>
+                    </li>
+                    <li>
+                      <a href="lock-screen.html"> Lock Screen </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="error-404.html">
+                    <i className="fe fe-x-square" /> <span>Error Pages</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="blank-page.html">
+                    <i className="fe fe-file" /> <span>Blank Page</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="maps-vector.html">
+                    <i className="fe fe-image" /> <span>Vector Maps</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>UI Interface</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-pocket" /> <span>Base UI </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="alerts.html">Alerts</a>
+                    </li>
+                    <li>
+                      <a href="accordions.html">Accordions</a>
+                    </li>
+                    <li>
+                      <a href="avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                      <a href="badges.html">Badges</a>
+                    </li>
+                    <li>
+                      <a href="buttons.html">Buttons</a>
+                    </li>
+                    <li>
+                      <a href="buttongroup.html">Button Group</a>
+                    </li>
+                    <li>
+                      <a href="breadcrumbs.html">Breadcrumb</a>
+                    </li>
+                    <li>
+                      <a href="cards.html">Cards</a>
+                    </li>
+                    <li>
+                      <a href="carousel.html">Carousel</a>
+                    </li>
+                    <li>
+                      <a href="dropdowns.html">Dropdowns</a>
+                    </li>
+                    <li>
+                      <a href="grid.html">Grid</a>
+                    </li>
+                    <li>
+                      <a href="images.html">Images</a>
+                    </li>
+                    <li>
+                      <a href="lightbox.html">Lightbox</a>
+                    </li>
+                    <li>
+                      <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                      <a href="modal.html">Modals</a>
+                    </li>
+                    <li>
+                      <a href="offcanvas.html">Offcanvas</a>
+                    </li>
+                    <li>
+                      <a href="pagination.html">Pagination</a>
+                    </li>
+                    <li>
+                      <a href="popover.html">Popover</a>
+                    </li>
+                    <li>
+                      <a href="progress.html">Progress Bars</a>
+                    </li>
+                    <li>
+                      <a href="placeholders.html">Placeholders</a>
+                    </li>
+                    <li>
+                      <a href="rangeslider.html">Range Slider</a>
+                    </li>
+                    <li>
+                      <a href="spinners.html">Spinner</a>
+                    </li>
+                    <li>
+                      <a href="sweetalerts.html">Sweet Alerts</a>
+                    </li>
+                    <li>
+                      <a href="tab.html">Tabs</a>
+                    </li>
+                    <li>
+                      <a href="toastr.html">Toasts</a>
+                    </li>
+                    <li>
+                      <a href="tooltip.html">Tooltip</a>
+                    </li>
+                    <li>
+                      <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                      <a href="video.html">Video</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-box" /> <span>Elements </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="ribbon.html">Ribbon</a>
+                    </li>
+                    <li>
+                      <a href="clipboard.html">Clipboard</a>
+                    </li>
+                    <li>
+                      <a href="drag-drop.html">Drag &amp; Drop</a>
+                    </li>
+                    <li>
+                      <a href="rating.html">Rating</a>
+                    </li>
+                    <li>
+                      <a href="text-editor.html">Text Editor</a>
+                    </li>
+                    <li>
+                      <a href="counter.html">Counter</a>
+                    </li>
+                    <li>
+                      <a href="scrollbar.html">Scrollbar</a>
+                    </li>
+                    <li>
+                      <a href="notification.html">Notification</a>
+                    </li>
+                    <li>
+                      <a href="stickynote.html">Sticky Note</a>
+                    </li>
+                    <li>
+                      <a href="timeline.html">Timeline</a>
+                    </li>
+                    <li>
+                      <a href="horizontal-timeline.html">Horizontal Timeline</a>
+                    </li>
+                    <li>
+                      <a href="form-wizard.html">Form Wizard</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-bar-chart" /> <span> Charts </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="chart-apex.html">Apex Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-js.html">Chart Js</a>
+                    </li>
+                    <li>
+                      <a href="chart-morris.html">Morris Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-flot.html">Flot Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-peity.html">Peity Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-c3.html">C3 Charts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-award" /> <span> Icons </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="icon-fontawesome.html">Fontawesome Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-feather.html">Feather Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-ionic.html">Ionic Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-material.html">Material Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-pe7.html">Pe7 Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-simpleline.html">Simpleline Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-themify.html">Themify Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-weather.html">Weather Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-typicon.html">Typicon Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-flag.html">Flag Icons</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-sidebar" /> <span> Forms </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="form-basic-inputs.html">Basic Inputs </a>
+                    </li>
+                    <li>
+                      <a href="form-input-groups.html">Input Groups </a>
+                    </li>
+                    <li>
+                      <a href="form-horizontal.html">Horizontal Form </a>
+                    </li>
+                    <li>
+                      <a href="form-vertical.html"> Vertical Form </a>
+                    </li>
+                    <li>
+                      <a href="form-mask.html">Form Mask </a>
+                    </li>
+                    <li>
+                      <a href="form-validation.html">Form Validation </a>
+                    </li>
+                    <li>
+                      <a href="form-select2.html">Form Select2 </a>
+                    </li>
+                    <li>
+                      <a href="form-fileupload.html">File Upload </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-layout" /> <span> Tables </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="tables-basic.html">Basic Tables </a>
+                    </li>
+                    <li>
+                      <a href="data-tables.html">Data Table </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Settings</span>
+                </li>
+                <li>
+                  <a href="settings.html">
+                    <i className="fe fe-settings" /> <span>Settings</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="login.html">
+                    <i className="fe fe-power" /> <span>Logout</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Extras</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fe fe-file-text" /> <span>Documentation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fe fe-lock" /> <span>Change Log</span>{" "}
+                    <span className="badge badge-primary ms-auto">v2.0.4</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fa fa-list" /> <span>Multi Level</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li className="submenu">
+                      <a href="#">
+                        {" "}
+                        <span>Level 1</span> <span className="menu-arrow" />
+                      </a>
+                      <ul style={{ display: "none" }} className="level2">
+                        <li>
+                          <a href="#">
+                            <span>Level 2</span>
+                          </a>
+                        </li>
+                        <li className="submenu">
+                          <a href="#">
+                            {" "}
+                            <span> Level 2</span>{" "}
+                            <span className="menu-arrow" />
+                          </a>
+                          <ul style={{ display: "none" }} className="level3">
+                            <li>
+                              <a href="#">Level 3</a>
+                            </li>
+                            <li>
+                              <a href="#">Level 3</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#">
+                            {" "}
+                            <span>Level 2</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        {" "}
+                        <span>Level 1</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li> */}
+            </ul>
+          </div>
+        </div>
+      </div>
       {/* <div className="sidebar" id="sidebar">
                 <div className="sidebar-inner slimscroll">
                     <div id="sidebar-menu" className="sidebar-menu">
@@ -605,7 +2118,6 @@ function AddCustomer() {
                                     <ul>
                                         <li><a href="index.html">Admin Dashboard</a></li>
                                     </ul>  */}
-
       {/*</li>
                                 <li className="submenu">
                                     <a href="#"><i className="fe fe-grid"></i> <span> Applications</span> <span className="menu-arrow"></span></a>
@@ -1516,12 +3028,25 @@ function AddCustomer() {
                       </div>
                     </div>
                   </form>
+                  <div className="elementor-widget-container" align="center">
+                    <div className="hfe-copyright-wrapper">
+                      <a href="https://psyber.co/">
+                        <span>
+                          <b>
+                            2024 © All Rights Reserved | Cooked with ❤️ by
+                            Psyber Inc
+                          </b>{" "}
+                        </span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       {/* <div className="settings-icon">
                 <span data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas"
                     aria-controls="theme-settings-offcanvas"><img src="assets/img/icons/siderbar-icon2.svg" className="feather-five"

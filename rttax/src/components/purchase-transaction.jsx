@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // Import React
 import React from "react";
 
 // Define the PurchaseTransaction component
 export const PurchaseTransaction = () => (
   <>
-    {/* Mirrored from kanakku.dreamstechnologies.com/html/template/purchase-transaction.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:57:24 GMT */}
+    {/* Mirrored from kanakku.dreamstechnologies.com/html/template/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:55:13 GMT */}
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -52,7 +53,7 @@ export const PurchaseTransaction = () => (
       type="text/css"
       dangerouslySetInnerHTML={{
         __html:
-          "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}",
+          "@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:100;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:200;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:500;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:800;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:900;src:url(https://kanakku.dreamstechnologies.com/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}",
       }}
     />
     <link
@@ -61,12 +62,12 @@ export const PurchaseTransaction = () => (
     />
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="assets/plugins/feather/feather.css" />
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" />
     <link
       rel="stylesheet"
       href="assets/plugins/datatables/datatables.min.css"
     />
-    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <div className="main-wrapper">
       <div className="header header-one">
@@ -74,18 +75,20 @@ export const PurchaseTransaction = () => (
           href="index.html"
           className="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo"
         >
-          <img
-            src="assets/img/logo.png"
-            className="img-fluid logo2"
-            alt="Logo"
-          />
+          {/* <img
+              src="assets/img/logo.png"
+              className="img-fluid logo2"
+              style={{ width: "116px", height: "30px" }}
+              alt="Logo"
+            /> */}
         </a>
         <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
           <div className="logo-white">
             <a href="/admin-dashboard">
               <img
-                src="assets/img/logo.png"
-                className="img-fluid logo-blue"
+                src="assets/img/taxrx_logo1.png"
+                className="img-fluid logo2"
+                style={{ width: "200px", height: "90px" }}
                 alt="Logo"
               />
             </a>
@@ -114,7 +117,7 @@ export const PurchaseTransaction = () => (
             </a>
           </div>
         </div>
-        <a href="javascript:void(0);" id="toggle_btn">
+        <a href="#" id="toggle_btn">
           <span className="toggle-bars">
             <span className="bar-icons" />
             <span className="bar-icons" />
@@ -148,27 +151,27 @@ export const PurchaseTransaction = () => (
               <img src="assets/img/flags/us1.png" alt="flag" />
               <span>English</span>
             </a>
-            <div className="dropdown-menu dropdown-menu-right">
-              <a href="javascript:void(0);" className="dropdown-item">
+            <div className="dropdown-menu dropdown-menu-end">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/us.png" alt="flag" />
                 <span>English</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/fr.png" alt="flag" />
                 <span>French</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/es.png" alt="flag" />
                 <span>Spanish</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/de.png" alt="flag" />
                 <span>German</span>
               </a>
             </div>
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="javascript:void(0);" className="toggle-switch">
+            <a href="#" className="toggle-switch">
               <i className="fe fe-moon" />
             </a>
           </li>
@@ -187,12 +190,8 @@ export const PurchaseTransaction = () => (
                 <div className="notification-title">
                   Notifications <a href="notifications.html">View all</a>
                 </div>
-                <a
-                  href="javascript:void(0)"
-                  className="clear-noti d-flex align-items-center"
-                >
-                  Mark all as read
-                  <i className="fe fe-check-circle" />
+                <a href="#" className="clear-noti d-flex align-items-center">
+                  Mark all as read <i className="fe fe-check-circle" />
                 </a>
               </div>
               <div className="noti-content">
@@ -209,7 +208,7 @@ export const PurchaseTransaction = () => (
                         </span>
                         <div className="media-body">
                           <p className="noti-details">
-                            <span className="noti-title">Lex Murphy</span>
+                            <span className="noti-title">Lex Murphy</span>{" "}
                             requested access to{" "}
                             <span className="noti-title">
                               UNIX directory tree hierarchy
@@ -269,7 +268,7 @@ export const PurchaseTransaction = () => (
                         </span>
                         <div className="media-body">
                           <p className="noti-details">
-                            <span className="noti-title">Dennis Nedry</span>
+                            <span className="noti-title">Dennis Nedry</span>{" "}
                             commented on{" "}
                             <span className="noti-title">
                               {" "}
@@ -303,7 +302,7 @@ export const PurchaseTransaction = () => (
                         </span>
                         <div className="media-body">
                           <p className="noti-details">
-                            <span className="noti-title">John Hammond</span>
+                            <span className="noti-title">John Hammond</span>{" "}
                             created{" "}
                             <span className="noti-title">
                               Isla Nublar SOC2 compliance report
@@ -326,19 +325,19 @@ export const PurchaseTransaction = () => (
             </div>
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="javascript:void(0);" className="win-maximize">
+            <a href="#" className="win-maximize">
               <i className="fe fe-maximize" />
             </a>
           </li>
           <li className="nav-item dropdown">
             <a
-              href="javascript:void(0)"
+              href="#"
               className="user-link  nav-link"
               data-bs-toggle="dropdown"
             >
               <span className="user-img">
                 <img
-                  src="assets/img/profiles/avatar-22.jpg"
+                  src="assets/img/profiles/avatar-07.jpg"
                   alt="img"
                   className="profilesidebar"
                 />
@@ -385,36 +384,36 @@ export const PurchaseTransaction = () => (
             <nav className="greedys sidebar-horizantal">
               <ul className="list-inline-item list-unstyled links">
                 <li className="menu-title">
-                  <span>Main</span>
+                  <span> Main</span>
                 </li>
-                <li className="submenu">
-                  <a href="#">
-                    <i className="fe fe-home" /> <span> Dashboard</span>{" "}
-                    <span className="menu-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="index.html">Admin Dashboard</a>
-                    </li>
-                  </ul>
-                </li>
-                <li className="submenu">
-                  <a href="#">
-                    <i className="fe fe-grid" /> <span> Applications</span>{" "}
-                    <span className="menu-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="chat.html">Chat</a>
-                    </li>
-                    <li>
-                      <a href="calendar.html">Calendar</a>
-                    </li>
-                    <li>
-                      <a href="inbox.html">Email</a>
-                    </li>
-                  </ul>
-                </li>
+                {/* <li className="submenu">
+                    <a href="#">
+                      <i className="fe fe-home" /> <span> Dashboard</span>{" "}
+                      <span className="menu-arrow" />
+                    </a>
+                    <ul>
+                      <li>
+                        <a href="index.html">Admin Dashboard</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="submenu">
+                    <a href="#">
+                      <i className="fe fe-grid" /> <span> Applications</span>{" "}
+                      <span className="menu-arrow" />
+                    </a>
+                    <ul>
+                      <li>
+                        <a href="chat.html">Chat</a>
+                      </li>
+                      <li>
+                        <a href="calendar.html">Calendar</a>
+                      </li>
+                      <li>
+                        <a href="inbox.html">Email</a>
+                      </li>
+                    </ul>
+                  </li> */}
                 <li className="submenu">
                   <a href="#">
                     <i className="fe fe-user" /> <span> Super Admin</span>{" "}
@@ -422,7 +421,9 @@ export const PurchaseTransaction = () => (
                   </a>
                   <ul>
                     <li>
-                      <a href="dashboard.html">Dashboard</a>
+                      <a href="dashboard.html" className="active">
+                        Dashboard
+                      </a>
                     </li>
                     <li>
                       <a href="companies.html">Companies</a>
@@ -437,7 +438,7 @@ export const PurchaseTransaction = () => (
                       <a href="domain.html">Domain</a>
                     </li>
                     <li>
-                      <a href="purchase-transaction.html" className="active">
+                      <a href="purchase-transaction.html">
                         Purchase Transaction
                       </a>
                     </li>
@@ -1082,6 +1083,11 @@ export const PurchaseTransaction = () => (
                     <i className="fe fe-settings" /> <span>Settings</span>
                   </a>
                 </li>
+                <li>
+                  <a href="login.html">
+                    <i className="fe fe-power" /> <span>Logout</span>
+                  </a>
+                </li>
                 <li className="menu-title">
                   <span>Extras</span>
                 </li>
@@ -1091,45 +1097,45 @@ export const PurchaseTransaction = () => (
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fe fe-lock" /> <span>Change Log</span>{" "}
                     <span className="badge badge-primary ms-auto">v2.0.4</span>
                   </a>
                 </li>
                 <li className="submenu">
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fa fa-list" /> <span>Multi Level</span>{" "}
                     <span className="menu-arrow" />
                   </a>
                   <ul style={{ display: "none" }}>
                     <li className="submenu">
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span> <span className="menu-arrow" />
                       </a>
                       <ul style={{ display: "none" }} className="level2">
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             <span>Level 2</span>
                           </a>
                         </li>
                         <li className="submenu">
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span> Level 2</span>{" "}
                             <span className="menu-arrow" />
                           </a>
                           <ul style={{ display: "none" }} className="level3">
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span>Level 2</span>
                           </a>
@@ -1137,17 +1143,12 @@ export const PurchaseTransaction = () => (
                       </ul>
                     </li>
                     <li>
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span>
                       </a>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <a href="login.html">
-                    <i className="fe fe-power" /> <span>Logout</span>
-                  </a>
                 </li>
               </ul>
             </nav>
@@ -1156,41 +1157,43 @@ export const PurchaseTransaction = () => (
                 <span> </span>
               </li>
               {/* <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-home" /> <span> Dashboard</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="index.html">Admin Dashboard</a>
-                  </li>
-                </ul>
-              </li>
+                  <a href="#">
+                    <i className="fe fe-home" /> <span> Dashboard</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="index.html">Admin Dashboard</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-grid" /> <span> Applications</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="chat.html">Chat</a>
+                    </li>
+                    <li>
+                      <a href="calendar.html">Calendar</a>
+                    </li>
+                    <li>
+                      <a href="inbox.html">Email</a>
+                    </li>
+                  </ul>
+                </li> */}
               <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-grid" /> <span> Applications</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="chat.html">Chat</a>
-                  </li>
-                  <li>
-                    <a href="calendar.html">Calendar</a>
-                  </li>
-                  <li>
-                    <a href="inbox.html">Email</a>
-                  </li>
-                </ul>
-              </li> */}
-              <li className="submenu">
-                <a href="/admin-dashboard" className="">
+                <a href="/admin-dashboard" className="menu">
                   <i className="fe fe-user" /> <span> Super Admin</span>{" "}
                   <span className="menu-arrow" />
                 </a>
-                {/* <ul> */}
+
                 <li>
-                  <a href="/admin-dashboard">Dashboard</a>
+                  <a href="/admin-dashboard" className="menu">
+                    Dashboard
+                  </a>
                 </li>
                 <li>
                   <a href="/companies">Companies</a>
@@ -1198,703 +1201,707 @@ export const PurchaseTransaction = () => (
                 <li>
                   <a href="/subscription">Subscription</a>
                 </li>
-                <li>
+                <li className="menu">
                   <a href="/packages">Packages</a>
                 </li>
                 <li>
                   <a href="/domain">Domain</a>
                 </li>
+                <li className="active">
+                  <a href="/purchase-transaction">Purchase Transaction</a>
+                </li>
+              </li>
+              <li className="menu-title">
+                <span>Customers & Vendor</span>
+              </li>
+              <li className="menu">
+                <a href="/adm-add-customer">
+                  <i className="fe fe-users" /> <span>Add Customers</span>
+                </a>
+              </li>
+              {/* <li>
+                  <a href="customer-details.html">
+                    <i className="fe fe-file" /> <span>Customer Details</span>
+                  </a>
+                </li> */}
+              <li>
+                <a href="/adm-add-vendor">
+                  <i className="fe fe-user" /> <span>Add Vendors</span>
+                </a>
+              </li>
+              {/* <li className="menu-title">
+                  <span>Inventory</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-package" />{" "}
+                    <span> Products / Services</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="product-list.html">Product List</a>
+                    </li>
+                    <li>
+                      <a href="category.html">Category</a>
+                    </li>
+                    <li>
+                      <a href="units.html">Units</a>
+                    </li>
+                  </ul>
+                </li>
                 <li>
-                  <a href="/purchase-transaction" className="active">
-                    Purchase Transaction
+                  <a href="inventory.html">
+                    <i className="fe fe-user" /> <span>Inventory</span>
                   </a>
                 </li>
-                {/* </ul> */}
-              </li>
+                <li className="menu-title">
+                  {" "}
+                  <span>Signature</span>
+                </li>
+                <li>
+                  <a href="signature-list.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>List of Signature</span>
+                  </a>
+                  <a href="signature-invoice.html">
+                    <i className="fe fe-box" /> <span>Signature Invoice</span>
+                  </a>
+                </li> */}
               <li className="menu-title">
-                <span>Customers</span>
-              </li>
-              <li>
-                <a href="/customer-registration">
-                  <i className="fe fe-users" /> <span>Customers</span>
-                </a>
-              </li>
-              <li>
-                <a href="customer-details.html">
-                  <i className="fe fe-file" /> <span>Customer Details</span>
-                </a>
-              </li>
-              <li>
-                <a href="vendors.html">
-                  <i className="fe fe-user" /> <span>Vendors</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Inventory</span>
+                <span>Invoices</span>
               </li>
               <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-package" />{" "}
-                  <span> Products / Services</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="product-list.html">Product List</a>
-                  </li>
-                  <li>
-                    <a href="category.html">Category</a>
-                  </li>
-                  <li>
-                    <a href="units.html">Units</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="inventory.html">
-                  <i className="fe fe-user" /> <span>Inventory</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                {" "}
-                <span>Signature</span>
-              </li>
-              <li>
-                <a href="signature-list.html">
-                  <i className="fe fe-clipboard" />{" "}
-                  <span>List of Signature</span>
-                </a>
-                <a href="signature-invoice.html">
-                  <i className="fe fe-box" /> <span>Signature Invoice</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Sales</span>
-              </li>
-              <li className="submenu">
-                <a href="#">
+                <a href="/adm-invoices">
                   <i className="fe fe-file" /> <span>Invoices</span>
                   <span className="menu-arrow" />
                 </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="invoices.html">Invoices List</a>
-                  </li>
-                  <li>
-                    <a href="invoice-details-admin.html">
-                      Invoice Details (Admin)
-                    </a>
-                  </li>
-                  <li>
-                    <a href="invoice-details.html">
-                      Invoice Details (Customer)
-                    </a>
-                  </li>
-                  <li>
-                    <a href="invoice-template.html">Invoice Templates</a>
-                  </li>
-                </ul>
+                {/* <ul style={{ display: "none" }}> */}
+                {/* <li>
+                      <a href="invoices.html">Invoices List</a>
+                    </li>
+                    <li>
+                      <a href="invoice-details-admin.html">
+                        Invoice Details (Admin)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice-details.html">
+                        Invoice Details (Customer)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice-template.html">Invoice Templates</a>
+                    </li> */}
+                {/* </ul> */}
               </li>
               <li>
-                <a href="recurring-invoices.html">
-                  <i className="fe fe-clipboard" />{" "}
-                  <span>Recurring Invoices</span>
+                <a href="/adm-add-invoice">
+                  <i className="fe fe-folder" /> <span>Add Invoices</span>
                 </a>
               </li>
-              <li>
-                <a href="credit-notes.html">
-                  <i className="fe fe-edit" /> <span>Credit Notes</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Purchases</span>
-              </li>
-              <li>
-                <a href="purchases.html">
-                  <i className="fe fe-shopping-cart" /> <span>Purchases</span>
-                </a>
-              </li>
-              <li>
-                <a href="purchase-orders.html">
-                  <i className="fe fe-shopping-bag" />{" "}
-                  <span>Purchase Orders</span>
-                </a>
-              </li>
-              <li>
-                <a href="debit-notes.html">
-                  <i className="fe fe-file-text" /> <span>Debit Notes</span>
-                </a>
-              </li>
+              {/* <li>
+                  <a href="recurring-invoices.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>Recurring Invoices</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="credit-notes.html">
+                    <i className="fe fe-edit" /> <span>Credit Notes</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Purchases</span>
+                </li>
+                <li>
+                  <a href="purchases.html">
+                    <i className="fe fe-shopping-cart" /> <span>Purchases</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="purchase-orders.html">
+                    <i className="fe fe-shopping-bag" />{" "}
+                    <span>Purchase Orders</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="debit-notes.html">
+                    <i className="fe fe-file-text" /> <span>Debit Notes</span>
+                  </a>
+                </li> */}
               <li className="menu-title">
                 <span>Finance &amp; Accounts</span>
               </li>
-              <li>
-                <a href="expenses.html">
+              <li className="menu">
+                <a href="/adm-expenses">
                   <i className="fe fe-file-plus" /> <span>Expenses</span>
                 </a>
               </li>
-              <li>
-                <a href="payments.html">
-                  <i className="fe fe-credit-card" /> <span>Payments</span>
+              <li className="menu">
+                <a href="/adm-add-expenses">
+                  <i className="fe fe-credit-card" /> <span>Add Expenses</span>
                 </a>
               </li>
-              <li className="menu-title">
-                <span>Quotations</span>
-              </li>
-              <li>
-                <a href="quotations.html">
-                  <i className="fe fe-clipboard" /> <span>Quotations</span>
-                </a>
-              </li>
-              <li>
-                <a href="delivery-challans.html">
-                  <i className="fe fe-file-text" />{" "}
-                  <span>Delivery Challans</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Reports</span>
-              </li>
-              <li>
-                <a href="payment-summary.html">
-                  <i className="fe fe-credit-card" />{" "}
-                  <span>Payment Summary</span>
-                </a>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-box" />
-                  <span>Reports</span> <span className="menu-arrow" />
-                </a>
-                <ul>
-                  <li>
-                    <a href="expense-report.html">Expense Report</a>
-                  </li>
-                  <li>
-                    <a href="purchase-report.html">Purchase Report</a>
-                  </li>
-                  <li>
-                    <a href="purchase-return.html">Purchase Return Report</a>
-                  </li>
-                  <li>
-                    <a href="sales-report.html">Sales Report</a>
-                  </li>
-                  <li>
-                    <a href="sales-return-report.html">Sales Return Report</a>
-                  </li>
-                  <li>
-                    <a href="quotation-report.html">Quotation Report</a>
-                  </li>
-                  <li>
-                    <a href="payment-report.html">Payment Report</a>
-                  </li>
-                  <li>
-                    <a href="stock-report.html">Stock Report</a>
-                  </li>
-                  <li>
-                    <a href="low-stock-report.html">Low Stock Report</a>
-                  </li>
-                  <li>
-                    <a href="income-report.html">Income Report</a>
-                  </li>
-                  <li>
-                    <a href="tax-purchase.html">Tax Report</a>
-                  </li>
-                  <li>
-                    <a href="profit-loss-list.html">Profit &amp; Loss</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-title">
-                <span>User Management</span>
-              </li>
-              <li>
-                <a href="users.html">
-                  <i className="fe fe-user" /> <span>Users</span>
-                </a>
-              </li>
-              <li>
-                <a href="roles-permission.html">
-                  <i className="fe fe-clipboard" />{" "}
-                  <span>Roles &amp; Permission</span>
-                </a>
-              </li>
-              <li>
-                <a href="delete-account-request.html">
-                  <i className="fe fe-trash-2" />{" "}
-                  <span>Delete Account Request</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Membership</span>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-book" /> <span> Membership</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="membership-plans.html">Membership Plans</a>
-                  </li>
-                  <li>
-                    <a href="membership-addons.html">Membership Addons</a>
-                  </li>
-                  <li>
-                    <a href="subscribers.html">Subscribers</a>
-                  </li>
-                  <li>
-                    <a href="transactions.html">Transactions</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-title">
-                <span>Content (CMS)</span>
-              </li>
-              <li>
-                <a href="pages.html">
-                  <i className="fe fe-folder" /> <span>Pages</span>
-                </a>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-book" /> <span> Blog</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="all-blogs.html">All Blogs</a>
-                  </li>
-                  <li>
-                    <a href="categories.html">Categories</a>
-                  </li>
-                  <li>
-                    <a href="blog-comments.html">Blog Comments</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-map-pin" /> <span> Location</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="countries.html">Countries</a>
-                  </li>
-                  <li>
-                    <a href="states.html">States</a>
-                  </li>
-                  <li>
-                    <a href="cities.html">Cities</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="testimonials.html">
-                  <i className="fe fe-message-square" />{" "}
-                  <span>Testimonials</span>
-                </a>
-              </li>
-              <li>
-                <a href="faq.html">
-                  <i className="fe fe-alert-circle" /> <span>FAQ</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Support</span>
-              </li>
-              <li>
-                <a href="contact-messages.html">
-                  <i className="fe fe-printer" /> <span>Contact Messages</span>
-                </a>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-save" /> <span> Tickets</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="tickets.html">Tickets</a>
-                  </li>
-                  <li>
-                    <a href="tickets-list.html">Tickets List</a>
-                  </li>
-                  <li>
-                    <a href="tickets-kanban.html">Tickets Kanban</a>
-                  </li>
-                  <li>
-                    <a href="ticket-details.html">Ticket Overview</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-title">
-                <span>Pages</span>
-              </li>
-              <li>
-                <a href="profile.html">
-                  <i className="fe fe-user" /> <span>Profile</span>
-                </a>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-lock" /> <span> Authentication </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="login.html"> Login </a>
-                  </li>
-                  <li>
-                    <a href="register.html"> Register </a>
-                  </li>
-                  <li>
-                    <a href="forgot-password.html"> Forgot Password </a>
-                  </li>
-                  <li>
-                    <a href="lock-screen.html"> Lock Screen </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="error-404.html">
-                  <i className="fe fe-x-square" /> <span>Error Pages</span>
-                </a>
-              </li>
-              <li>
-                <a href="blank-page.html">
-                  <i className="fe fe-file" /> <span>Blank Page</span>
-                </a>
-              </li>
-              <li>
-                <a href="maps-vector.html">
-                  <i className="fe fe-image" /> <span>Vector Maps</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>UI Interface</span>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-pocket" /> <span>Base UI </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="alerts.html">Alerts</a>
-                  </li>
-                  <li>
-                    <a href="accordions.html">Accordions</a>
-                  </li>
-                  <li>
-                    <a href="avatar.html">Avatar</a>
-                  </li>
-                  <li>
-                    <a href="badges.html">Badges</a>
-                  </li>
-                  <li>
-                    <a href="buttons.html">Buttons</a>
-                  </li>
-                  <li>
-                    <a href="buttongroup.html">Button Group</a>
-                  </li>
-                  <li>
-                    <a href="breadcrumbs.html">Breadcrumb</a>
-                  </li>
-                  <li>
-                    <a href="cards.html">Cards</a>
-                  </li>
-                  <li>
-                    <a href="carousel.html">Carousel</a>
-                  </li>
-                  <li>
-                    <a href="dropdowns.html">Dropdowns</a>
-                  </li>
-                  <li>
-                    <a href="grid.html">Grid</a>
-                  </li>
-                  <li>
-                    <a href="images.html">Images</a>
-                  </li>
-                  <li>
-                    <a href="lightbox.html">Lightbox</a>
-                  </li>
-                  <li>
-                    <a href="media.html">Media</a>
-                  </li>
-                  <li>
-                    <a href="modal.html">Modals</a>
-                  </li>
-                  <li>
-                    <a href="offcanvas.html">Offcanvas</a>
-                  </li>
-                  <li>
-                    <a href="pagination.html">Pagination</a>
-                  </li>
-                  <li>
-                    <a href="popover.html">Popover</a>
-                  </li>
-                  <li>
-                    <a href="progress.html">Progress Bars</a>
-                  </li>
-                  <li>
-                    <a href="placeholders.html">Placeholders</a>
-                  </li>
-                  <li>
-                    <a href="rangeslider.html">Range Slider</a>
-                  </li>
-                  <li>
-                    <a href="spinners.html">Spinner</a>
-                  </li>
-                  <li>
-                    <a href="sweetalerts.html">Sweet Alerts</a>
-                  </li>
-                  <li>
-                    <a href="tab.html">Tabs</a>
-                  </li>
-                  <li>
-                    <a href="toastr.html">Toasts</a>
-                  </li>
-                  <li>
-                    <a href="tooltip.html">Tooltip</a>
-                  </li>
-                  <li>
-                    <a href="typography.html">Typography</a>
-                  </li>
-                  <li>
-                    <a href="video.html">Video</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-box" /> <span>Elements </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="ribbon.html">Ribbon</a>
-                  </li>
-                  <li>
-                    <a href="clipboard.html">Clipboard</a>
-                  </li>
-                  <li>
-                    <a href="drag-drop.html">Drag &amp; Drop</a>
-                  </li>
-                  <li>
-                    <a href="rating.html">Rating</a>
-                  </li>
-                  <li>
-                    <a href="text-editor.html">Text Editor</a>
-                  </li>
-                  <li>
-                    <a href="counter.html">Counter</a>
-                  </li>
-                  <li>
-                    <a href="scrollbar.html">Scrollbar</a>
-                  </li>
-                  <li>
-                    <a href="notification.html">Notification</a>
-                  </li>
-                  <li>
-                    <a href="stickynote.html">Sticky Note</a>
-                  </li>
-                  <li>
-                    <a href="timeline.html">Timeline</a>
-                  </li>
-                  <li>
-                    <a href="horizontal-timeline.html">Horizontal Timeline</a>
-                  </li>
-                  <li>
-                    <a href="form-wizard.html">Form Wizard</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-bar-chart" /> <span> Charts </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="chart-apex.html">Apex Charts</a>
-                  </li>
-                  <li>
-                    <a href="chart-js.html">Chart Js</a>
-                  </li>
-                  <li>
-                    <a href="chart-morris.html">Morris Charts</a>
-                  </li>
-                  <li>
-                    <a href="chart-flot.html">Flot Charts</a>
-                  </li>
-                  <li>
-                    <a href="chart-peity.html">Peity Charts</a>
-                  </li>
-                  <li>
-                    <a href="chart-c3.html">C3 Charts</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-award" /> <span> Icons </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="icon-fontawesome.html">Fontawesome Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-feather.html">Feather Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-ionic.html">Ionic Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-material.html">Material Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-pe7.html">Pe7 Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-simpleline.html">Simpleline Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-themify.html">Themify Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-weather.html">Weather Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-typicon.html">Typicon Icons</a>
-                  </li>
-                  <li>
-                    <a href="icon-flag.html">Flag Icons</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-sidebar" /> <span> Forms </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="form-basic-inputs.html">Basic Inputs </a>
-                  </li>
-                  <li>
-                    <a href="form-input-groups.html">Input Groups </a>
-                  </li>
-                  <li>
-                    <a href="form-horizontal.html">Horizontal Form </a>
-                  </li>
-                  <li>
-                    <a href="form-vertical.html"> Vertical Form </a>
-                  </li>
-                  <li>
-                    <a href="form-mask.html">Form Mask </a>
-                  </li>
-                  <li>
-                    <a href="form-validation.html">Form Validation </a>
-                  </li>
-                  <li>
-                    <a href="form-select2.html">Form Select2 </a>
-                  </li>
-                  <li>
-                    <a href="form-fileupload.html">File Upload </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="submenu">
-                <a href="#">
-                  <i className="fe fe-layout" /> <span> Tables </span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li>
-                    <a href="tables-basic.html">Basic Tables </a>
-                  </li>
-                  <li>
-                    <a href="data-tables.html">Data Table </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-title">
-                <span>Settings</span>
-              </li>
-              <li>
-                <a href="settings.html">
-                  <i className="fe fe-settings" /> <span>Settings</span>
-                </a>
-              </li>
-              <li>
-                <a href="login.html">
-                  <i className="fe fe-power" /> <span>Logout</span>
-                </a>
-              </li>
-              <li className="menu-title">
-                <span>Extras</span>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fe fe-file-text" /> <span>Documentation</span>
-                </a>
-              </li>
-              <li>
-                <a href="javascript:void(0);">
-                  <i className="fe fe-lock" /> <span>Change Log</span>{" "}
-                  <span className="badge badge-primary ms-auto">v2.0.4</span>
-                </a>
-              </li>
-              <li className="submenu">
-                <a href="javascript:void(0);">
-                  <i className="fa fa-list" /> <span>Multi Level</span>{" "}
-                  <span className="menu-arrow" />
-                </a>
-                <ul style={{ display: "none" }}>
-                  <li className="submenu">
-                    <a href="javascript:void(0);">
-                      {" "}
-                      <span>Level 1</span> <span className="menu-arrow" />
-                    </a>
-                    <ul style={{ display: "none" }} className="level2">
-                      <li>
-                        <a href="javascript:void(0);">
-                          <span>Level 2</span>
-                        </a>
-                      </li>
-                      <li className="submenu">
-                        <a href="javascript:void(0);">
-                          {" "}
-                          <span> Level 2</span> <span className="menu-arrow" />
-                        </a>
-                        <ul style={{ display: "none" }} className="level3">
-                          <li>
-                            <a href="javascript:void(0);">Level 3</a>
-                          </li>
-                          <li>
-                            <a href="javascript:void(0);">Level 3</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);">
-                          {" "}
-                          <span>Level 2</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0);">
-                      {" "}
-                      <span>Level 1</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              {/* <li className="menu-title">
+                  <span>Quotations</span>
+                </li>
+                <li>
+                  <a href="quotations.html">
+                    <i className="fe fe-clipboard" /> <span>Quotations</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="delivery-challans.html">
+                    <i className="fe fe-file-text" />{" "}
+                    <span>Delivery Challans</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Reports</span>
+                </li>
+                <li>
+                  <a href="payment-summary.html">
+                    <i className="fe fe-credit-card" />{" "}
+                    <span>Payment Summary</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-box" />
+                    <span>Reports</span> <span className="menu-arrow" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="expense-report.html">Expense Report</a>
+                    </li>
+                    <li>
+                      <a href="purchase-report.html">Purchase Report</a>
+                    </li>
+                    <li>
+                      <a href="purchase-return.html">Purchase Return Report</a>
+                    </li>
+                    <li>
+                      <a href="sales-report.html">Sales Report</a>
+                    </li>
+                    <li>
+                      <a href="sales-return-report.html">Sales Return Report</a>
+                    </li>
+                    <li>
+                      <a href="quotation-report.html">Quotation Report</a>
+                    </li>
+                    <li>
+                      <a href="payment-report.html">Payment Report</a>
+                    </li>
+                    <li>
+                      <a href="stock-report.html">Stock Report</a>
+                    </li>
+                    <li>
+                      <a href="low-stock-report.html">Low Stock Report</a>
+                    </li>
+                    <li>
+                      <a href="income-report.html">Income Report</a>
+                    </li>
+                    <li>
+                      <a href="tax-purchase.html">Tax Report</a>
+                    </li>
+                    <li>
+                      <a href="profit-loss-list.html">Profit &amp; Loss</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>User Management</span>
+                </li>
+                <li>
+                  <a href="users.html">
+                    <i className="fe fe-user" /> <span>Users</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="roles-permission.html">
+                    <i className="fe fe-clipboard" />{" "}
+                    <span>Roles &amp; Permission</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="delete-account-request.html">
+                    <i className="fe fe-trash-2" />{" "}
+                    <span>Delete Account Request</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Membership</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-book" /> <span> Membership</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="membership-plans.html">Membership Plans</a>
+                    </li>
+                    <li>
+                      <a href="membership-addons.html">Membership Addons</a>
+                    </li>
+                    <li>
+                      <a href="subscribers.html">Subscribers</a>
+                    </li>
+                    <li>
+                      <a href="transactions.html">Transactions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Content (CMS)</span>
+                </li>
+                <li>
+                  <a href="pages.html">
+                    <i className="fe fe-folder" /> <span>Pages</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-book" /> <span> Blog</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="all-blogs.html">All Blogs</a>
+                    </li>
+                    <li>
+                      <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                      <a href="blog-comments.html">Blog Comments</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-map-pin" /> <span> Location</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="countries.html">Countries</a>
+                    </li>
+                    <li>
+                      <a href="states.html">States</a>
+                    </li>
+                    <li>
+                      <a href="cities.html">Cities</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="testimonials.html">
+                    <i className="fe fe-message-square" />{" "}
+                    <span>Testimonials</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="faq.html">
+                    <i className="fe fe-alert-circle" /> <span>FAQ</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Support</span>
+                </li>
+                <li>
+                  <a href="contact-messages.html">
+                    <i className="fe fe-printer" />{" "}
+                    <span>Contact Messages</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-save" /> <span> Tickets</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li>
+                      <a href="tickets-list.html">Tickets List</a>
+                    </li>
+                    <li>
+                      <a href="tickets-kanban.html">Tickets Kanban</a>
+                    </li>
+                    <li>
+                      <a href="ticket-details.html">Ticket Overview</a>
+                    </li>
+                  </ul>
+                </li> */}
+              {/* <li className="menu-title">
+                  <span>Pages</span>
+                </li>
+                <li>
+                  <a href="profile.html">
+                    <i className="fe fe-user" /> <span>Profile</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-lock" /> <span> Authentication </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="login.html"> Login </a>
+                    </li>
+                    <li>
+                      <a href="register.html"> Register </a>
+                    </li>
+                    <li>
+                      <a href="forgot-password.html"> Forgot Password </a>
+                    </li>
+                    <li>
+                      <a href="lock-screen.html"> Lock Screen </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="error-404.html">
+                    <i className="fe fe-x-square" /> <span>Error Pages</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="blank-page.html">
+                    <i className="fe fe-file" /> <span>Blank Page</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="maps-vector.html">
+                    <i className="fe fe-image" /> <span>Vector Maps</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>UI Interface</span>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-pocket" /> <span>Base UI </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="alerts.html">Alerts</a>
+                    </li>
+                    <li>
+                      <a href="accordions.html">Accordions</a>
+                    </li>
+                    <li>
+                      <a href="avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                      <a href="badges.html">Badges</a>
+                    </li>
+                    <li>
+                      <a href="buttons.html">Buttons</a>
+                    </li>
+                    <li>
+                      <a href="buttongroup.html">Button Group</a>
+                    </li>
+                    <li>
+                      <a href="breadcrumbs.html">Breadcrumb</a>
+                    </li>
+                    <li>
+                      <a href="cards.html">Cards</a>
+                    </li>
+                    <li>
+                      <a href="carousel.html">Carousel</a>
+                    </li>
+                    <li>
+                      <a href="dropdowns.html">Dropdowns</a>
+                    </li>
+                    <li>
+                      <a href="grid.html">Grid</a>
+                    </li>
+                    <li>
+                      <a href="images.html">Images</a>
+                    </li>
+                    <li>
+                      <a href="lightbox.html">Lightbox</a>
+                    </li>
+                    <li>
+                      <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                      <a href="modal.html">Modals</a>
+                    </li>
+                    <li>
+                      <a href="offcanvas.html">Offcanvas</a>
+                    </li>
+                    <li>
+                      <a href="pagination.html">Pagination</a>
+                    </li>
+                    <li>
+                      <a href="popover.html">Popover</a>
+                    </li>
+                    <li>
+                      <a href="progress.html">Progress Bars</a>
+                    </li>
+                    <li>
+                      <a href="placeholders.html">Placeholders</a>
+                    </li>
+                    <li>
+                      <a href="rangeslider.html">Range Slider</a>
+                    </li>
+                    <li>
+                      <a href="spinners.html">Spinner</a>
+                    </li>
+                    <li>
+                      <a href="sweetalerts.html">Sweet Alerts</a>
+                    </li>
+                    <li>
+                      <a href="tab.html">Tabs</a>
+                    </li>
+                    <li>
+                      <a href="toastr.html">Toasts</a>
+                    </li>
+                    <li>
+                      <a href="tooltip.html">Tooltip</a>
+                    </li>
+                    <li>
+                      <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                      <a href="video.html">Video</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-box" /> <span>Elements </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="ribbon.html">Ribbon</a>
+                    </li>
+                    <li>
+                      <a href="clipboard.html">Clipboard</a>
+                    </li>
+                    <li>
+                      <a href="drag-drop.html">Drag &amp; Drop</a>
+                    </li>
+                    <li>
+                      <a href="rating.html">Rating</a>
+                    </li>
+                    <li>
+                      <a href="text-editor.html">Text Editor</a>
+                    </li>
+                    <li>
+                      <a href="counter.html">Counter</a>
+                    </li>
+                    <li>
+                      <a href="scrollbar.html">Scrollbar</a>
+                    </li>
+                    <li>
+                      <a href="notification.html">Notification</a>
+                    </li>
+                    <li>
+                      <a href="stickynote.html">Sticky Note</a>
+                    </li>
+                    <li>
+                      <a href="timeline.html">Timeline</a>
+                    </li>
+                    <li>
+                      <a href="horizontal-timeline.html">Horizontal Timeline</a>
+                    </li>
+                    <li>
+                      <a href="form-wizard.html">Form Wizard</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-bar-chart" /> <span> Charts </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="chart-apex.html">Apex Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-js.html">Chart Js</a>
+                    </li>
+                    <li>
+                      <a href="chart-morris.html">Morris Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-flot.html">Flot Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-peity.html">Peity Charts</a>
+                    </li>
+                    <li>
+                      <a href="chart-c3.html">C3 Charts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-award" /> <span> Icons </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="icon-fontawesome.html">Fontawesome Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-feather.html">Feather Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-ionic.html">Ionic Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-material.html">Material Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-pe7.html">Pe7 Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-simpleline.html">Simpleline Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-themify.html">Themify Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-weather.html">Weather Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-typicon.html">Typicon Icons</a>
+                    </li>
+                    <li>
+                      <a href="icon-flag.html">Flag Icons</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-sidebar" /> <span> Forms </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="form-basic-inputs.html">Basic Inputs </a>
+                    </li>
+                    <li>
+                      <a href="form-input-groups.html">Input Groups </a>
+                    </li>
+                    <li>
+                      <a href="form-horizontal.html">Horizontal Form </a>
+                    </li>
+                    <li>
+                      <a href="form-vertical.html"> Vertical Form </a>
+                    </li>
+                    <li>
+                      <a href="form-mask.html">Form Mask </a>
+                    </li>
+                    <li>
+                      <a href="form-validation.html">Form Validation </a>
+                    </li>
+                    <li>
+                      <a href="form-select2.html">Form Select2 </a>
+                    </li>
+                    <li>
+                      <a href="form-fileupload.html">File Upload </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fe fe-layout" /> <span> Tables </span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li>
+                      <a href="tables-basic.html">Basic Tables </a>
+                    </li>
+                    <li>
+                      <a href="data-tables.html">Data Table </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-title">
+                  <span>Settings</span>
+                </li>
+                <li>
+                  <a href="settings.html">
+                    <i className="fe fe-settings" /> <span>Settings</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="login.html">
+                    <i className="fe fe-power" /> <span>Logout</span>
+                  </a>
+                </li>
+                <li className="menu-title">
+                  <span>Extras</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fe fe-file-text" /> <span>Documentation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fe fe-lock" /> <span>Change Log</span>{" "}
+                    <span className="badge badge-primary ms-auto">v2.0.4</span>
+                  </a>
+                </li>
+                <li className="submenu">
+                  <a href="#">
+                    <i className="fa fa-list" /> <span>Multi Level</span>{" "}
+                    <span className="menu-arrow" />
+                  </a>
+                  <ul style={{ display: "none" }}>
+                    <li className="submenu">
+                      <a href="#">
+                        {" "}
+                        <span>Level 1</span> <span className="menu-arrow" />
+                      </a>
+                      <ul style={{ display: "none" }} className="level2">
+                        <li>
+                          <a href="#">
+                            <span>Level 2</span>
+                          </a>
+                        </li>
+                        <li className="submenu">
+                          <a href="#">
+                            {" "}
+                            <span> Level 2</span>{" "}
+                            <span className="menu-arrow" />
+                          </a>
+                          <ul style={{ display: "none" }} className="level3">
+                            <li>
+                              <a href="#">Level 3</a>
+                            </li>
+                            <li>
+                              <a href="#">Level 3</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#">
+                            {" "}
+                            <span>Level 2</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        {" "}
+                        <span>Level 1</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li> */}
             </ul>
           </div>
         </div>
@@ -1944,7 +1951,7 @@ export const PurchaseTransaction = () => (
                           <li>
                             <a
                               className="d-flex align-items-center download-item"
-                              href="javascript:void(0);"
+                              href="#"
                               download=""
                             >
                               <i className="far fa-file-pdf me-2" />
@@ -1954,7 +1961,7 @@ export const PurchaseTransaction = () => (
                           <li>
                             <a
                               className="d-flex align-items-center download-item"
-                              href="javascript:void(0);"
+                              href="#"
                               download=""
                             >
                               <i className="far fa-file-text me-2" />
@@ -1968,7 +1975,7 @@ export const PurchaseTransaction = () => (
                   <li>
                     <a
                       className="btn-filters"
-                      href="javascript:void(0);"
+                      href="#"
                       data-bs-toggle="tooltip"
                       data-bs-placement="bottom"
                       data-bs-original-title="print"
@@ -2039,29 +2046,20 @@ export const PurchaseTransaction = () => (
                                 <div className="dropdown-menu dropdown-menu-end">
                                   <ul className="dropdown-ul">
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-eye me-2" />
                                         View
                                       </a>
                                     </li>
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-xmark me-2" />
                                         Cancel
                                       </a>
                                     </li>
                                     <li className="delete-alt">
                                       <div>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fa-solid fa-edit me-2" />
                                           Subscription
                                         </a>
@@ -2110,29 +2108,20 @@ export const PurchaseTransaction = () => (
                                 <div className="dropdown-menu dropdown-menu-end">
                                   <ul className="dropdown-ul">
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-eye me-2" />
                                         View
                                       </a>
                                     </li>
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-xmark me-2" />
                                         Cancel
                                       </a>
                                     </li>
                                     <li className="delete-alt">
                                       <div>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fa-solid fa-edit me-2" />
                                           Subscription
                                         </a>
@@ -2181,29 +2170,20 @@ export const PurchaseTransaction = () => (
                                 <div className="dropdown-menu dropdown-menu-end">
                                   <ul className="dropdown-ul">
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-eye me-2" />
                                         View
                                       </a>
                                     </li>
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-xmark me-2" />
                                         Cancel
                                       </a>
                                     </li>
                                     <li className="delete-alt">
                                       <div>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fa-solid fa-edit me-2" />
                                           Subscription
                                         </a>
@@ -2252,29 +2232,20 @@ export const PurchaseTransaction = () => (
                                 <div className="dropdown-menu dropdown-menu-end">
                                   <ul className="dropdown-ul">
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-eye me-2" />
                                         View
                                       </a>
                                     </li>
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-xmark me-2" />
                                         Cancel
                                       </a>
                                     </li>
                                     <li className="delete-alt">
                                       <div>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fa-solid fa-edit me-2" />
                                           Subscription
                                         </a>
@@ -2323,29 +2294,20 @@ export const PurchaseTransaction = () => (
                                 <div className="dropdown-menu dropdown-menu-end">
                                   <ul className="dropdown-ul">
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-eye me-2" />
                                         View
                                       </a>
                                     </li>
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-xmark me-2" />
                                         Cancel
                                       </a>
                                     </li>
                                     <li className="delete-alt">
                                       <div>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fa-solid fa-edit me-2" />
                                           Subscription
                                         </a>
@@ -2394,29 +2356,20 @@ export const PurchaseTransaction = () => (
                                 <div className="dropdown-menu dropdown-menu-end">
                                   <ul className="dropdown-ul">
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-eye me-2" />
                                         View
                                       </a>
                                     </li>
                                     <li>
-                                      <a
-                                        className="dropdown-item"
-                                        href="javascript:void(0);"
-                                      >
+                                      <a className="dropdown-item" href="#">
                                         <i className="fa-solid fa-xmark me-2" />
                                         Cancel
                                       </a>
                                     </li>
                                     <li className="delete-alt">
                                       <div>
-                                        <a
-                                          className="dropdown-item"
-                                          href="javascript:void(0);"
-                                        >
+                                        <a className="dropdown-item" href="#">
                                           <i className="fa-solid fa-edit me-2" />
                                           Subscription
                                         </a>
@@ -2451,7 +2404,7 @@ export const PurchaseTransaction = () => (
                 <div className="card-header-new" id="headingOne">
                   <h6 className="filter-title">
                     <a
-                      href="javascript:void(0);"
+                      href="#"
                       className="w-100"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
@@ -2505,10 +2458,7 @@ export const PurchaseTransaction = () => (
                                 </label>
                               </div>
                               <div className="view-all">
-                                <a
-                                  href="javascript:void(0);"
-                                  className="viewall-button-One"
-                                >
+                                <a href="#" className="viewall-button-One">
                                   <span className="me-2">View All</span>
                                   <span>
                                     <i className="fa fa-circle-chevron-down" />
@@ -2527,7 +2477,7 @@ export const PurchaseTransaction = () => (
                 <div className="card-header-new" id="headingFour">
                   <h6 className="filter-title">
                     <a
-                      href="javascript:void(0);"
+                      href="#"
                       className="w-100 collapsed"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseFour"
@@ -2571,7 +2521,7 @@ export const PurchaseTransaction = () => (
                 <div className="card-header-new" id="headingThree">
                   <h6 className="filter-title">
                     <a
-                      href="javascript:void(0);"
+                      href="#"
                       className="w-100 collapsed"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
@@ -2926,6 +2876,34 @@ export const PurchaseTransaction = () => (
                       Cancel
                     </button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="" align="center">
+      <div className="content container-fluid">
+        <div className="card mb-0">
+          <div className="card-body">
+            <div
+              class="elementor-element elementor-element-1942af2 elementor-widget elementor-widget-copyright"
+              data-id="1942af2"
+              data-element_type="widget"
+              data-settings='{"align":"center"}'
+              data-widget_type="copyright.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="hfe-copyright-wrapper">
+                  <a href="https://psyber.co/">
+                    <span>
+                      <b>
+                        2024 © All Rights Reserved | Cooked with ❤️ by Psyber
+                        Inc
+                      </b>
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -3500,6 +3478,7 @@ export const PurchaseTransaction = () => (
               href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
               target="_blank"
               className="btn btn-primary w-100 bor-rad-50"
+              rel="noreferrer"
             >
               Buy Now
             </a>

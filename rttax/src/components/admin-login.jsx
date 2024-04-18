@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -20,7 +21,7 @@ function Login() {
               <div className="login-right-wrap">
                 <h1>Login</h1>
                 <p className="account-subtitle">Access to our dashboard</p>
-                <form action="https://kanakku.dreamstechnologies.com/html/template/index.html">
+                <form action="/admin-dashboard">
                   <div className="input-block mb-3">
                     <label className="form-control-label">Email Address</label>
                     <input type="email" className="form-control" />
@@ -77,7 +78,7 @@ function Login() {
                   </div>
                   <div className="text-center dont-have">
                     Don't have an account yet?{" "}
-                    <a href="register.html">Register</a>
+                    <Link to="/admin-dashboard">Register</Link>
                   </div>
                 </form>
               </div>

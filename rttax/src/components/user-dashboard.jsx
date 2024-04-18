@@ -1162,22 +1162,22 @@ const UserDashboard = () => {
               </nav>
               <ul className="sidebar-vertical">
                 <li className="menu-title">
-                  <span>Main</span>
+                  <span> </span>
                 </li>
-                <li className="submenu">
-                  <a href="#">
+                <li className="active">
+                  <a href="/user-dashboard">
                     <i className="fe fe-home" /> <span> Dashboard</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  <ul style={{ display: "none" }}>
+                  {/* <ul style={{ display: "none" }}>
                     <li>
-                      <a className="active" href="index.html">
+                      <a className="" href="index.html">
                         Admin Dashboard
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
-                <li className="submenu">
+                {/* <li className="submenu">
                   <a href="#">
                     <i className="fe fe-grid" /> <span> Applications</span>{" "}
                     <span className="menu-arrow" />
@@ -1221,7 +1221,7 @@ const UserDashboard = () => {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-title">
                   <span>Customer</span>
                 </li>
@@ -1230,26 +1230,25 @@ const UserDashboard = () => {
                     <i className="fe fe-users" /> <span>Add Customers</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="customer-details.html">
                     <i className="fe fe-file" /> <span>Customer Details</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="vendors.html">
-                    <i className="fe fe-user" /> <span>Vendors</span>
+                  <a href="add-vendor">
+                    <i className="fe fe-user" /> <span>Add Vendors</span>
                   </a>
                 </li>
                 <li className="menu-title">
-                  <span>Inventory</span>
+                  <span>Invoice</span>
                 </li>
                 <li className="submenu">
-                  <a href="#">
-                    <i className="fe fe-package" />{" "}
-                    <span> Products / Services</span>{" "}
+                  <a href="/invoices">
+                    <i className="fe fe-package" /> <span> Invoice</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  <ul style={{ display: "none" }}>
+                  {/* <ul style={{ display: "none" }}>
                     <li>
                       <a href="product-list.html">Product List</a>
                     </li>
@@ -1259,26 +1258,25 @@ const UserDashboard = () => {
                     <li>
                       <a href="units.html">Units</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <a href="inventory.html">
-                    <i className="fe fe-user" /> <span>Inventory</span>
+                  <a href="/add-invoice">
+                    <i className="fe fe-user" /> <span>Add Invoice</span>
                   </a>
                 </li>
                 <li className="menu-title">
-                  <span>Signature</span>
+                  <span>Finance & Accounts</span>
                 </li>
                 <li>
-                  <a href="signature-list.html">
-                    <i className="fe fe-clipboard" />{" "}
-                    <span>List of Signature</span>
+                  <a href="/expenses">
+                    <i className="fe fe-file-plus" /> <span>Expenses</span>
                   </a>
-                  <a href="signature-invoice.html">
-                    <i className="fe fe-box" /> <span>Signature Invoice</span>
+                  <a href="/add-expenses">
+                    <i className="fe fe-box" /> <span>Add Expenses</span>
                   </a>
                 </li>
-                <li className="menu-title">
+                {/* <li className="menu-title">
                   <span>Sales</span>
                 </li>
                 <li className="submenu">
@@ -1414,8 +1412,8 @@ const UserDashboard = () => {
                       <a href="profit-loss-list.html">Profit &amp; Loss</a>
                     </li>
                   </ul>
-                </li>
-                <li className="menu-title">
+                </li> */}
+                {/* <li className="menu-title">
                   <span>User Management</span>
                 </li>
                 <li>
@@ -1906,7 +1904,7 @@ const UserDashboard = () => {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -3042,6 +3040,34 @@ const UserDashboard = () => {
                           </tr>
                         </tbody>
                       </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="" align="center">
+            <div className="content container-fluid">
+              <div className="card mb-0">
+                <div className="card-body">
+                  <div
+                    class="elementor-element elementor-element-1942af2 elementor-widget elementor-widget-copyright"
+                    data-id="1942af2"
+                    data-element_type="widget"
+                    data-settings='{"align":"center"}'
+                    data-widget_type="copyright.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="hfe-copyright-wrapper">
+                        <a href="https://psyber.co/">
+                          <span>
+                            <b>
+                              2024 © All Rights Reserved | Cooked with ❤️ by
+                              Psyber Inc
+                            </b>
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

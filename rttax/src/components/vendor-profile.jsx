@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 const React = require("react");
 
 function MainWrapper() {
@@ -8,18 +9,20 @@ function MainWrapper() {
           href="index.html"
           className="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo"
         >
-          <img
-            src="assets/img/logo.png"
-            className="img-fluid logo2"
-            alt="Logo"
-          />
+          {/* <img
+              src="assets/img/logo.png"
+              className="img-fluid logo2"
+              style={{ width: "116px", height: "30px" }}
+              alt="Logo"
+            /> */}
         </a>
         <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
           <div className="logo-white">
-            <a href="index.html">
+            <a href="/admin-dashboard">
               <img
-                src="assets/img/logo-full-white.png"
-                className="img-fluid logo-blue"
+                src="assets/img/taxrx_logo1.png"
+                className="img-fluid logo2"
+                style={{ width: "200px", height: "90px" }}
                 alt="Logo"
               />
             </a>
@@ -48,12 +51,12 @@ function MainWrapper() {
             </a>
           </div>
         </div>
-        <a href="javascript:void(0);" id="toggle_btn">
+        <a href="#" id="toggle_btn">
           <span className="toggle-bars">
-            <span className="bar-icons"></span>
-            <span className="bar-icons"></span>
-            <span className="bar-icons"></span>
-            <span className="bar-icons"></span>
+            <span className="bar-icons" />
+            <span className="bar-icons" />
+            <span className="bar-icons" />
+            <span className="bar-icons" />
           </span>
         </a>
         <div className="top-nav-search">
@@ -69,7 +72,7 @@ function MainWrapper() {
           </form>
         </div>
         <a className="mobile_btn" id="mobile_btn">
-          <i className="fas fa-bars"></i>
+          <i className="fas fa-bars" />
         </a>
         <ul className="nav nav-tabs user-menu">
           <li className="nav-item dropdown has-arrow flag-nav">
@@ -82,28 +85,28 @@ function MainWrapper() {
               <img src="assets/img/flags/us1.png" alt="flag" />
               <span>English</span>
             </a>
-            <div className="dropdown-menu dropdown-menu-right">
-              <a href="javascript:void(0);" className="dropdown-item">
+            <div className="dropdown-menu dropdown-menu-end">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/us.png" alt="flag" />
                 <span>English</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/fr.png" alt="flag" />
                 <span>French</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/es.png" alt="flag" />
                 <span>Spanish</span>
               </a>
-              <a href="javascript:void(0);" className="dropdown-item">
+              <a href="#" className="dropdown-item">
                 <img src="assets/img/flags/de.png" alt="flag" />
                 <span>German</span>
               </a>
             </div>
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="javascript:void(0);" className="toggle-switch">
-              <i className="fe fe-moon"></i>
+            <a href="#" className="toggle-switch">
+              <i className="fe fe-moon" />
             </a>
           </li>
           <li className="nav-item dropdown  flag-nav dropdown-heads">
@@ -113,24 +116,141 @@ function MainWrapper() {
               href="#"
               role="button"
             >
-              <i className="fe fe-bell"></i>{" "}
-              <span className="badge rounded-pill"></span>
+              <i className="fe fe-bell" />{" "}
+              <span className="badge rounded-pill" />
             </a>
             <div className="dropdown-menu notifications">
               <div className="topnav-dropdown-header">
                 <div className="notification-title">
                   Notifications <a href="notifications.html">View all</a>
                 </div>
-                <a
-                  href="javascript:void(0)"
-                  className="clear-noti d-flex align-items-center"
-                >
-                  Mark all as read <i className="fe fe-check-circle"></i>
+                <a href="#" className="clear-noti d-flex align-items-center">
+                  Mark all as read <i className="fe fe-check-circle" />
                 </a>
               </div>
               <div className="noti-content">
                 <ul className="notification-list">
-                  {/* Notification items go here */}
+                  <li className="notification-message">
+                    <a href="profile.html">
+                      <div className="d-flex">
+                        <span className="avatar avatar-md active">
+                          <img
+                            className="avatar-img rounded-circle"
+                            alt="avatar-img"
+                            src="assets/img/profiles/avatar-02.jpg"
+                          />
+                        </span>
+                        <div className="media-body">
+                          <p className="noti-details">
+                            <span className="noti-title">Lex Murphy</span>{" "}
+                            requested access to{" "}
+                            <span className="noti-title">
+                              UNIX directory tree hierarchy
+                            </span>
+                          </p>
+                          <div className="notification-btn">
+                            <span className="btn btn-primary">Accept</span>
+                            <span className="btn btn-outline-primary">
+                              Reject
+                            </span>
+                          </div>
+                          <p className="noti-time">
+                            <span className="notification-time">
+                              Today at 9:42 AM
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li className="notification-message">
+                    <a href="profile.html">
+                      <div className="d-flex">
+                        <span className="avatar avatar-md active">
+                          <img
+                            className="avatar-img rounded-circle"
+                            alt="avatar-img"
+                            src="assets/img/profiles/avatar-10.jpg"
+                          />
+                        </span>
+                        <div className="media-body">
+                          <p className="noti-details">
+                            <span className="noti-title">Ray Arnold</span> left
+                            6 comments{" "}
+                            <span className="noti-title">
+                              on Isla Nublar SOC2 compliance report
+                            </span>
+                          </p>
+                          <p className="noti-time">
+                            <span className="notification-time">
+                              Yesterday at 11:42 PM
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li className="notification-message">
+                    <a href="profile.html">
+                      <div className="d-flex">
+                        <span className="avatar avatar-md">
+                          <img
+                            className="avatar-img rounded-circle"
+                            alt="avatar-img"
+                            src="assets/img/profiles/avatar-13.jpg"
+                          />
+                        </span>
+                        <div className="media-body">
+                          <p className="noti-details">
+                            <span className="noti-title">Dennis Nedry</span>{" "}
+                            commented on{" "}
+                            <span className="noti-title">
+                              {" "}
+                              Isla Nublar SOC2 compliance report
+                            </span>
+                          </p>
+                          <blockquote>
+                            “Oh, I finished de-bugging the phones, but the
+                            system's compiling for eighteen minutes, or twenty.
+                            So, some minor systems may go on and off for a
+                            while.”
+                          </blockquote>
+                          <p className="noti-time">
+                            <span className="notification-time">
+                              Yesterday at 5:42 PM
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li className="notification-message">
+                    <a href="profile.html">
+                      <div className="d-flex">
+                        <span className="avatar avatar-md">
+                          <img
+                            className="avatar-img rounded-circle"
+                            alt="avatar-img"
+                            src="assets/img/profiles/avatar-05.jpg"
+                          />
+                        </span>
+                        <div className="media-body">
+                          <p className="noti-details">
+                            <span className="noti-title">John Hammond</span>{" "}
+                            created{" "}
+                            <span className="noti-title">
+                              Isla Nublar SOC2 compliance report
+                            </span>
+                          </p>
+                          <p className="noti-time">
+                            <span className="notification-time">
+                              Last Wednesday at 11:15 AM
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div className="topnav-dropdown-footer">
@@ -139,433 +259,70 @@ function MainWrapper() {
             </div>
           </li>
           <li className="nav-item  has-arrow dropdown-heads ">
-            <a href="javascript:void(0);" className="win-maximize">
-              <i className="fe fe-maximize"></i>
+            <a href="#" className="win-maximize">
+              <i className="fe fe-maximize" />
             </a>
           </li>
-        </ul>
-        <div className="sidebar" id="sidebar">
-          <div className="sidebar-inner slimscroll">
-            <div id="sidebar-menu" className="sidebar-menu">
-              <nav className="greedys sidebar-horizantal">
-                <ul className="list-inline-item list-unstyled links">
-                  <li className="menu-title">
-                    <span>Main</span>
-                  </li>
-                  <li className="submenu">
-                    <a href="#">
-                      <i className="fe fe-home"></i> <span> Dashboard</span>{" "}
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="index.html">Admin Dashboard</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="submenu">
-                    <a href="#">
-                      <i className="fe fe-grid"></i> <span> Applications</span>{" "}
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="chat.html">Chat</a>
-                      </li>
-                      <li>
-                        <a href="calendar.html">Calendar</a>
-                      </li>
-                      <li>
-                        <a href="inbox.html">Email</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="submenu">
-                    <a href="#">
-                      <i className="fe fe-user"></i> <span> Super Admin</span>{" "}
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="companies.html">Companies</a>
-                      </li>
-                      <li>
-                        <a href="subscription.html">Subscription</a>
-                      </li>
-                      <li>
-                        <a href="packages.html">Packages</a>
-                      </li>
-                      <li>
-                        <a href="domain-request.html">Domain Request</a>
-                      </li>
-                      <li>
-                        <a href="domain.html">Domain</a>
-                      </li>
-                      <li>
-                        <a href="purchase-transaction.html">
-                          Purchase Transaction
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="submenu">
-                    <a href="#">
-                      <span>
-                        {" "}
-                        <i className="fe fe-users"></i> Customers
-                      </span>{" "}
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="customers.html">
-                          <i className="fe fe-users"></i> <span>Customers</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="customer-details.html">
-                          <i className="fe fe-file"></i>{" "}
-                          <span>Customer Details</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="vendors.html">
-                          <i className="fe fe-user"></i> <span>Vendors</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="menu-title">
-                    <span>Inventory</span>
-                  </li>
-                  <li className="submenu">
-                    <a href="#">
-                      <i className="fe fe-package"></i>{" "}
-                      <span> Products / Services</span>{" "}
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="product-list.html">Product List</a>
-                      </li>
-                      <li>
-                        <a href="category.html">Category</a>
-                      </li>
-                      <li>
-                        <a href="units.html">Units</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="inventory.html">
-                      <i className="fe fe-user"></i> <span>Inventory</span>
-                    </a>
-                  </li>
-                  <li className="submenu">
-                    <a href="#">
-                      {" "}
-                      <i className="fe fe-file-plus"></i>
-                      <span>Signature </span>{" "}
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="signature-list.html">
-                          <i className="fe fe-clipboard"></i>{" "}
-                          <span>List of Signature</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="signature-invoice.html">
-                          <i className="fe fe-box"></i>{" "}
-                          <span>Signature Invoice</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="menu-title">
-                    <span>Sales</span>
-                  </li>
-                  <li className="submenu">
-                    <a href="invoices.html">
-                      <i className="fe fe-file"></i> <span>Invoices</span>
-                      <span className="menu-arrow"></span>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="invoices.html">Invoices List</a>
-                      </li>
-                      <li>
-                        <a href="invoice-details-admin.html">
-                          Invoice Details (Admin)
-                        </a>
-                      </li>
-                      <li>
-                        <a href="invoice-details.html">
-                          Invoice Details (Customer)
-                        </a>
-                      </li>
-                      <li>
-                        <a href="invoice-template.html">Invoice Templates</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <button className="viewmoremenu">More Menu</button>
-                <ul className="hidden-links hidden">
-                  {/* Additional menu items go here */}
-                </ul>
-              </nav>
+          <li className="nav-item dropdown">
+            <a
+              href="#"
+              className="user-link  nav-link"
+              data-bs-toggle="dropdown"
+            >
+              <span className="user-img">
+                <img
+                  src="assets/img/profiles/avatar-07.jpg"
+                  alt="img"
+                  className="profilesidebar"
+                />
+                <span className="animate-circle" />
+              </span>
+              <span className="user-content">
+                <span className="user-details">Admin</span>
+                <span className="user-name">John Smith</span>
+              </span>
+            </a>
+            <div className="dropdown-menu menu-drop-user">
+              <div className="profilemenu">
+                <div className="subscription-menu">
+                  <ul>
+                    <li>
+                      <a className="dropdown-item" href="profile.html">
+                        Profile
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="settings.html">
+                        Settings
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="subscription-logout">
+                  <ul>
+                    <li className="pb-0">
+                      <a className="dropdown-item" href="login.html">
+                        Log Out
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <nav className="greedys sidebar-horizantal">
-        <ul className="list-inline-item list-unstyled links">
-          <li className="menu-title">
-            <span>Main</span>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fe fe-box"></i> <span>Elements </span>{" "}
-              <span className="menu-arrow"></span>
-            </a>
-            <ul>
-              <li>
-                <a href="ribbon.html">Ribbon</a>
-              </li>
-              <li>
-                <a href="clipboard.html">Clipboard</a>
-              </li>
-              <li>
-                <a href="drag-drop.html">Drag & Drop</a>
-              </li>
-              <li>
-                <a href="rating.html">Rating</a>
-              </li>
-              <li>
-                <a href="text-editor.html">Text Editor</a>
-              </li>
-              <li>
-                <a href="counter.html">Counter</a>
-              </li>
-              <li>
-                <a href="scrollbar.html">Scrollbar</a>
-              </li>
-              <li>
-                <a href="notification.html">Notification</a>
-              </li>
-              <li>
-                <a href="stickynote.html">Sticky Note</a>
-              </li>
-              <li>
-                <a href="timeline.html">Timeline</a>
-              </li>
-              <li>
-                <a href="horizontal-timeline.html">Horizontal Timeline</a>
-              </li>
-              <li>
-                <a href="form-wizard.html">Form Wizard</a>
-              </li>
-            </ul>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fe fe-bar-chart"></i> <span> Charts </span>{" "}
-              <span className="menu-arrow"></span>
-            </a>
-            <ul>
-              <li>
-                <a href="chart-apex.html">Apex Charts</a>
-              </li>
-              <li>
-                <a href="chart-js.html">Chart Js</a>
-              </li>
-              <li>
-                <a href="chart-morris.html">Morris Charts</a>
-              </li>
-              <li>
-                <a href="chart-flot.html">Flot Charts</a>
-              </li>
-              <li>
-                <a href="chart-peity.html">Peity Charts</a>
-              </li>
-              <li>
-                <a href="chart-c3.html">C3 Charts</a>
-              </li>
-            </ul>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fe fe-award"></i> <span> Icons </span>{" "}
-              <span className="menu-arrow"></span>
-            </a>
-            <ul>
-              <li>
-                <a href="icon-fontawesome.html">Fontawesome Icons</a>
-              </li>
-              <li>
-                <a href="icon-feather.html">Feather Icons</a>
-              </li>
-              <li>
-                <a href="icon-ionic.html">Ionic Icons</a>
-              </li>
-              <li>
-                <a href="icon-material.html">Material Icons</a>
-              </li>
-              <li>
-                <a href="icon-pe7.html">Pe7 Icons</a>
-              </li>
-              <li>
-                <a href="icon-simpleline.html">Simpleline Icons</a>
-              </li>
-              <li>
-                <a href="icon-themify.html">Themify Icons</a>
-              </li>
-              <li>
-                <a href="icon-weather.html">Weather Icons</a>
-              </li>
-              <li>
-                <a href="icon-typicon.html">Typicon Icons</a>
-              </li>
-              <li>
-                <a href="icon-flag.html">Flag Icons</a>
-              </li>
-            </ul>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fe fe-sidebar"></i> <span> Forms </span>{" "}
-              <span className="menu-arrow"></span>
-            </a>
-            <ul>
-              <li>
-                <a href="form-basic-inputs.html">Basic Inputs </a>
-              </li>
-              <li>
-                <a href="form-input-groups.html">Input Groups </a>
-              </li>
-              <li>
-                <a href="form-horizontal.html">Horizontal Form </a>
-              </li>
-              <li>
-                <a href="form-vertical.html"> Vertical Form </a>
-              </li>
-              <li>
-                <a href="form-mask.html">Form Mask </a>
-              </li>
-              <li>
-                <a href="form-validation.html">Form Validation </a>
-              </li>
-              <li>
-                <a href="form-select2.html">Form Select2 </a>
-              </li>
-              <li>
-                <a href="form-fileupload.html">File Upload </a>
-              </li>
-            </ul>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fe fe-layout"></i> <span> Tables </span>{" "}
-              <span className="menu-arrow"></span>
-            </a>
-            <ul>
-              <li>
-                <a href="tables-basic.html">Basic Tables </a>
-              </li>
-              <li>
-                <a href="data-tables.html">Data Table </a>
-              </li>
-            </ul>
-          </li>
-          <li className="menu-title">
-            <span>Settings</span>
-          </li>
-          <li>
-            <a href="settings.html" className="active">
-              <i className="fe fe-settings"></i> <span>Settings</span>
-            </a>
-          </li>
-          <li className="menu-title">
-            <span>Extras</span>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fe fe-file-text"></i> <span>Documentation</span>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0);">
-              <i className="fe fe-lock"></i> <span>Change Log</span>{" "}
-              <span className="badge badge-primary ms-auto">v2.0</span>
-            </a>
-          </li>
-          <li className="submenu">
-            <a href="javascript:void(0);">
-              <i className="fa fa-list"></i> <span>Multi Level</span>{" "}
-              <span className="menu-arrow"></span>
-            </a>
-            <ul style={{ display: "none" }}>
-              <li className="submenu">
-                <a href="javascript:void(0);">
-                  {" "}
-                  <span>Level 1</span> <span className="menu-arrow"></span>
-                </a>
-                <ul style={{ display: "none" }} className="level2">
-                  <li>
-                    <a href="javascript:void(0);">
-                      <span>Level 2</span>
-                    </a>
-                  </li>
-                  <li className="submenu">
-                    <a href="javascript:void(0);">
-                      {" "}
-                      <span> Level 2</span> <span className="menu-arrow"></span>
-                    </a>
-                    <ul style={{ display: "none" }} className="level3">
-                      <li>
-                        <a href="javascript:void(0);">Level 3</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);">Level 3</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0);">
-                      {" "}
-                      <span>Level 2</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0);">
-                  {" "}
-                  <span>Level 1</span>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="login.html">
-              <i className="fe fe-power"></i> <span>Logout</span>
-            </a>
           </li>
         </ul>
-      </nav>
+      </div>
       <div className="sidebar">
         <div className="sidebar-wrapper">
           <div className="sidebar-content">
             <div className="sidebar-brand">
-              <a href="index.html">Admin Dashboard</a>
+              {/* <a href="index.html">Admin Dashboard</a> */}
             </div>
             <div className="sidebar-header">
-              <h5 className="mb-0">Main Navigation</h5>
-              <span className="mt-0">Build with Greedys</span>
+              {/* <h5 className="mb-0">Main Navigation</h5> */}
+              {/* <span className="mt-0">Build with Greedys</span> */}
               <div className="close-sidebar" data-toggle="left-sidebar-close">
-                <i className="fe fe-x"></i>
+                {/* <i className="fe fe-x"></i> */}
               </div>
             </div>
             <div className="sidebar-menu">
@@ -1015,46 +772,46 @@ function MainWrapper() {
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fe fe-lock"></i> <span>Change Log</span>{" "}
                     <span className="badge badge-primary ms-auto">v2.0</span>
                   </a>
                 </li>
                 <li className="submenu">
-                  <a href="javascript:void(0);">
+                  <a href="#">
                     <i className="fa fa-list"></i> <span>Multi Level</span>{" "}
                     <span className="menu-arrow"></span>
                   </a>
                   <ul style={{ display: "none" }}>
                     <li className="submenu">
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span>{" "}
                         <span className="menu-arrow"></span>
                       </a>
                       <ul style={{ display: "none" }} className="level2">
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             <span>Level 2</span>
                           </a>
                         </li>
                         <li className="submenu">
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span> Level 2</span>{" "}
                             <span className="menu-arrow"></span>
                           </a>
                           <ul style={{ display: "none" }} className="level3">
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                             <li>
-                              <a href="javascript:void(0);">Level 3</a>
+                              <a href="#">Level 3</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="javascript:void(0);">
+                          <a href="#">
                             {" "}
                             <span>Level 2</span>
                           </a>
@@ -1062,7 +819,7 @@ function MainWrapper() {
                       </ul>
                     </li>
                     <li>
-                      <a href="javascript:void(0);">
+                      <a href="#">
                         {" "}
                         <span>Level 1</span>
                       </a>
@@ -1078,7 +835,7 @@ function MainWrapper() {
       <div className="page-wrapper">
         <div className="content container-fluid">
           <div className="row">
-            {/* <div className="col-xl-3 col-md-4">
+            <div className="col-xl-3 col-md-4">
               <div className="card">
                 <div className="card-body">
                   <div className="page-header">
@@ -1164,7 +921,7 @@ function MainWrapper() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
             <div className="col-xl-9 col-md-8">
               <div className="card">
                 <div className="card-body w-100">
@@ -1347,15 +1104,12 @@ function MainWrapper() {
                     <div className="col-lg-12">
                       <div className="btn-path text-end">
                         <a
-                          href="javascript:void(0);"
+                          href="#"
                           className="btn btn-cancel bg-primary-light me-3"
                         >
                           Cancel
                         </a>
-                        <a
-                          href="javascript:void(0);"
-                          className="btn btn-primary"
-                        >
+                        <a href="/user-dashboard" className="btn btn-primary">
                           Save Changes
                         </a>
                       </div>
@@ -1367,6 +1121,35 @@ function MainWrapper() {
           </div>
         </div>
       </div>
+      <div className="" align="center">
+        <div className="content container-fluid">
+          <div className="card mb-0">
+            <div className="card-body">
+              <div
+                class="elementor-element elementor-element-1942af2 elementor-widget elementor-widget-copyright"
+                data-id="1942af2"
+                data-element_type="widget"
+                data-settings='{"align":"center"}'
+                data-widget_type="copyright.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="hfe-copyright-wrapper">
+                    <a href="https://psyber.co/">
+                      <span>
+                        <b>
+                          2024 © All Rights Reserved | Cooked with ❤️ by Psyber
+                          Inc
+                        </b>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div>
         <div className="settings-icon">
           <span
@@ -1453,6 +1236,7 @@ function MainWrapper() {
                   href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
                   target="_blank"
                   className="btn btn-primary w-100 bor-rad-50"
+                  rel="noreferrer"
                 >
                   Buy Now
                 </a>

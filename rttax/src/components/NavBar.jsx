@@ -94,6 +94,42 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
+            <Link to="/adm-add-customer" className="nav-link">
+              Admin Add Customer
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/adm-add-vendor" className="nav-link">
+              Admin Add Vendor
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/adm-invoices" className="nav-link">
+              Admin Invoices
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/adm-add-invoice" className="nav-link">
+              Admin Add Invoices
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/adm-expenses" className="nav-link">
+              Admin Expenses
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/adm-add-expenses" className="nav-link">
+              Admin Add Expenses
+            </Link>
+          </li>
+
+          <li className="nav-item">
             <Link to="/quotations" className="nav-link">
               Quotation
             </Link>

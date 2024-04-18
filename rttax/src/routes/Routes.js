@@ -41,6 +41,12 @@ import PurchaseTransaction from '../components/purchase-transaction'; // Import 
 import Invoices from '../components/invoices'; // Import the Invoices component
 import Expenses from '../components/expenses';
 import AddExpenses from '../components/add-expenses'; // Import the AddExpenses component
+import AdmAddCustomer from '../components/adm-add-customer'; // Import AddCustomer component
+import AdmAddVendor from '../components/adm-add-vendor'; // Import AdmAddVendor component
+import AdmInvoices from '../components/adm-invoices'; // Import AdmInvoices component
+import AdmAddInvoice from '../components/adm-add-invoice'; // Import AdmAddInvoice component
+import AdmExpenses from '../components/adm-expenses'; // Import AdmExpenses component
+import AdmAddExpenses from '../components/adm-add-expenses'; // Import AdmAddExpenses component
 
 
 import Quotations from '../components/quotations'; // Update the import path if necessary
@@ -70,6 +76,12 @@ function AppRoutes() {
             <Route path="/invoices" element={<Invoices />} /> {/* Add this route */}
             <Route path="/expenses" element={<Expenses />} />
             <Route path="/add-expenses" element={<AddExpenses />} /> {/* Add this route */}
+            <Route path="/adm-add-customer" element={<AdmAddCustomer />} /> {/* Updated route name */}
+            <Route path="/adm-add-vendor" element={<AdmAddVendor />} />
+            <Route path="/adm-invoices" element={<AdmInvoices />} />
+            <Route path="/adm-add-invoice" element={<AdmAddInvoice />} />
+            <Route path="/adm-expenses" element={<AdmExpenses />} />
+            <Route path="/adm-add-expenses" element={<AdmAddExpenses />} />
 
 
 

@@ -94,7 +94,7 @@ function AddVendor() {
           </a>
           <div className="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
             <div className="logo-white">
-              <a href="index.html">
+              <a href="/user-dashboard">
                 <img
                   src="assets/img/taxrx_logo1.png"
                   className="img-fluid logo2"
@@ -161,7 +161,7 @@ function AddVendor() {
                 <img src="assets/img/flags/us1.png" alt="flag" />
                 <span>English</span>
               </a>
-              <div className="dropdown-menu dropdown-menu-right">
+              <div className="dropdown-menu dropdown-menu-end">
                 <a href="#" className="dropdown-item">
                   <img src="assets/img/flags/us.png" alt="flag" />
                   <span>English</span>
@@ -179,11 +179,6 @@ function AddVendor() {
                   <span>German</span>
                 </a>
               </div>
-            </li>
-            <li className="nav-item  has-arrow dropdown-heads ">
-              <a href="#" className="toggle-switch">
-                <i className="fe fe-moon" />
-              </a>
             </li>
             <li className="nav-item dropdown  flag-nav dropdown-heads">
               <a
@@ -347,7 +342,7 @@ function AddVendor() {
               >
                 <span className="user-img">
                   <img
-                    src="assets/img/profiles/avatar-22.jpg"
+                    src="assets/img/profiles/avatar-07.jpg"
                     alt="img"
                     className="profilesidebar"
                   />
@@ -403,7 +398,9 @@ function AddVendor() {
                     </a>
                     <ul>
                       <li>
-                        <a href="index.html">Admin Dashboard</a>
+                        <a href="index.html" className="active">
+                          Admin Dashboard
+                        </a>
                       </li>
                     </ul>
                   </li>
@@ -619,9 +616,6 @@ function AddVendor() {
                       <span>Payment Summary</span>
                     </a>
                   </li>
-                  <li className="menu-title">
-                    <span>Reports</span>
-                  </li>
                   <li className="submenu">
                     <a href="#">
                       <i className="fe fe-box" />
@@ -651,7 +645,7 @@ function AddVendor() {
                         <a href="quotation-report.html">Quotation Report</a>
                       </li>
                       <li>
-                        <a href="payment-report.html">Payment Report</a>
+                        <a href="payment-report-2.html">Payment Report</a>
                       </li>
                       <li>
                         <a href="stock-report.html">Stock Report</a>
@@ -1171,20 +1165,22 @@ function AddVendor() {
               </nav>
               <ul className="sidebar-vertical">
                 <li className="menu-title">
-                  <span>Main</span>
+                  <span> </span>
                 </li>
-                <li className="submenu">
-                  <a href="#">
+                <li className="menu">
+                  <a href="/user-dashboard">
                     <i className="fe fe-home" /> <span> Dashboard</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  <ul style={{ display: "none" }}>
+                  {/* <ul style={{ display: "none" }}>
                     <li>
-                      <a href="index.html">Admin Dashboard</a>
+                      <a className="" href="index.html">
+                        Admin Dashboard
+                      </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
-                <li className="submenu">
+                {/* <li className="submenu">
                   <a href="#">
                     <i className="fe fe-grid" /> <span> Applications</span>{" "}
                     <span className="menu-arrow" />
@@ -1202,7 +1198,7 @@ function AddVendor() {
                   </ul>
                 </li>
                 <li className="submenu">
-                  <a href="#">
+                  <a href="#" className="">
                     <i className="fe fe-user" /> <span> Super Admin</span>{" "}
                     <span className="menu-arrow" />
                   </a>
@@ -1228,35 +1224,34 @@ function AddVendor() {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-title">
-                  <span>Customers</span>
+                  <span>Customer</span>
                 </li>
                 <li>
-                  <a href="customers.html">
-                    <i className="fe fe-users" /> <span>Customers</span>
+                  <a href="/add-customer">
+                    <i className="fe fe-users" /> <span>Add Customers</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="customer-details.html">
                     <i className="fe fe-file" /> <span>Customer Details</span>
                   </a>
-                </li>
-                <li>
-                  <a href="vendors.html">
-                    <i className="fe fe-user" /> <span>Vendors</span>
+                </li> */}
+                <li className="active">
+                  <a href="add-vendor">
+                    <i className="fe fe-user" /> <span>Add Vendors</span>
                   </a>
                 </li>
                 <li className="menu-title">
-                  <span>Inventory</span>
+                  <span>Invoice</span>
                 </li>
                 <li className="submenu">
-                  <a href="#">
-                    <i className="fe fe-package" />{" "}
-                    <span> Products / Services</span>{" "}
+                  <a href="/invoices">
+                    <i className="fe fe-package" /> <span> Invoice</span>{" "}
                     <span className="menu-arrow" />
                   </a>
-                  <ul style={{ display: "none" }}>
+                  {/* <ul style={{ display: "none" }}>
                     <li>
                       <a href="product-list.html">Product List</a>
                     </li>
@@ -1266,31 +1261,29 @@ function AddVendor() {
                     <li>
                       <a href="units.html">Units</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <a href="inventory.html">
-                    <i className="fe fe-user" /> <span>Inventory</span>
+                  <a href="/add-invoice">
+                    <i className="fe fe-user" /> <span>Add Invoice</span>
                   </a>
                 </li>
                 <li className="menu-title">
-                  {" "}
-                  <span>Signature</span>
+                  <span>Finance & Accounts</span>
                 </li>
                 <li>
-                  <a href="signature-list.html">
-                    <i className="fe fe-clipboard" />{" "}
-                    <span>List of Signature</span>
+                  <a href="/expenses">
+                    <i className="fe fe-file-plus" /> <span>Expenses</span>
                   </a>
-                  <a href="signature-invoice.html">
-                    <i className="fe fe-box" /> <span>Signature Invoice</span>
+                  <a href="/add-expenses">
+                    <i className="fe fe-box" /> <span>Add Expenses</span>
                   </a>
                 </li>
-                <li className="menu-title">
+                {/* <li className="menu-title">
                   <span>Sales</span>
                 </li>
                 <li className="submenu">
-                  <a href="#" className="">
+                  <a href="#">
                     <i className="fe fe-file" /> <span>Invoices</span>
                     <span className="menu-arrow" />
                   </a>
@@ -1422,8 +1415,8 @@ function AddVendor() {
                       <a href="profit-loss-list.html">Profit &amp; Loss</a>
                     </li>
                   </ul>
-                </li>
-                <li className="menu-title">
+                </li> */}
+                {/* <li className="menu-title">
                   <span>User Management</span>
                 </li>
                 <li>
@@ -1914,239 +1907,270 @@ function AddVendor() {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
         </div>
+        <div className="page-wrapper">
+          <div className="content container-fluid">
+            <div className="card mb-0">
+              <div className="card-body">
+                <div className="container mt-4">
+                  <div className="row justify-content-center">
+                    <div className="col-md-8">
+                      {/* <div className="bg-light p-4 rounded"> */}
+                      <h4 className="mb-4 text-bold">Add Vendor</h4>
 
-        <div className="container mt-4">
-          <div className="row justify-content-center">
-            <div className="col-md-8">
-              <div className="bg-light p-4 rounded">
-                {/* <h4 className="mb-4 text-center">Add Vendor</h4> */}
-                <br />
-                <br />
-                <form>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="name" className="form-label">
-                          Name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="name"
-                          placeholder="Enter Name"
-                        />
+                      <form>
+                        <div className="row">
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="name" className="form-label">
+                                Name
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="name"
+                                placeholder="Enter Name"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="email" className="form-label">
+                                Email
+                              </label>
+                              <input
+                                type="email"
+                                className="form-control"
+                                id="email"
+                                placeholder="Enter Email Address"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="phone" className="form-label">
+                                Phone Number
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="phone"
+                                placeholder="Enter Phone Number"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="gst" className="form-label">
+                                GST Number (if available)
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="gst"
+                                placeholder="Enter GST Number"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="pan" className="form-label">
+                                PAN Number
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="pan"
+                                placeholder="Enter PAN Number"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="address1" className="form-label">
+                                Address Line 1
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="address1"
+                                placeholder="Enter Address 1"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="address2" className="form-label">
+                                Address Line 2
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="address2"
+                                placeholder="Enter Address 2"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="country" className="form-label">
+                                Country
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="country"
+                                placeholder="Enter Country"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="city" className="form-label">
+                                City
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="city"
+                                placeholder="Enter City"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="state" className="form-label">
+                                State
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="state"
+                                placeholder="Enter State"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="pincode" className="form-label">
+                                Pincode
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="pincode"
+                                placeholder="Enter Pincode"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="bank" className="form-label">
+                                Bank Name
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="bank"
+                                placeholder="Enter Bank Name"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="branch" className="form-label">
+                                Branch
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="branch"
+                                placeholder="Enter Branch Name"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label
+                                htmlFor="accountHolder"
+                                className="form-label"
+                              >
+                                Account Holder Name
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="accountHolder"
+                                placeholder="Enter Account Holder Name"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label
+                                htmlFor="accountNumber"
+                                className="form-label"
+                              >
+                                Account Number
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="accountNumber"
+                                placeholder="Enter Account Number"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-md-6">
+                            <div className="mb-3">
+                              <label htmlFor="ifsc" className="form-label">
+                                IFSC Code
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="ifsc"
+                                placeholder="Enter IFSC Code"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="text-center">
+                          <button
+                            type="submit"
+                            className="btn btn-primary me-4"
+                          >
+                            Add Vendor
+                          </button>
+                          <button type="button" className="btn btn-secondary ">
+                            Cancel
+                          </button>
+                        </div>
+                      </form>
+                      <br></br>
+                      <div
+                        className="elementor-widget-container"
+                        align="center"
+                      >
+                        <div className="hfe-copyright-wrapper">
+                          <a href="https://psyber.co/">
+                            <span>
+                              <b>
+                                2024 © All Rights Reserved | Cooked with ❤️ by
+                                Psyber Inc
+                              </b>
+                            </span>
+                          </a>
+                        </div>
                       </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="email" className="form-label">
-                          Email
-                        </label>
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="email"
-                          placeholder="Enter Email Address"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="phone" className="form-label">
-                          Phone Number
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="phone"
-                          placeholder="Enter Phone Number"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="gst" className="form-label">
-                          GST Number (if available)
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="gst"
-                          placeholder="Enter GST Number"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="pan" className="form-label">
-                          PAN Number
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="pan"
-                          placeholder="Enter PAN Number"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="address1" className="form-label">
-                          Address Line 1
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="address1"
-                          placeholder="Enter Address 1"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="address2" className="form-label">
-                          Address Line 2
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="address2"
-                          placeholder="Enter Address 2"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="country" className="form-label">
-                          Country
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="country"
-                          placeholder="Enter Country"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="city" className="form-label">
-                          City
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="city"
-                          placeholder="Enter City"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="state" className="form-label">
-                          State
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="state"
-                          placeholder="Enter State"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="pincode" className="form-label">
-                          Pincode
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="pincode"
-                          placeholder="Enter Pincode"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="bank" className="form-label">
-                          Bank Name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="bank"
-                          placeholder="Enter Bank Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="branch" className="form-label">
-                          Branch
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="branch"
-                          placeholder="Enter Branch Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="accountHolder" className="form-label">
-                          Account Holder Name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="accountHolder"
-                          placeholder="Enter Account Holder Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="accountNumber" className="form-label">
-                          Account Number
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="accountNumber"
-                          placeholder="Enter Account Number"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label htmlFor="ifsc" className="form-label">
-                          IFSC Code
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="ifsc"
-                          placeholder="Enter IFSC Code"
-                        />
-                      </div>
+                      {/* </div> */}
                     </div>
                   </div>
-                  <div className="text-center">
-                    <button type="submit" className="btn btn-primary me-4">
-                      Add Vendor
-                    </button>
-                    <button type="button" className="btn btn-secondary ">
-                      Cancel
-                    </button>
-                  </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
