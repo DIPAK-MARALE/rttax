@@ -269,7 +269,7 @@ function MainWrapper() {
               className="user-link  nav-link"
               data-bs-toggle="dropdown"
             >
-              <span className="user-img">
+              {/* <span className="user-img">
                 <img
                   src="assets/img/profiles/avatar-07.jpg"
                   alt="img"
@@ -280,7 +280,7 @@ function MainWrapper() {
               <span className="user-content">
                 <span className="user-details">Admin</span>
                 <span className="user-name">John Smith</span>
-              </span>
+              </span> */}
             </a>
             <div className="dropdown-menu menu-drop-user">
               <div className="profilemenu">
@@ -846,12 +846,12 @@ function MainWrapper() {
                   <div className="widget settings-menu mb-0">
                     <ul>
                       <li className="nav-item">
-                        <a href="settings.html" className="nav-link active">
+                        <a href="/vendor-profile" className="nav-link active">
                           <i className="fe fe-user"></i>{" "}
                           <span>Account Settings</span>
                         </a>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a href="company-settings.html" className="nav-link">
                           <i className="fe fe-settings"></i>{" "}
                           <span>Company Settings</span>
@@ -916,7 +916,7 @@ function MainWrapper() {
                           <i className="fe fe-settings"></i>{" "}
                           <span>Preference Settings</span>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
