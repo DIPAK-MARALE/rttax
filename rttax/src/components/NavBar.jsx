@@ -24,7 +24,11 @@ function Navbar() {
               Add Customer
             </Link>
           </li>
-
+          <li className="nav-item">
+            <Link to="/company-settings" className="nav-link">
+              Company Settings
+            </Link>
+          </li>
           <li className="nav-item">
             <Link to="/user-dashboard" className="nav-link">
               User Dashboard
@@ -50,82 +54,90 @@ function Navbar() {
               Add Expenses
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/user-account-settings" className="nav-link">
+              User Account Settings
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/user-company-settings" className="nav-link">
+              User Company Settings
+            </Link>
+          </li>
 
           <li className="nav-item">
             <Link to="/login" className="nav-link">
               Admin Login
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/admin-dashboard" className="nav-link">
               Admin Dashboard
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/companies" className="nav-link">
               Companies
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/subscription" className="nav-link">
               Subscription
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/packages" className="nav-link">
               Packages
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/domain" className="nav-link">
               Domain
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/purchase-transaction" className="nav-link">
               Purchase Transaction
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/adm-add-customer" className="nav-link">
               Admin Add Customer
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/adm-add-vendor" className="nav-link">
               Admin Add Vendor
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/adm-invoices" className="nav-link">
               Admin Invoices
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/adm-add-invoice" className="nav-link">
               Admin Add Invoices
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/adm-expenses" className="nav-link">
               Admin Expenses
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/adm-add-expenses" className="nav-link">
               Admin Add Expenses
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/adm-company-settings" className="nav-link">
+              Admin Company Settings
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/adm-account-settings" className="nav-link">
+              Admin Account Settings
             </Link>
           </li>
 
@@ -134,19 +146,16 @@ function Navbar() {
               Quotation
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/add-quotations" className="nav-link">
               Add Quotations
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/vendor-profile" className="nav-link">
               Vendor Profile
             </Link>
           </li>
-
           <li className="nav-item">
             <Link to="/add-vendor" className="nav-link">
               Add Vendor

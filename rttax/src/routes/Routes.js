@@ -47,6 +47,11 @@ import AdmInvoices from '../components/adm-invoices'; // Import AdmInvoices comp
 import AdmAddInvoice from '../components/adm-add-invoice'; // Import AdmAddInvoice component
 import AdmExpenses from '../components/adm-expenses'; // Import AdmExpenses component
 import AdmAddExpenses from '../components/adm-add-expenses'; // Import AdmAddExpenses component
+import AdmCompanySettings from '../components/adm-company-settings';
+import AdmAccountSettings from '../components/adm-account-settings';
+import CompanySettings from '../components/company-settings';
+import UserAccountSettings from '../components/user-account-settings';
+import UserCompanySettings from '../components/user-company-settings';
 
 
 import Quotations from '../components/quotations'; // Update the import path if necessary
@@ -82,6 +87,12 @@ function AppRoutes() {
             <Route path="/adm-add-invoice" element={<AdmAddInvoice />} />
             <Route path="/adm-expenses" element={<AdmExpenses />} />
             <Route path="/adm-add-expenses" element={<AdmAddExpenses />} />
+            <Route path="/adm-company-settings" element={<AdmCompanySettings />} />
+            <Route path="/adm-account-settings" element={<AdmAccountSettings />} />
+            <Route path="/company-settings" element={<CompanySettings />} />
+            <Route path="/user-account-settings" element={<UserAccountSettings />} />
+            <Route path="/user-company-settings" element={<UserCompanySettings />} />
+
 
 
 

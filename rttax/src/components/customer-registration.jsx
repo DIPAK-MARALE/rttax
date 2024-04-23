@@ -172,7 +172,7 @@ const CustomerRegistration = () => {
                 </div>
 
                 <div className="text-center dont-have">
-                  Already have an account? <a href="login.html">Login</a>
+                  Already have an account? <a href="/login">Login</a>
                 </div>
               </div>
             </div>

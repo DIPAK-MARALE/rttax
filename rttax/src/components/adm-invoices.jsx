@@ -1805,7 +1805,7 @@ const AdmInvoices = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="submenu">
+              <li className="submenu">
                   <a href="#">
                     <i className="fe fe-sidebar" /> <span> Forms </span>{" "}
                     <span className="menu-arrow" />
@@ -1850,21 +1850,21 @@ const AdmInvoices = () => {
                       <a href="data-tables.html">Data Table </a>
                     </li>
                   </ul>
-                </li>
+                </li>*/}
                 <li className="menu-title">
                   <span>Settings</span>
                 </li>
                 <li>
-                  <a href="settings.html">
+                  <a href="adm-account-settings">
                     <i className="fe fe-settings" /> <span>Settings</span>
                   </a>
                 </li>
                 <li>
-                  <a href="login.html">
+                  <a href="admin-login">
                     <i className="fe fe-power" /> <span>Logout</span>
                   </a>
                 </li>
-                <li className="menu-title">
+                {/* <li className="menu-title">
                   <span>Extras</span>
                 </li>
                 <li>

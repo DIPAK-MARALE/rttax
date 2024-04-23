@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-const React = require("react");
+import React from "react";
 
-function MainWrapper() {
+const CompanySettings = () => {
   return (
     <div className="main-wrapper">
       <div className="header header-one">
@@ -846,13 +846,13 @@ function MainWrapper() {
                   <div className="widget settings-menu mb-0">
                     <ul>
                       <li className="nav-item">
-                        <a href="/vendor-profile" className="nav-link active">
+                        <a href="/vendor-profile" className="nav-link">
                           <i className="fe fe-user"></i>{" "}
                           <span>Account Settings</span>
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="/company-settings" className="nav-link">
+                        <a href="/company-settings" className="nav-link active">
                           <i className="fe fe-settings"></i>{" "}
                           <span>Company Settings</span>
                         </a>
@@ -924,66 +924,79 @@ function MainWrapper() {
               </div>
             </div>
             <div className="col-xl-9 col-md-8">
-              <div className="card">
+              <div className="card company-settings-new">
                 <div className="card-body w-100">
                   <div className="content-page-header">
-                    <h5 className="setting-menu">Account Settings</h5>
+                    <h5>Company Settings</h5>
                   </div>
                   <div className="row">
-                    <div className="profile-picture">
-                      <div className="upload-profile me-2">
-                        <div className="profile-img">
-                          <img
-                            id="blah"
-                            className="avatar"
-                            src="assets/img/profiles/avatar-10.jpg"
-                            alt="profile-img"
-                          />
-                        </div>
-                      </div>
-                      <div className="img-upload">
-                        <label className="btn btn-primary">
-                          Upload new picture <input type="file" />
-                        </label>
-                        <a className="btn btn-remove">Delete</a>
-                        <p className="mt-1">
-                          Logo Should be minimum 152 * 152 Supported File format
-                          JPG,PNG,SVG
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-title">
-                        <h5>General Information</h5>
-                      </div>
-                    </div>
                     <div className="col-lg-6 col-12">
                       <div className="input-block mb-3">
-                        <label>Trade Name / Business Name</label>
+                        <label>Company Name</label>
                         <input
                           type="text"
                           className="form-control"
-                          placeholder="Enter Trade Name / Business Name"
+                          placeholder="Enter Company Name"
                         />
                       </div>
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="input-block mb-3">
-                        <label>GST No (if available)</label>
+                        <label>Company Address</label>
                         <input
                           type="text"
                           className="form-control"
-                          placeholder="Enter GST No"
+                          placeholder="Enter Company Address"
                         />
                       </div>
                     </div>
-                    <div className="col-lg-12">
+                    <div className="col-lg-6 col-12">
                       <div className="input-block mb-3">
-                        <label>Office Address</label>
+                        <label>Phone Number</label>
                         <input
                           type="text"
                           className="form-control"
-                          placeholder="Enter Office Address"
+                          placeholder="Enter Phone Number"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-12">
+                      <div className="input-block mb-3">
+                        <label>Company Email</label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Enter Company Email"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-12">
+                      <div className="input-block mb-3">
+                        <label>Address Line 1</label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Enter Address Line 1"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-12">
+                      <div className="input-block mb-3">
+                        <label>Address Line 2</label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Enter Address Line 2"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-12">
+                      <div className="input-block mb-3">
+                        <label>Country</label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Enter Country"
                         />
                       </div>
                     </div>
@@ -999,106 +1012,96 @@ function MainWrapper() {
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="input-block mb-3">
-                        <label>State Code</label>
+                        <label>City</label>
                         <input
                           type="text"
                           className="form-control"
-                          placeholder="Enter State Code"
+                          placeholder="Enter City"
                         />
                       </div>
                     </div>
                     <div className="col-lg-6 col-12">
                       <div className="input-block mb-3">
-                        <label>Number</label>
+                        <label>Pincode</label>
                         <input
                           type="text"
                           className="form-control"
-                          placeholder="Enter Number"
+                          placeholder="Enter Pincode"
                         />
                       </div>
                     </div>
-                    <div className="col-lg-6 col-12">
+                    <div className="col-lg-12 col-12">
                       <div className="input-block mb-3">
-                        <label>Email ID</label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Enter Email ID"
-                        />
+                        <label>Site Logo</label>
+                        <div className="input-block service-upload logo-upload mb-0">
+                          <div className="drag-drop">
+                            <h6 className="drop-browse align-center">
+                              <span className="text-info me-1">
+                                Click To Replace
+                              </span>{" "}
+                              or Drag and Drop
+                            </h6>
+                            <p className="text-muted">
+                              SVG, PNG, JPG (Max 800*400px)
+                            </p>
+                            <input type="file" multiple="" />
+                          </div>
+                          <span className="sites-logo">
+                            <img
+                              src="assets/img/taxrx_logo1.png"
+                              alt="upload"
+                            />
+                          </span>
+                        </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-12">
-                      <div className="input-block mb-3">
-                        <label>PAN No</label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Enter PAN No"
-                        />
+                    <div className="col-xl-6 col-lg-6 col-12">
+                      <div className="input-block mb-4">
+                        <label>Favicon</label>
+                        <div className="input-block service-upload logo-upload mb-0">
+                          <div className="drag-drop">
+                            <h6 className="drop-browse align-center">
+                              <span className="text-info me-1">
+                                Click To Replace{" "}
+                              </span>{" "}
+                              or Drag and Drop
+                            </h6>
+                            <p className="text-muted">
+                              SVG, PNG, JPG (Max 35*35px)
+                            </p>
+                            <input type="file" multiple="" />
+                          </div>
+                          <span className="sites-logo">
+                            <img
+                              src="assets/img/taxrx_logo1.png"
+                              alt="upload"
+                            />
+                          </span>
+                        </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-12">
-                      <div className="input-block mb-3">
-                        <label>Authorized Signatory Person's Name</label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Enter Authorized Signatory Person's Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group-customer customer-additional-form">
-                      <div className="row">
-                        <h5 className="form-title">Bank Details</h5>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <div className="input-block mb-3">
-                            <label>Bank Name</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter Bank Name"
-                            />
+                    <div className="col-xl-6 col-lg-6 col-12">
+                      <div className="input-block mb-4">
+                        <label>Company icon</label>
+                        <div className="input-block service-upload logo-upload mb-0">
+                          <div className="drag-drop">
+                            <h6 className="drop-browse align-center">
+                              <span className="text-info me-1">
+                                Click To Replace{" "}
+                              </span>{" "}
+                              or Drag and Drop
+                            </h6>
+                            <p className="text-muted">
+                              SVG, PNG, JPG (Max 800*400px)
+                            </p>
+                            <input type="file" multiple="" />
                           </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <div className="input-block mb-3">
-                            <label>Branch</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter Branch Name"
+                          <span className="sites-logo">
+                            <img
+                              src="assets/img/taxrx_logo1.png"
+                              alt="upload"
                             />
-                          </div>
-                        </div>
-                        <div className="col-lg-4 col-md-12 col-sm-12">
-                          <div className="input-block mb-3">
-                            <label>Account Holder Name</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter Account Holder Name"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-4 col-md-12 col-sm-12">
-                          <div className="input-block mb-3">
-                            <label>Account Number</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter Account Number"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-4 col-md-12 col-sm-12">
-                          <div className="input-block mb-3">
-                            <label>IFSC</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter IFSC Code"
-                            />
-                          </div>
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1110,7 +1113,7 @@ function MainWrapper() {
                         >
                           Cancel
                         </a>
-                        <a href="/user-dashboard" className="btn btn-primary">
+                        <a href="#" className="btn btn-primary">
                           Save Changes
                         </a>
                       </div>
@@ -1150,104 +1153,8 @@ function MainWrapper() {
           </div>
         </div>
       </div>
-
-      <div>
-        <div className="settings-icon">
-          <span
-            data-bs-toggle="offcanvas"
-            data-bs-target="#theme-settings-offcanvas"
-            aria-controls="theme-settings-offcanvas"
-          >
-            <img
-              src="assets/img/icons/siderbar-icon2.svg"
-              className="feather-five"
-              alt="layout"
-            />
-          </span>
-        </div>
-        <div
-          className="offcanvas offcanvas-end border-0"
-          tabIndex="-1"
-          id="theme-settings-offcanvas"
-        >
-          <div className="sidebar-headerset">
-            <div className="sidebar-headersets">
-              <h2>Customizer</h2>
-              <h3>Customize your overview Page layout</h3>
-            </div>
-            <div className="sidebar-headerclose">
-              <a data-bs-dismiss="offcanvas" aria-label="Close">
-                <img src="assets/img/close.png" alt="img" />
-              </a>
-            </div>
-          </div>
-          <div className="offcanvas-body p-0">
-            <div data-simplebar className="h-100">
-              <div className="settings-mains">
-                <div className="layout-head">
-                  <h5>Layout</h5>
-                  <h6>Choose your layout</h6>
-                </div>
-                <div className="row">{/* Code for layout options */}</div>
-                <div className="d-flex align-items-center justify-content-between pt-3">
-                  <div className="layout-head mb-0">
-                    <h5>RTL Mode</h5>
-                    <h6>Change Language Direction.</h6>
-                  </div>
-                  <div className="active-switch">
-                    <div className="status-toggle">
-                      <input id="rtl" className="check" type="checkbox" />
-                      <label htmlFor="rtl" className="checktoggle checkbox-bg">
-                        checkbox
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                {/* Code for color scheme */}
-                <div className="layout-head pt-3">
-                  <h5>Topbar Color</h5>
-                  <h6>Choose Light or Dark Topbar Color.</h6>
-                </div>
-                {/* Code for topbar color options */}
-                <div id="sidebar-size">
-                  {/* Code for sidebar size options */}
-                </div>
-                <div id="sidebar-view">
-                  {/* Code for sidebar view options */}
-                </div>
-                <div id="sidebar-color">
-                  {/* Code for sidebar color options */}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="offcanvas-footer border-top p-3 text-center">
-            <div className="row">
-              <div className="col-6">
-                <button
-                  type="button"
-                  className="btn btn-light w-100 bor-rad-50"
-                  id="reset-layout"
-                >
-                  Reset
-                </button>
-              </div>
-              <div className="col-6">
-                <a
-                  href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
-                  target="_blank"
-                  className="btn btn-primary w-100 bor-rad-50"
-                  rel="noreferrer"
-                >
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
-}
+};
 
-export default MainWrapper;
+export default CompanySettings;

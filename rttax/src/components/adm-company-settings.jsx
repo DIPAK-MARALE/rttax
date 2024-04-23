@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-const AdmAddInvoice = () => {
+const AdmCompanySettings = () => {
   return (
     <>
       {/* Mirrored from kanakku.dreamstechnologies.com/html/template/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:55:13 GMT */}
@@ -1316,7 +1316,7 @@ const AdmAddInvoice = () => {
                     </li> */}
                   {/* </ul> */}
                 </li>
-                <li className="active">
+                <li>
                   <a href="/adm-add-invoice">
                     <i className="fe fe-folder" /> <span>Add Invoices</span>
                   </a>
@@ -1803,7 +1803,7 @@ const AdmAddInvoice = () => {
                     </li>
                   </ul>
                 </li>
-               <li className="submenu">
+                <li className="submenu">
                   <a href="#">
                     <i className="fe fe-sidebar" /> <span> Forms </span>{" "}
                     <span className="menu-arrow" />
@@ -1852,13 +1852,13 @@ const AdmAddInvoice = () => {
                 <li className="menu-title">
                   <span>Settings</span>
                 </li>
-                <li>
-                  <a href="adm-account-settings">
+                <li className="active">
+                  <a href="adm-company-settings">
                     <i className="fe fe-settings" /> <span>Settings</span>
                   </a>
                 </li>
                 <li>
-                  <a href="admin-login">
+                  <a href="/login">
                     <i className="fe fe-power" /> <span>Logout</span>
                   </a>
                 </li>
@@ -1930,343 +1930,907 @@ const AdmAddInvoice = () => {
         </div>
         <div className="page-wrapper">
           <div className="content container-fluid">
-            <div className="card mb-0">
-              <div className="card-body">
-                <div className="page-header">
-                  <div className="content-page-header">
-                    <h5>Add Invoice</h5>
-                  </div>
-                </div>
-
-                <div className="container">
-                  <div className="row">
-                    {/* Seller Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Seller Details</h2>
-                        <div className="form-group">
-                          <label for="tradeName">Trade Name</label>
-                          <input
-                            type="text"
-                            id="tradeName"
-                            name="tradeName"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="officeAddress">
-                            Office / Shop Address
-                          </label>
-                          <textarea
-                            id="officeAddress"
-                            name="officeAddress"
-                            className="form-control"
-                            rows="3"
-                            required
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="shippingAddress">Shipping Address</label>
-                          <textarea
-                            id="shippingAddress"
-                            name="shippingAddress"
-                            className="form-control"
-                            rows="3"
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="sellersGstin">Seller's GSTIN</label>
-                          <input
-                            type="text"
-                            id="sellersGstin"
-                            name="sellersGstin"
-                            className="form-control"
-                            required
-                          />
-                        </div>
+            <div className="row">
+              <div className="col-xl-3 col-md-4">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="page-header">
+                      <div className="content-page-header">
+                        <h5>Settings</h5>
                       </div>
                     </div>
-                    {/* Type of Invoice Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Type of Invoice</h2>
-                        <div className="form-group">
-                          <label for="invoiceType">Type of Invoice</label>
-                          <select
-                            id="invoiceType"
-                            name="invoiceType"
-                            className="form-control"
-                            required
+                    <div className="widget settings-menu mb-0">
+                      <ul>
+                        <li className="nav-link">
+                          <a href="/adm-account-settings" className="nav-link">
+                            <i className="fe fe-user"></i>{" "}
+                            <span>Account Settings</span>
+                          </a>
+                        </li>
+                        <li className="nav-item">
+                          <a
+                            href="/adm-company-settings"
+                            className="nav-link active"
                           >
-                            <option value="TaxInvoice">Tax Invoice</option>
-                            <option value="ProformaInvoice">
-                              Proforma Invoice
-                            </option>
-                            <option value="CommercialInvoice">
-                              Commercial Invoice
-                            </option>
-                          </select>
-                        </div>
-                        <div className="form-group">
-                          <label for="buyerGstin">Buyer GSTIN</label>
-                          <input
-                            type="text"
-                            id="buyerGstin"
-                            name="buyerGstin"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="partyName">Name of Party</label>
-                          <input
-                            type="text"
-                            id="partyName"
-                            name="partyName"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="billToAddress">Bill To Address</label>
-                          <textarea
-                            id="billToAddress"
-                            name="billToAddress"
-                            className="form-control"
-                            rows="3"
-                            required
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="shipToAddress">Ship To Address</label>
-                          <textarea
-                            id="shipToAddress"
-                            name="shipToAddress"
-                            className="form-control"
-                            rows="3"
-                          ></textarea>
-                        </div>
-                        <div className="form-group">
-                          <label for="placeOfSupply">Place of Supply</label>
-                          <input
-                            type="text"
-                            id="placeOfSupply"
-                            name="placeOfSupply"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="container">
-                  <div className="row">
-                    {/* Invoice Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>Invoice Details</h2>
-                        <div className="form-group">
-                          <label for="invoiceNumber">Invoice Number</label>
-                          <input
-                            type="text"
-                            id="invoiceNumber"
-                            name="invoiceNumber"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="invoiceDate">Invoice Date</label>
-                          <input
-                            type="date"
-                            id="invoiceDate"
-                            name="invoiceDate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="itemRate">Item Rate</label>
-                          <input
-                            type="number"
-                            id="itemRate"
-                            name="itemRate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="hsnSac">HSN/SAC</label>
-                          <input
-                            type="text"
-                            id="hsnSac"
-                            name="hsnSac"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="goodsServices">Goods / Services</label>
-                          <input
-                            type="text"
-                            id="goodsServices"
-                            name="goodsServices"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="taxableValue">Taxable Value</label>
-                          <input
-                            type="number"
-                            id="taxableValue"
-                            name="taxableValue"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="form-group">
-                        <label for="reverseCharge">Reverse Charge</label>
-                        <select
-                          id="reverseCharge"
-                          name="reverseCharge"
-                          className="form-control"
-                          required
-                        >
-                          <option value="Yes">Yes</option>
-                          <option value="No">No</option>
-                        </select>
-                      </div>
-                    </div>
-                    {/* GST Details Column */}
-                    <div className="col-md-6">
-                      <div className="section">
-                        <h2>GST Details</h2>
-                        <div className="form-group">
-                          <label for="quantity">Quantity</label>
-                          <input
-                            type="number"
-                            id="quantity"
-                            name="quantity"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="uqc">UQC (Unit Quantity Code)</label>
-                          <select
-                            id="uqc"
-                            name="uqc"
-                            className="form-control"
-                            required
-                          >
-                            <option value="NO OF PCS">NO OF PCS</option>
-                            <option value="KG">KG</option>
-                            <option value="METER">METER</option>
-                            <option value="DOZEN">DOZEN</option>
-                            <option value="LITER">LITER</option>
-                            <option value="ETC">ETC</option>
-                          </select>
-                        </div>
-                        <div className="form-group">
-                          <label for="gstRate">GST Rate</label>
-                          <input
-                            type="number"
-                            id="gstRate"
-                            name="gstRate"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="igst">IGST</label>
-                          <input
-                            type="number"
-                            id="igst"
-                            name="igst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="cgst">CGST</label>
-                          <input
-                            type="number"
-                            id="cgst"
-                            name="cgst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="sgstUtgst">SGST / UTGST</label>
-                          <input
-                            type="number"
-                            id="sgstUtgst"
-                            name="sgstUtgst"
-                            className="form-control"
-                            required
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label for="supplyType">Supply Type</label>
-                          <select
-                            id="supplyType"
-                            name="supplyType"
-                            className="form-control"
-                            required
-                          >
-                            <option value="NON GST">NON GST</option>
-                            <option value="EXPORT">EXPORT</option>
-                            <option value="DEEMED EXPORT">DEEMED EXPORT</option>
-                            <option value="SEZ">SEZ</option>
-                            <option value="NIL RATED">NIL RATED</option>
-                            <option value="EXEMPT">EXEMPT</option>
-                          </select>
-                        </div>
-                      </div>
+                            <i className="fe fe-settings"></i>{" "}
+                            <span>Company Settings</span>
+                          </a>
+                        </li>
+                        {/* }
+                      <li className="nav-item">
+                        <a href="invoice-settings.html" className="nav-link">
+                          <i className="fe fe-file"></i>{" "}
+                          <span>Invoice Settings</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="template-invoice.html" className="nav-link">
+                          <i className="fe fe-layers"></i>{" "}
+                          <span>Invoice Templates</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="payment-settings.html" className="nav-link">
+                          <i className="fe fe-credit-card"></i>{" "}
+                          <span>Payment Methods</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="bank-account.html" className="nav-link">
+                          <i className="fe fe-aperture"></i>{" "}
+                          <span>Bank Settings</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="tax-rats.html" className="nav-link">
+                          <i className="fe fe-file-text"></i>{" "}
+                          <span>Tax Rates</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="plan-billing.html" className="nav-link">
+                          <i className="fe fe-credit-card"></i>{" "}
+                          <span>Plan & Billing</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="two-factor.html" className="nav-link">
+                          <i className="fe fe-aperture"></i>{" "}
+                          <span>Two Factor</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="custom-filed.html" className="nav-link">
+                          <i className="fe fe-file-text"></i>{" "}
+                          <span>Custom Fields</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="email-settings.html" className="nav-link">
+                          <i className="fe fe-mail"></i>{" "}
+                          <span>Email Settings</span>
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a href="preferences.html" className="nav-link">
+                          <i className="fe fe-settings"></i>{" "}
+                          <span>Preference Settings</span>
+                        </a>
+                      </li> */}
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="modal-footer">
-                <a
-                  href="#"
-                  data-bs-dismiss="modal"
-                  className="btn btn-back cancel-btn me-2"
-                >
-                  Cancel
-                </a>
-                <a
-                  href="#"
-                  data-bs-dismiss="modal"
-                  className="btn btn-primary paid-continue-btn"
-                >
-                  Save
-                </a>
-              </div>
-              <div className="elementor-widget-container" align="center">
-                <div className="hfe-copyright-wrapper">
-                  <a href="https://psyber.co/">
-                    <span>
-                      <b>
-                        2024 © All Rights Reserved | Cooked with ❤️ by Psyber
-                        Inc
-                      </b>
-                    </span>
-                  </a>
+              <div className="col-xl-9 col-md-8">
+                <div className="card company-settings-new">
+                  <div className="card-body w-100">
+                    <div className="content-page-header">
+                      <h5>Company Settings</h5>
+                    </div>
+                    <div className="row">
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Company Name</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Company Name"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Company Address</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Company Address"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Phone Number</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Phone Number"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Company Email</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Company Email"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Address Line 1</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Address Line 1"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Address Line 2</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Address Line 2"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Country</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Country"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>State</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter State"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>City</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter City"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-12">
+                        <div className="input-block mb-3">
+                          <label>Pincode</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Enter Pincode"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-12 col-12">
+                        <div className="input-block mb-3">
+                          <label>Site Logo</label>
+                          <div className="input-block service-upload logo-upload mb-0">
+                            <div className="drag-drop">
+                              <h6 className="drop-browse align-center">
+                                <span className="text-info me-1">
+                                  Click To Replace
+                                </span>{" "}
+                                or Drag and Drop
+                              </h6>
+                              <p className="text-muted">
+                                SVG, PNG, JPG (Max 800*400px)
+                              </p>
+                              <input type="file" multiple="" />
+                            </div>
+                            <span className="sites-logo">
+                              <img
+                                src="assets/img/taxrx_logo1.png"
+                                alt="upload"
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-6 col-lg-6 col-12">
+                        <div className="input-block mb-4">
+                          <label>Favicon</label>
+                          <div className="input-block service-upload logo-upload mb-0">
+                            <div className="drag-drop">
+                              <h6 className="drop-browse align-center">
+                                <span className="text-info me-1">
+                                  Click To Replace{" "}
+                                </span>{" "}
+                                or Drag and Drop
+                              </h6>
+                              <p className="text-muted">
+                                SVG, PNG, JPG (Max 35*35px)
+                              </p>
+                              <input type="file" multiple="" />
+                            </div>
+                            <span className="sites-logo">
+                              <img
+                                src="assets/img/taxrx_logo1.png"
+                                alt="upload"
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-6 col-lg-6 col-12">
+                        <div className="input-block mb-4">
+                          <label>Company icon</label>
+                          <div className="input-block service-upload logo-upload mb-0">
+                            <div className="drag-drop">
+                              <h6 className="drop-browse align-center">
+                                <span className="text-info me-1">
+                                  Click To Replace{" "}
+                                </span>{" "}
+                                or Drag and Drop
+                              </h6>
+                              <p className="text-muted">
+                                SVG, PNG, JPG (Max 800*400px)
+                              </p>
+                              <input type="file" multiple="" />
+                            </div>
+                            <span className="sites-logo">
+                              <img
+                                src="assets/img/taxrx_logo1.png"
+                                alt="upload"
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-12">
+                        <div className="btn-path text-end">
+                          <a
+                            href="#"
+                            className="btn btn-cancel bg-primary-light me-3"
+                          >
+                            Cancel
+                          </a>
+                          <a href="#" className="btn btn-primary">
+                            Save Changes
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="" align="center">
+        <div className="content container-fluid">
+          <div className="card mb-0">
+            <div className="card-body">
+              <div
+                class="elementor-element elementor-element-1942af2 elementor-widget elementor-widget-copyright"
+                data-id="1942af2"
+                data-element_type="widget"
+                data-settings='{"align":"center"}'
+                data-widget_type="copyright.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="hfe-copyright-wrapper">
+                    <a href="https://psyber.co/">
+                      <span>
+                        <b>
+                          2024 © All Rights Reserved | Cooked with ❤️ by Psyber
+                          Inc
+                        </b>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="settings-icon">
+        <span
+          data-bs-toggle="offcanvas"
+          data-bs-target="#theme-settings-offcanvas"
+          aria-controls="theme-settings-offcanvas"
+        >
+          <img
+            src="assets/img/icons/siderbar-icon2.svg"
+            className="feather-five"
+            alt="layout"
+          />
+        </span>
+      </div>
+      <div
+        className="offcanvas offcanvas-end border-0 "
+        tabIndex={-1}
+        id="theme-settings-offcanvas"
+      >
+        <div className="sidebar-headerset">
+          <div className="sidebar-headersets">
+            <h2>Customizer</h2>
+            <h3>Customize your overview Page layout</h3>
+          </div>
+          <div className="sidebar-headerclose">
+            <a data-bs-dismiss="offcanvas" aria-label="Close">
+              <img src="assets/img/close.png" alt="img" />
+            </a>
+          </div>
+        </div>
+        <div className="offcanvas-body p-0">
+          <div data-simplebar="" className="h-100">
+            <div className="settings-mains">
+              <div className="layout-head">
+                <h5>Layout</h5>
+                <h6>Choose your layout</h6>
+              </div>
+              <div className="row">
+                <div className="col-4">
+                  <div className="form-check card-radio p-0">
+                    <input
+                      id="customizer-layout01"
+                      name="data-layout"
+                      type="radio"
+                      defaultValue="vertical"
+                      className="form-check-input"
+                    />
+                    <label
+                      className="form-check-label avatar-md w-100"
+                      htmlFor="customizer-layout01"
+                    >
+                      <img src="assets/img/vertical.png" alt="img" />
+                    </label>
+                  </div>
+                  <h5 className="fs-13 text-center mt-2">Vertical</h5>
+                </div>
+                <div className="col-4">
+                  <div className="form-check card-radio p-0">
+                    <input
+                      id="customizer-layout02"
+                      name="data-layout"
+                      type="radio"
+                      defaultValue="horizontal"
+                      className="form-check-input"
+                    />
+                    <label
+                      className="form-check-label  avatar-md w-100"
+                      htmlFor="customizer-layout02"
+                    >
+                      <img src="assets/img/horizontal.png" alt="img" />
+                    </label>
+                  </div>
+                  <h5 className="fs-13 text-center mt-2">Horizontal</h5>
+                </div>
+                <div className="col-4 d-none">
+                  <div className="form-check card-radio p-0">
+                    <input
+                      id="customizer-layout03"
+                      name="data-layout"
+                      type="radio"
+                      defaultValue="twocolumn"
+                      className="form-check-input"
+                    />
+                    <label
+                      className="form-check-label  avatar-md w-100"
+                      htmlFor="customizer-layout03"
+                    >
+                      <img src="assets/img/two-col.png" alt="img" />
+                    </label>
+                  </div>
+                  <h5 className="fs-13 text-center mt-2">Two Column</h5>
+                </div>
+              </div>
+              <div className="d-flex align-items-center justify-content-between pt-3">
+                <div className="layout-head mb-0">
+                  <h5>RTL Mode</h5>
+                  <h6>Change Language Direction.</h6>
+                </div>
+                <div className="active-switch">
+                  <div className="status-toggle">
+                    <input id="rtl" className="check" type="checkbox" />
+                    <label htmlFor="rtl" className="checktoggle checkbox-bg">
+                      checkbox
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div className="layout-head pt-3">
+                <h5>Color Scheme</h5>
+                <h6>Choose Light or Dark Scheme.</h6>
+              </div>
+              <div className="colorscheme-cardradio">
+                <div className="row">
+                  <div className="col-4">
+                    <div className="form-check card-radio blue  p-0 ">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-mode"
+                        id="layout-mode-blue"
+                        defaultValue="blue"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100"
+                        htmlFor="layout-mode-blue"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2 mb-2">Blue</h5>
+                  </div>
+                  <div className="col-4">
+                    <div className="form-check card-radio p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-mode"
+                        id="layout-mode-light"
+                        defaultValue="light"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100"
+                        htmlFor="layout-mode-light"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2 mb-2">Light</h5>
+                  </div>
+                  <div className="col-4">
+                    <div className="form-check card-radio dark  p-0 ">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-mode"
+                        id="layout-mode-dark"
+                        defaultValue="dark"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100 "
+                        htmlFor="layout-mode-dark"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2 mb-2">Dark</h5>
+                  </div>
+                  <div className="col-4 d-none">
+                    <div className="form-check card-radio p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-mode"
+                        id="layout-mode-orange"
+                        defaultValue="orange"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100 "
+                        htmlFor="layout-mode-orange"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2 mb-2">Orange</h5>
+                  </div>
+                  <div className="col-4 d-none">
+                    <div className="form-check card-radio maroon p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-mode"
+                        id="layout-mode-maroon"
+                        defaultValue="maroon"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100 "
+                        htmlFor="layout-mode-maroon"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2 mb-2">Brink Pink</h5>
+                  </div>
+                  <div className="col-4 d-none">
+                    <div className="form-check card-radio purple p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-mode"
+                        id="layout-mode-purple"
+                        defaultValue="purple"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100 "
+                        htmlFor="layout-mode-purple"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2 mb-2">Green</h5>
+                  </div>
+                </div>
+              </div>
+              <div id="layout-width">
+                <div className="layout-head pt-3">
+                  <h5>Layout Width</h5>
+                  <h6>Choose Fluid or Boxed layout.</h6>
+                </div>
+                <div className="row">
+                  <div className="col-4">
+                    <div className="form-check card-radio p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-width"
+                        id="layout-width-fluid"
+                        defaultValue="fluid"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100"
+                        htmlFor="layout-width-fluid"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Fluid</h5>
+                  </div>
+                  <div className="col-4">
+                    <div className="form-check card-radio p-0 ">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-width"
+                        id="layout-width-boxed"
+                        defaultValue="boxed"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100 px-2"
+                        htmlFor="layout-width-boxed"
+                      >
+                        <img src="assets/img/boxed.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Boxed</h5>
+                  </div>
+                </div>
+              </div>
+              <div id="layout-position" className="d-none">
+                <div className="layout-head pt-3">
+                  <h5>Layout Position</h5>
+                  <h6>Choose Fixed or Scrollable Layout Position.</h6>
+                </div>
+                <div
+                  className="btn-group bor-rad-50 overflow-hidden radio"
+                  role="group"
+                >
+                  <input
+                    type="radio"
+                    className="btn-check"
+                    name="data-layout-position"
+                    id="layout-position-fixed"
+                    defaultValue="fixed"
+                  />
+                  <label
+                    className="btn btn-light w-sm"
+                    htmlFor="layout-position-fixed"
+                  >
+                    Fixed
+                  </label>
+                  <input
+                    type="radio"
+                    className="btn-check"
+                    name="data-layout-position"
+                    id="layout-position-scrollable"
+                    defaultValue="scrollable"
+                  />
+                  <label
+                    className="btn btn-light w-sm ms-0"
+                    htmlFor="layout-position-scrollable"
+                  >
+                    Scrollable
+                  </label>
+                </div>
+              </div>
+              <div className="layout-head pt-3">
+                <h5>Topbar Color</h5>
+                <h6>Choose Light or Dark Topbar Color.</h6>
+              </div>
+              <div className="row">
+                <div className="col-4">
+                  <div className="form-check card-radio  p-0">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="data-topbar"
+                      id="topbar-color-light"
+                      defaultValue="light"
+                    />
+                    <label
+                      className="form-check-label avatar-md w-100"
+                      htmlFor="topbar-color-light"
+                    >
+                      <img src="assets/img/vertical.png" alt="img" />
+                    </label>
+                  </div>
+                  <h5 className="fs-13 text-center mt-2">Light</h5>
+                </div>
+                <div className="col-4">
+                  <div className="form-check card-radio p-0">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="data-topbar"
+                      id="topbar-color-dark"
+                      defaultValue="dark"
+                    />
+                    <label
+                      className="form-check-label  avatar-md w-100"
+                      htmlFor="topbar-color-dark"
+                    >
+                      <img src="assets/img/dark.png" alt="img" />
+                    </label>
+                  </div>
+                  <h5 className="fs-13 text-center mt-2">Dark</h5>
+                </div>
+              </div>
+              <div id="sidebar-size">
+                <div className="layout-head pt-3">
+                  <h5>Sidebar Size</h5>
+                  <h6>Choose a size of Sidebar.</h6>
+                </div>
+                <div className="row">
+                  <div className="col-4">
+                    <div className="form-check sidebar-setting card-radio  p-0 ">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-sidebar-size"
+                        id="sidebar-size-default"
+                        defaultValue="lg"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100"
+                        htmlFor="sidebar-size-default"
+                      >
+                        <img src="assets/img/vertical.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Default</h5>
+                  </div>
+                  <div className="col-4 d-none">
+                    <div className="form-check sidebar-setting card-radio p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-sidebar-size"
+                        id="sidebar-size-compact"
+                        defaultValue="md"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100"
+                        htmlFor="sidebar-size-compact"
+                      >
+                        <img src="assets/img/compact.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Compact</h5>
+                  </div>
+                  <div className="col-4">
+                    <div className="form-check sidebar-setting card-radio p-0 ">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-sidebar-size"
+                        id="sidebar-size-small-hover"
+                        defaultValue="sm-hover"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100"
+                        htmlFor="sidebar-size-small-hover"
+                      >
+                        <img src="assets/img/small-hover.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Small Sidebar</h5>
+                  </div>
+                </div>
+              </div>
+              <div id="sidebar-view">
+                <div className="layout-head pt-3">
+                  <h5>Sidebar View</h5>
+                  <h6>Choose Default or Detached Sidebar view.</h6>
+                </div>
+                <div className="row">
+                  <div className="col-4">
+                    <div className="form-check sidebar-setting card-radio  p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-style"
+                        id="sidebar-view-default"
+                        defaultValue="default"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100"
+                        htmlFor="sidebar-view-default"
+                      >
+                        <img src="assets/img/compact.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Default</h5>
+                  </div>
+                  <div className="col-4">
+                    <div className="form-check sidebar-setting card-radio p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-layout-style"
+                        id="sidebar-view-detached"
+                        defaultValue="detached"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100"
+                        htmlFor="sidebar-view-detached"
+                      >
+                        <img src="assets/img/detached.png" alt="img" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Detached</h5>
+                  </div>
+                </div>
+              </div>
+              <div id="sidebar-color">
+                <div className="layout-head pt-3">
+                  <h5>Sidebar Color</h5>
+                  <h6>Choose a color of Sidebar.</h6>
+                </div>
+                <div className="row">
+                  <div className="col-4">
+                    <div
+                      className="form-check sidebar-setting card-radio p-0"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseBgGradient.show"
+                    >
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-sidebar"
+                        id="sidebar-color-light"
+                        defaultValue="light"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100"
+                        htmlFor="sidebar-color-light"
+                      >
+                        <span className="bg-light bg-sidebarcolor" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Light</h5>
+                  </div>
+                  <div className="col-4">
+                    <div
+                      className="form-check sidebar-setting card-radio p-0"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseBgGradient.show"
+                    >
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-sidebar"
+                        id="sidebar-color-dark"
+                        defaultValue="dark"
+                      />
+                      <label
+                        className="form-check-label  avatar-md w-100"
+                        htmlFor="sidebar-color-dark"
+                      >
+                        <span className="bg-darks bg-sidebarcolor" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Dark</h5>
+                  </div>
+                  <div className="col-4 d-none">
+                    <div className="form-check sidebar-setting card-radio p-0">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="data-sidebar"
+                        id="sidebar-color-gradient"
+                        defaultValue="gradient"
+                      />
+                      <label
+                        className="form-check-label avatar-md w-100"
+                        htmlFor="sidebar-color-gradient"
+                      >
+                        <span className="bg-gradients bg-sidebarcolor" />
+                      </label>
+                    </div>
+                    <h5 className="fs-13 text-center mt-2">Gradient</h5>
+                  </div>
+                  <div className="col-4 d-none">
+                    <button
+                      className="btn btn-link avatar-md w-100 p-0 overflow-hidden border collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseBgGradient"
+                      aria-expanded="false"
+                    >
+                      <span className="d-flex gap-1 h-100">
+                        <span className="flex-shrink-0">
+                          <span className="bg-vertical-gradient d-flex h-100 flex-column gap-1 p-1">
+                            <span className="d-block p-1 px-2 bg-soft-light rounded mb-2" />
+                            <span className="d-block p-1 px-2 pb-0 bg-soft-light" />
+                            <span className="d-block p-1 px-2 pb-0 bg-soft-light" />
+                            <span className="d-block p-1 px-2 pb-0 bg-soft-light" />
+                          </span>
+                        </span>
+                        <span className="flex-grow-1">
+                          <span className="d-flex h-100 flex-column">
+                            <span className="bg-light d-block p-1" />
+                            <span className="bg-light d-block p-1 mt-auto" />
+                          </span>
+                        </span>
+                      </span>
+                    </button>
+                    <h5 className="fs-13 text-center mt-2">Gradient</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offcanvas-footer border-top p-3 text-center">
+          <div className="row">
+            <div className="col-6">
+              <button
+                type="button"
+                className="btn btn-light w-100 bor-rad-50"
+                id="reset-layout"
+              >
+                Reset
+              </button>
+            </div>
+            <div className="col-6">
+              <a
+                href="https://themeforest.net/item/smarthr-bootstrap-admin-panel-template/21153150"
+                target="_blank"
+                className="btn btn-primary w-100 bor-rad-50"
+                rel="noreferrer"
+              >
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Mirrored from kanakku.dreamstechnologies.com/html/template/company-settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Apr 2024 05:59:22 GMT */}
     </>
   );
 };
 
-export default AdmAddInvoice;
+export default AdmCompanySettings;
